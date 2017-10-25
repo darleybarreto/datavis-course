@@ -1,0 +1,972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-itunes-app" content="app-id=1049343067" />
+    <meta name="google-play-app" content="app-id=br.leg.camara.infolegmovel" />
+    <title>Explicações sobre o formato dos arquivos XML — Portal da Câmara dos Deputados</title>
+<base href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar/explicacoes-sobre-o-formato-dos-arquivos-xml" /><style type="text/css">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/member-cachekey-bc57c94ff3f4a8cc9c2ad2ae04aa1b08.css);</style><style type="text/css">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/portlets-cachekey-9473418fee9116d50e6d948c6870bfec.css);</style><style type="text/css" media="screen">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/deprecated-cachekey-dfc58a1cf36f4a65be1328bc663dd57c.css);</style><style type="text/css" media="screen">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/resourceplone.app.discussion.stylesheetsdiscussion-cachekey-4f9f8096e829b77086b9bade77ed9fc1.css);</style><style type="text/css" media="screen">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/colunas-cachekey-6e77a180eca55c4fe7078f99f37fc3ce.css);</style><style type="text/css" media="screen">@import url(http://www2.camara.leg.br/portal_css/camara_leg_tema/elements-cachekey-2aa7807044d8ae30e38461480f5b30e8.css);</style><link rel="stylesheet" type="text/css" media="all" href="http://www2.camara.leg.br/portal_css/camara_leg_tema/smart-app-banner-cachekey-0b63a23c644c9427b79ba4d85449a302.css" /><link rel="stylesheet" type="text/css" href="http://www2.camara.leg.br/portal_css/camara_leg_tema/themecamara.leg.temacssbootstrap.min-cachekey-accd222fa3ce3f75e730c2aa46882317.css" /><link rel="stylesheet" type="text/css" media="screen" href="http://www2.camara.leg.br/portal_css/camara_leg_tema/themecamara.leg.temacsssmart-app-banner-cachekey-e21bb38a0b4f4213d9ae9708827f8677.css" /><link rel="canonical" href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar/explicacoes-sobre-o-formato-dos-arquivos-xml" /><link rel="shortcut icon" type="image/x-icon" href="http://www2.camara.leg.br/favicon.ico" /><link rel="apple-touch-icon" href="http://www2.camara.leg.br/touch_icon.png" /><link rel="search" href="http://www2.camara.leg.br/busca" title="Buscar neste site" /><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/resourceplone.app.jquery-cachekey-4e440b6a5393d75f6e92f27282b18c9b.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/styleswitcher-cachekey-a4c5483ff5c65c8382dcde19d19358be.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/impressaoIframes-cachekey-1481259676622bfbefe34fff1f7733b5.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/GoogleAnalyticsTracker.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/mensagemSaida-cachekey-561d0af91de97595a9767ea0afed31d5.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/kss-bbb-cachekey-4bcfca6ac5b617c3aab416c4efc90d37.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/inline_validation-cachekey-9259e3a1e6280374449091be123e6e97.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajsbootstrap.min-cachekey-9a678cf8fc2c69581c3a7ca7a00ac1c9.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajslibsmoment.min-cachekey-1d6bb52f5628a128f7c76dba9cc60d05.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajslibsmoment-pt-br-cachekey-fe839fbf3cc9ac9517dc805a9ba530ef.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajslibsbootstrap-datetimepicker.min-cachekey-e852dc569a3fd701b84b8e11cca12731.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajslibsjquery.maskedinput.min-cachekey-11ace5da95c916a13f94960493144483.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajslibssmart-app-banner-cachekey-ad50d1bb4507d36be871400ff528f0e4.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajsmobile-banner-cachekey-52a2b9cf7383b6aed1f8f08128ff4df5.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajsacoes-tema-cachekey-b313a71f80179e617087cda7f1e39813.js"></script><script type="text/javascript" src="http://www2.camara.leg.br/portal_javascripts/camara_leg_tema/themecamara.leg.temajscorrecoes-bootstrap-tema-cachekey-b1938086e20ec521ab5f03a1b1e3be13.js"></script><meta content="Dados Abertos - Cota Parlamentar" name="description" /><meta content="summary" name="twitter:card" /><meta content="Portal da Câmara dos Deputados" property="og:site_name" /><meta content="Explicações sobre o formato dos arquivos XML" property="og:title" /><meta content="website" property="og:type" /><meta content="Dados Abertos - Cota Parlamentar" property="og:description" /><meta content="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar/explicacoes-sobre-o-formato-dos-arquivos-xml" property="og:url" /><meta content="http://www2.camara.leg.br/cd_facebook.jpg" property="og:image" /><meta content="image/jpg" property="og:image:type" /><meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666" /></head>
+
+<body class="template-document_view portaltype-document site-Camara section-transparencia subsection-cota-para-exercicio-da-atividade-parlamentar subsection-cota-para-exercicio-da-atividade-parlamentar-explicacoes-sobre-o-formato-dos-arquivos-xml userrole-anonymous" dir="ltr"><div id="personal-tools-mark" class="hidden-xs hidden-sm">
+        
+        <div id="userActions-mark"></div>
+    </div><div id="portal-top" class="diazo_layouts_topo">
+        <div id="portal-header">
+            <div id="portal-topo-marcacao" class="home-Topo"><div id="portal-topo" class="home-Topo">
+    <div class="conteudo-fluido">
+        <div class="container">
+            <p class="hiddenStructure">
+              <a accesskey="2" href="#marcacao-conteudo-portal">Ir para o conteúdo.</a> |
+              <a accesskey="6" href="#portlet-navigation-tree">Ir para a navegação</a>
+            </p>
+            <div class="conteudo-topo-xs hidden-sm hidden-md hidden-lg">
+                <div class="row menu">
+                    <div class="col-xs-2">
+                        <div class="homeCamara-menuGeral-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#homeCamara-menuGeral-links" aria-expanded="false">
+                                <span class="sr-only">Expandir Navegação</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xs-8">
+                        <a id="portal-logo-medio" title="Portal da Câmara dos Deputados" href="http://www2.camara.leg.br">
+                            <img class="img-responsive" alt="Portal da Câmara dos Deputados" title="Portal da Câmara dos Deputados" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/logo-medio.svg" />
+                        </a>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="pesquisaOculta-home hidden-sm hidden-md hidden-lg">
+                            <span class="glyphicon glyphicon-search btn-md" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pesquisa-xs" style="display:none;">
+                    <div class="col-xs-12">
+                        <form name="buscaCamara" action="http://www2.camara.leg.br/busca" id="buscaCamara">
+                            <section class="flexbox">
+                                <label for="searchGadget" class="hiddenStructure">Busca</label>
+                                <div class="stretch">
+                                    <input name="q" id="searchGadget" type="text" placeholder="Buscar no portal" />
+                                </div>
+                                <div class="normal">
+                                    <button class="enviar-formulario-busca" type="submit">Buscar</button>
+                                </div>
+                            </section>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row conteudo-topo hidden-xs">
+                <div class="col-xs-2 col-sm-2 col-md-6">
+                    <a id="portal-logo" class="hidden-xs hidden-sm" title="Portal da Câmara dos Deputados" href="http://www2.camara.leg.br">
+                        <img alt="Portal da Câmara dos Deputados" title="Portal da Câmara dos Deputados" width="350" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/logo.svg" />
+                    </a>
+                    <a id="portal-logo-medio" class="hidden-xs hidden-md hidden-lg" title="Portal da Câmara dos Deputados" href="http://www2.camara.leg.br">
+                        <img alt="Portal da Câmara dos Deputados" title="Portal da Câmara dos Deputados" width="150" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/logo-medio.svg" />
+                    </a>
+                </div>
+                <div class="col-xs-10 col-sm-10  col-md-6">
+                    <div class="links-pesquisa">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 links-externos-home">
+                                <a class="triggerPopOverVlibras" href="#" rel="popover" data-placement="bottom" data-trigger="focus" data-popover-content="#popOverVlibras">
+                                    <img title="Acessível em Libras" alt="Acessível em Libras" id="btn_acessivel_libras" width="26" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-vlibras.svg" />
+                                </a>
+                                <div id="popOverVlibras" class="hide">
+                                    <img class="animacao-gif-acessibilidade" alt="Acessível em Libras" title="Acessível em Libras" src="http://www2.camara.leg.br/++theme++camara.theme/imagens/animacao-acessivel-libras.gif" />
+                                    <p>O conteúdo deste portal pode ser acessível em Libras usando o <a href="http://www.vlibras.gov.br/">VLibras</a>.</p>
+                                </div>
+                                <span class="separador-links hidden-xs">|</span>
+                                <a href="http://camara.custhelp.com" class="visualNoPrint link-comunicacao" title="Fale Conosco">
+                                    <span class="hidden-xs">Fale Conosco</span>
+                                    <img class="hidden-sm hidden-md hidden-lg" alt="Fale Conosco" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-email.svg" />
+                                </a>
+                                <span class="separador-links hidden-xs">|</span>
+                                <a title="Lei de Acesso à Informação" class="visualNoPrint link-comunicacao" href="http://www2.camara.leg.br/transparencia/acesso-a-informacao">
+                                    <span class="hidden-xs">Acesso à Informação</span>
+                                    <img class="hidden-sm hidden-md hidden-lg" alt="Acesso à Informação" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-info.svg" />
+                                </a>
+                                <span class="separador-links hidden-xs">|</span>
+                                <a class="link-congresso" title="Ir para o Congresso Nacional" alt="Ir para o sítio do Congresso Nacional" href="http://www.congressonacional.leg.br">
+                                    <img alt="Ir para o sítio do Congresso Nacional" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-congresso.svg" />
+                                </a>
+                                <a title="Ir para o Senado Federal" alt="Ir para o sítio do Senado Federal" class="visualNoPrint" href="http://www.senado.gov.br">
+                                    <img alt="Ir para o sítio do Senado Federal" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-senado.svg" />
+                                </a>
+                                <a title="Ir para o sítio do TCU - Tribunal de Contas da União" alt="Ir para o TCU - Tribunal de Contas da União" class="visualNoPrint" href="http://www.tcu.gov.br">
+                                    <img alt="Ir para o sítio do TCU - Tribunal de Contas da União" src="http://www2.camara.leg.br/++theme++camara.leg.tema/imagens/svg/icones-home-tcu.svg" />
+                                </a>
+                            </div>
+                            <div class="col-sm-12 hidden-xs">
+                                <div class="row pesquisa-home">
+                                    <form name="buscaCamara" class="buscaCamara" action="http://www2.camara.leg.br/busca" id="buscaCamara">
+                                        <div class="col-md-12">
+                                            <div class="blocoBuscaCamara">
+                                                <label for="searchGadget" class="hiddenStructure">Busca</label>
+                                                <input name="q" id="searchGadget" type="text" size="30" class="search-field" placeholder="Buscar no portal" />
+                                                <button class="enviar-formulario-busca" type="submit"><span class="glyphicon glyphicon-search btn-md" aria-hidden="true"></span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+            <div id="home-camara-menu" class="homeCamara-menuGeral-body homeCamara-menuGeral-body-marcacao">
+        <nav class="navbar-default">
+            <div class="container">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="homeCamara-menuGeral-links" role="navigation">
+                  <ul id="portal-globalnav" class="nav navbar-nav" aria-label="Navegação Global" role="menubar">
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Institucional">
+                                    Institucional
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/conheca">Papel e história da Câmara</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/estruturaadm">Estrutura organizacional</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/cursos">Cursos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/programas-institucionais">Programas institucionais</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/documentos-e-pesquisa">Publicações e acervos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/a-camara/visiteacamara">Visite a Câmara</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Deputados">
+                                    Deputados
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/deputados/pesquisa">Conheça os Deputados</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/deputados/discursos-e-notas-taquigraficas">Discursos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/deputados/liderancas-partidarias">Lideranças partidárias</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/deputados/frentes-e-grupos-parlamentares">Frentes e grupos parlamentares</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Atividade Legislativa">
+                                    Atividade Legislativa
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/atividade-legislativa/agenda">Agenda</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/atividade-legislativa/plenario">Plenário</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/atividade-legislativa/comissoes">Comissões</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/atividade-legislativa/projetos-de-lei-e-outras-proposicoes">Projetos de lei e outras proposições</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/atividade-legislativa/legislacao">Legislação</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Orçamento da União">
+                                    Orçamento da União
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/orcamento-da-uniao/leis-orcamentarias">Leis orçamentárias</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/orcamento-da-uniao/fiscalize">Fiscalize</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Transparência">
+                                    Transparência
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/acesso-a-informacao">Acesso à Informação</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar">Cota Parlamentar</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/viagens-oficiais-e-passaportes">Viagens oficiais e passaportes</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/imoveis-funcionais-e-auxilio-moradia">Imóveis funcionais e auxílio-moradia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/licitacoes-e-contratos">Licitações e contratos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/recursos-humanos">Recursos humanos e concursos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/receitas-e-despesas">Receitas e despesas</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/transparencia/dados-abertos">Dados abertos</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Comunicação">
+                                    Comunicação
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/camara-noticias">Câmara Notícias</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/tv-camara">TV Câmara</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/radio-camara">Rádio Câmara</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/jornal-da-camara">Jornal da Câmara</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/assessoria-de-imprensa">Assessoria de Imprensa</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/banco-de-imagens">Banco de Imagens</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/rede-legislativa-radio-tv">Rede Legislativa de Rádio e TV</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/comunicacao/Plenarinho">Plenarinho</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+                    
+                        
+                            
+                            <li aria-haspopup="true" role="menuitem" class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-label="Participação">
+                                    Participação
+                                </a>
+                                
+                                    <ul class="submenu dropdown-menu" role="menu" aria-hidden="true">
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/participacao/saiba-como-participar">Saiba como participar</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/participacao/participe-dos-debates">Participe dos debates</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/participacao/sugira-um-projeto">Sugira um projeto</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/participacao/ajude-a-escrever-a-lei">Ajude a escrever a lei</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www2.camara.leg.br/participacao/fale-conosco">Fale Conosco</a>
+                                        </li>
+                                    </ul>
+                                
+                            </li>
+                        
+                    
+    
+                  </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+        </div>
+
+        <div class="container breadcrumbs-marcacao">
+            <div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-home">
+        <a href="http://www2.camara.leg.br">Página Inicial</a>
+        <span class="breadcrumbSeparator">
+            /
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="http://www2.camara.leg.br/transparencia">Transparência</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar">Cota Parlamentar</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Explicações sobre o formato dos arquivos XML</span>
+         
+    </span>
+
+</div>
+            <div class="row">
+                <div id="menu-secoes-internas" class="col-md-12 menu-secoes-internas"><div id="portal-mainsection">
+
+	<h2 id="areaTituloMenu"><a href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar/">Cota para Exercício da Atividade Parlamentar</a></h2>
+	
+</div></div>
+            </div>
+        </div>
+    </div><div id="marcacao-conteudo-portal" class="conteudo-portal container nopadding-right nopadding-left">
+
+        <div id="portal-coluna-esquerda" class="coluna-esquerda">
+        </div>
+        <div id="portal-coluna-centro" class="coluna-centro col-md-12">
+            <div id="portal-column-content">
+
+            <div id="viewlet-above-content"><div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-home">
+        <a href="http://www2.camara.leg.br">Página Inicial</a>
+        <span class="breadcrumbSeparator">
+            /
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="http://www2.camara.leg.br/transparencia">Transparência</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar">Cota Parlamentar</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Explicações sobre o formato dos arquivos XML</span>
+         
+    </span>
+
+</div>
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+        <div class="portalMessage alert alert-dismissible" id="kssPortalMessage" style="display:none">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <strong>Info</strong><span id="kss-portal-message" style="display:none">KSS portal message</span>
+        </div>
+
+
+    
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+                             <div id="viewlet-above-content-title"></div>
+                             
+          <h1 class="documentFirstHeading">
+              
+        <span class="" id="parent-fieldname-title-6c4908925d411e80c34e2bc04d65881a">
+            Explicações sobre o formato dos arquivos XML
+        </span>
+    
+          </h1>
+    
+                             <div id="viewlet-below-content-title">
+</div>
+
+                             
+                                 
+                                 
+            
+                <div id="parent-fieldname-description" class="documentDescription">
+                   Dados Abertos - Cota Parlamentar
+                </div>
+            
+            
+        
+                             
+
+                             <div id="viewlet-above-content-body">
+
+</div>
+                             <div id="content-core">
+                                 
+        
+            
+        <div class="" id="parent-fieldname-text-6c4908925d411e80c34e2bc04d65881a">
+            <p style="text-align: left; ">A seguir, são expostas as explicações pertinentes a cada elemento de dado publicado como "Dados Abertos" acerca das despesas realizadas e publicadas na Transparência, quanto ao uso da CEAP (Cota para o Exercício da Atividade Parlamentar). Essas despesas se confirmam por meio de lançamento de débitos contra a cota do deputado e podem decorrer em razão de uma das causas a seguir: pelo reembolso de documentos fiscais emitidos (Notas Fiscais, Recibos ou Despesa no Exterior); ou pelo custeio de despesas telefônicas; ou pelo débito de requisição de serviços postais; ou pela emissão de bilhetes aéreos. </p>
+<table class="tabela-2" style="text-align: left; float: left;">
+<tbody>
+<tr><th>
+<p>Elemento de Dado</p>
+</th><th>
+<p style="text-align: left; ">Nome do Dado</p>
+</th><th>
+<p style="text-align: left; ">Definição do Dado</p>
+</th></tr>
+<tr class="odd">
+<td>
+<p style="text-align: left; ">txNomeParlamentar</p>
+</td>
+<td style="text-align: left; ">
+<p>Nome Parlamentar</p>
+</td>
+<td style="text-align: left; ">
+<p style="text-align: left; ">Nome adotado pelo Parlamentar ao tomar posse do seu mandato. Compõe-se de dois elementos: um prenome e o nome; dois nomes; ou dois prenomes, salvo, a juízo do Presidente da Casa legislativa, que poderá alterar essa regra para que não ocorram confusões.</p>
+</td>
+</tr>
+<tr>
+<td>ideCadastro</td>
+<td>Identificador Único do Parlamentar</td>
+<td>Número que identifica unicamente <span>um deputado federal na CD.</span></td>
+</tr>
+<tr class="even">
+<td>
+<p>nuCarteiraParlamentar</p>
+</td>
+<td>
+<p style="text-align: left; ">Número da  Carteira Parlamentar</p>
+</td>
+<td>
+<p style="text-align: left; ">Documento usado para identificar um deputado federal na CD. Pode alterar a cada Legislatura nova.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>nuLegislatura</p>
+</td>
+<td>
+<p style="text-align: left; ">Número da  Legislatura</p>
+</td>
+<td>
+<p>Legislatura: Período de quatro anos coincidente com o mandato parlamentar dos Deputados Federais. No contexto da cota CEAP, representa o ano base de início da legislatura e é utilizado para compor a Carteira Parlamentar, pois esta poderá ser alterada à medida que se muda de Legislatura.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>sgUF</p>
+</td>
+<td>
+<p style="text-align: left; ">Sigla da UF</p>
+</td>
+<td>
+<p style="text-align: left; ">No contexto da cota CEAP, representa a unidade da federação pela qual o deputado foi eleito e é utilizada para definir o valor da cota a que o deputado tem.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>sgPartido</p>
+</td>
+<td>
+<p style="text-align: left; ">Sigla do Partido</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa a sigla de um partido. Definição de partido: é uma organização formada por pessoas com interesse ou ideologia comuns, que se associam com o fim de assumir o poder para implantar um programa de governo. Tem personalidade jurídica de direito privado e goza de autonomia e liberdade no que diz respeito à criação, organização e funcionamento, observados os princípios e preceitos constitucionais.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>codLegislatura</p>
+</td>
+<td>
+<p style="text-align: left; ">Código da Legislatura</p>
+</td>
+<td>
+<p style="text-align: left; ">Legislatura: Período de quatro anos coincidente com o mandato parlamentar dos Deputados Federais. No contexto da cota CEAP, o seu conteúdo representa o código identificador da Legislatura, que um número ordinal sequencial, alterado de um em um, a cada início de uma nova Legislatura (por exemplo, a Legislatura que iniciou em 2011 é a 54ª Legislatura).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>numSubCota</p>
+</td>
+<td>
+<p style="text-align: left; ">Número da Subcota</p>
+</td>
+<td>
+<p style="text-align: left; ">No contexto da Cota CEAP, o conteúdo deste dado representa o código do Tipo de Despesa referente à despesa realizada pelo deputado e comprovada por meio da emissão de um documento fiscal, a qual é debitada na cota do deputado.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>txtDescricao</p>
+</td>
+<td>
+<p style="text-align: left; ">Descrição da Subcota</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo é a descrição do Tipo de Despesa relativo à despesa em questão.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>numEspecificacaoSubCota</p>
+</td>
+<td>
+<p style="text-align: left; ">Número da Especificação da Subcota</p>
+</td>
+<td>
+<p style="text-align: left; ">No contexto da Cota CEAP, há despesas cujo Tipo de Despesa necessita ter uma especificação mais detalhada (por exemplo, “Combustível”). O conteúdo deste dado representa o código desta especificação mais detalhada.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>txtDescricaoEspecificacao</p>
+</td>
+<td>
+<p style="text-align: left; ">Descrição da Especificação da Subcota</p>
+</td>
+<td>
+<p style="text-align: left; ">Representa a descrição  especificação mais detalhada de um referido Tipo de Despesa.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>txtFornecedor</p>
+</td>
+<td>
+<p>Fornecedor</p>
+</td>
+<td>
+<p>O conteúdo deste dado representa o nome do fornecedor do produto ou serviço presente no documento fiscal</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>txtCNPJCPF</p>
+</td>
+<td>
+<p>CNPJ/CPF</p>
+</td>
+<td>
+<p>O conteúdo deste dado representa o CNPJ ou o CPF do emitente do documento fiscal, quando se tratar do uso da cota em razão do reembolso despesas comprovadas pela emissão de documentos fiscais.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>txtNumero</p>
+</td>
+<td>
+<p>Número do Documento</p>
+</td>
+<td>
+<p>O conteúdo deste dado representa o número de face do documento fiscal emitido ou o número do documento que deu causa à despesa debitada na cota do deputado.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>indTipoDocumento</p>
+</td>
+<td>
+<p>Indicativo de Tipo de Documento Fiscal</p>
+</td>
+<td>
+<p>Este dado representa o tipo de documento do fiscal – 0 (Zero), para Nota Fiscal; 1 (um), para Recibo; e 2, para Despesa no Exterior.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>datEmissao</p>
+</td>
+<td>
+<p>Data de Emissão</p>
+</td>
+<td>
+<p>O conteúdo deste dado é a data de emissão do documento fiscal ou a data do documento que tenha dado causa à despesa.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>vlrDocumento</p>
+</td>
+<td>
+<p>Valor do Documento</p>
+</td>
+<td>
+<p>O seu conteúdo é o valor de face do documento fiscal ou o valor do documento que deu causa à despesa. Quando se tratar de bilhete aéreo, esse valor poderá ser negativo, significando que o referido bilhete é um bilhete de compensação, pois compensa um outro bilhete emitido e não utilizado pelo deputado (idem para o dado vlrLiquido abaixo).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>vlrGlosa</p>
+</td>
+<td>
+<p>Valor da Glosa</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa o valor da glosa do documento fiscal que incidirá sobre o Valor do Documento, ou o valor da glosa do documento que deu causa à despesa.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>vlrLiquido</p>
+</td>
+<td>
+<p style="text-align: left; ">Valor Líquido</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa o valor líquido do documento fiscal ou do documento que deu causa à despesa e será calculado pela diferença entre o Valor do Documento e o Valor da Glosa. É este valor que será debitado da cota do deputado. Caso o débito seja do Tipo Telefonia e o valor seja igual a zero, significa que a despesa foi franqueada.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>numMes</p>
+</td>
+<td>
+<p style="text-align: left; ">Mês</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa o Mês da competência financeira do documento fiscal ou do documento que deu causa à despesa. É utilizado, junto com o ano, para determinar em que período o débito gerará efeito financeiro sobre a cota.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>numAno</p>
+</td>
+<td>
+<p style="text-align: left; ">Ano</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa o Ano da competência financeira do documento fiscal ou do documento que deu causa à despesa. É utilizado, junto com o mês, para determinar em que período o débito gerará efeito financeiro sobre a cota.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>numParcela</p>
+</td>
+<td>
+<p style="text-align: left; ">Número da Parcela</p>
+</td>
+<td>
+<p style="text-align: left; ">O seu conteúdo representa o número da parcela do documento fiscal. Ocorre quando o documento tem de ser reembolsado de forma parcelada.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>txtPassageiro</p>
+</td>
+<td>
+<p style="text-align: left; ">Passageiro</p>
+</td>
+<td>
+<p style="text-align: left; ">O conteúdo deste dado representa o nome do passageiro, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>txtTrecho</p>
+</td>
+<td>
+<p style="text-align: left; ">Trecho</p>
+</td>
+<td>
+<p style="text-align: left; ">O conteúdo deste dado representa o trecho da viagem, quando o documento que deu causa à despesa se tratar de emissão de bilhete aéreo.</p>
+</td>
+</tr>
+<tr class="even">
+<td>
+<p>numLote</p>
+</td>
+<td>
+<p style="text-align: left; ">Número do Lote</p>
+</td>
+<td>
+<p style="text-align: left; ">No contexto da Cota CEAP, o Número do Lote representa uma capa de lote que agrupa os documentos que serão entregues à Câmara para serem ressarcidos. Este dado, juntamente com o Número do Ressarcimento, auxilia a localização do documento no Arquivo da Casa.</p>
+</td>
+</tr>
+<tr>
+<td style="text-align: left; ">
+<p>numRessarcimento</p>
+</td>
+<td style="text-align: left; ">
+<p style="text-align: left; ">Número do Ressarcimento</p>
+</td>
+<td>
+<p style="text-align: left; ">No contexto da Cota CEAP, o Número do Ressarcimento indica o ressarcimento do qual o documento fez parte por ocasião do processamento do seu reembolso. Este dado, juntamente com o Número do Ressarcimento, auxilia a localização do documento no Arquivo da Casa.</p>
+</td>
+</tr>
+<tr class="even">
+<td style="text-align: left; ">
+<p></p>
+<p>vlrRestituicao</p>
+</td>
+<td style="text-align: left; ">
+<p style="text-align: left; "></p>
+<p style="text-align: left; "><span>Valor da </span>Restituição</p>
+</td>
+<td>
+<p style="text-align: left; "></p>
+<p style="text-align: left; "><span>O seu conteúdo representa o valor restituído do documento fiscal que incidirá sobre o Valor do Documento.</span></p>
+</td>
+</tr>
+<tr>
+<td style="text-align: left; ">
+<p>nuDeputadoId</p>
+</td>
+<td>
+<p>Identificador do Solicitante</p>
+</td>
+<td>
+<p style="text-align: left; "><span>Número que identifica um Parlamentar ou Liderança na Transparência da Cota para Exercício da Atividade Parlamentar</span><span>.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Retornar a <a href="http://www2.camara.leg.br/transparencia/cota-para-exercicio-da-atividade-parlamentar/dados-abertos-cota-parlamentar">Dados Abertos - Cota Parlamentar</a>.</strong></p>
+<p> </p>
+
+<table class="MsoNormalTable">
+<tbody>
+<tr>
+<td>
+<p class="MsoNormal"><span>vlrRestituicao</span><span></span></p>
+</td>
+<td>
+<p class="MsoNormal"><span>Valor da Restituição</span></p>
+</td>
+<td>
+<p class="MsoNormal"><span>O seu conteúdo representa o valor restituído do documento fiscal que incidirá sobre o Valor do Documento.</span><span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+            
+        </div>
+    
+        
+    
+                             </div>
+                             <div id="viewlet-below-content-body">
+</div>
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+
+
+
+
+
+</div>
+        </div>
+        </div>
+        <div id="portal-coluna-direita" class="coluna-direita">
+        </div>
+    </div><div id="portal-rodape" class="diazo_layouts_rodape home-Rodape home-Rodape-marcacao">
+
+        <div class="conteudo-fluido endereco-rodape">
+            <div id="portal-footer" class="container">
+                <div class="row">
+                    <div class="font-bold legislatura-rodape col-md-12">55ª Legislatura - 3ª Sessão Legislativa Ordinária</div>
+                    <div class="col-md-12"><span class="font-bold">Telefone:</span> +55 (61) 3216-0000 | <span class="font-bold">Disque-Câmara: </span>0800-619-619</div>
+                    <div class="col-md-12">Câmara dos Deputados - Palácio do Congresso Nacional - Praça dos Três Poderes - Brasília - DF - Brasil
+                        - CEP 70160-900</div>
+                    <div class="col-md-12"><span class="font-bold">CNPJ:</span> 00.530.352/0001-59 | Horário de atendimento ao público: 9h às 19h</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conteudo-fluido links-sobre-rodape">
+            <div class="container">
+                <div id="portal-utilities" class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <ul>
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/participe/fale-conosco/perguntas-frequentes">Perguntas Frequentes</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/accessibility-info">Acessibilidade</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/english">English</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/espanol">Español</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="https://camaranet.camara.gov.br">Extranet</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        <a accesskey="9" href="http://camara.custhelp.com/">Fale Conosco</a>
+                        
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/glossario">Glossário</a>
+                    
+                </li>
+                
+                
+                <li class="">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/transparencia/sispush">Boletins eletrônicos</a>
+                    
+                </li>
+                
+                
+                <li class="ultimo">
+                    
+                        
+                        <a href="http://www2.camara.leg.br/sobre-o-portal">Sobre o Portal</a>
+                    
+                </li>
+                
+            </ul>
+        </div>
+        <div class="col-md-1">
+                <div class="acesso-provedor"><a title="Autenticar-se no site" href="login_form"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span></a></div>
+        </div>
+    </div>
+            </div>
+        </div>
+        <div class="barra-carregando" style="display: none">
+            <h1>Carregando...</h1>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </div>
+    </div></body>
+
+</html>
