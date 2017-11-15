@@ -10,8 +10,8 @@ app = Flask(__name__)
 
 @app.route("/<name>")
 def searchDeputy(name):
-	cursor = chamber.find({"congressperson_name":"/"+name+"/i"},{"_id":False})
-	return jsonify(Response=dumps(cursor))
+	cursor = chamber.find({"$text":{"$search":name}},{"_id":False})
+	return jsonify(response=dumps(cursor))
 
 
 if __name__ == '__main__':

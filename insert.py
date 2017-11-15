@@ -9,13 +9,14 @@ db = client["datavis"]
 senate = db["senate"]
 chamber = db["chamber"]
 
-def to_mongo(dest, data, idxs={}):
+def to_mongo(dest, data, idxs=[]):
     dest.drop()
 
     for chunk in data:
-        dest.insert(loads(chunk.to_json(orient='records')))
+        dest.insert_one(loads(chunk.to_json(orient='records')))
     
-    dest.create_index(idxs)
+    for idx in idxs:
+    	dest.create_index(idx)
 
 indexes = [("congressperson_name",TEXT)]
 
