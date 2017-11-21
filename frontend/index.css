@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.application{
+  background-color: #789edb;
+
+}
+
+
+.header{
+  color: white;
+  padding-left: 20px;
+  display: inline-block;
+  background-color: #5895ef;
+  box-shadow: 0px 3px 5px black;
+  width: 100%;
+}
+
+.panel{
+  display: inline-block;
+  width: 100%;
+  color: gray;
+  background-color: white;
+  margin-top: 5px;
+}
+
+
+#header .defoq{
+  color: black;
+  opacity: 0.7;
+}
+
+#panel .button{
+  background-color: white;
+  margin: 5px 5px;
+  display: inline-block;
+  width: calc(50% - 22px);
+  border-width: 0px;
+  color: gray;
+  border-right: solid 1px gray;
+  border-left: solid 1px gray;
+  border-radius: 10px;
+}
+
+#panel .button:hover{
+  transition: 1.0;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+}
+
+#panel .button:focus{
+  transition: 1.0;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+}
+
+#panel .clicked{
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+}
