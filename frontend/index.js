@@ -2,15 +2,14 @@ var context = 'senado'
 //initing first option
 window.onload = function(){
   document.getElementById("panel").getElementsByClassName("button")[0].classList.add('clicked')
-  senateGen()
+  senateGen(document.getElementById("content"))
 }
 
 function changeContent(cont ,callback ,element){
-  if (context == cont ) return
-
+  if (context == cont ) return      
   //Cleaning content tag
-  document.getElementById("content").innetHTML = ''
-
+  var content = document.getElementById("content")
+  content.innerHTML = ''
   //Removing class of clicked
   var buttons = document.getElementById("panel").getElementsByClassName("button")
   for (let i=0; i < buttons.length ; i++){
@@ -18,19 +17,43 @@ function changeContent(cont ,callback ,element){
   }
   //add clicked for the button who deserve
   element.classList.add('clicked')
-  callback()
+  callback(content)
 }
 
-function senateGen(){
+function senateGen(tag){
   console.log("Introduzir html do senado");
+
+  var html = ""
+  
+  html +='<div id="senado">'
+         + '<div class="card -large">'
+         + '</div>'
+         + '<div class="card">'
+         + '</div>'
+         + '<div class="card">'
+         + '</div>'
+       + '</div>'
+
+  tag.innerHTML = html
 
   context = 'senado'
 }
 
 
-function chamberGen(){
+function chamberGen(tag){
   console.log("Introduzir html da camara")
+  var html = ""
+  
+  html +='<div id="camara">'
+         + '<div class="card -large">'
+         + '</div>'
+         + '<div class="card">'
+         + '</div>'
+         + '<div class="card">'
+         + '</div>'
+       + '</div>'
 
+  tag.innerHTML = html
 
   context = 'camara'
 }
