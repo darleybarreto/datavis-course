@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Initing Project Links and Scripts  -->
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+
+    <!-- Senate -->
+    <link rel="stylesheet" href="components/senate/index.css">
+    <script type="text/javascript" src="components/senate/index.js"></script>
+
+
+    <!-- Chamber -->
+    <link rel="stylesheet" href="components/chamber/index.css">
+    <script type="text/javascript" src="components/chamber/index.js"></script>
+
+    <meta charset="utf-8">
+    <title>Projeto de Visualização de Dados</title>
+  </head>
+  <body class="application">
+
+      <div id="header" class="header">A Tool for Data Analisys by : Darley Barreto - Israel Vidal - Victor Vieira <span class="defoq">- Beta Version</span> </div>
+
+      <div id="panel"  class="panel">
+          <button class="button" onclick="changeContent('senado',senateGen, this)">Senate</button>
+          <button class="button" onclick="changeContent('camara',chamberGen, this)">Chamber</button>
+      </div>
+
+      <div id="content" class="content"></div>
+
+  </body>
+</html>
