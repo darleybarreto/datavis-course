@@ -1,4 +1,9 @@
+#senado{
+	padding: 0px 10px 10px 10px;
+}
+
 #senado .card{
+	border-radius : 5px;
 	display: inline-block;
 	width: calc(50% - 30px);
 	padding:  10px 10px;
