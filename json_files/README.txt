@@ -1,0 +1,14 @@
+sum_mean_max_year.json => the sum, meanand max of document_value for every year
+sum_mean_max_year_congressperson_maxtotal.json => congressperson_name who spent more in each year given the max absolut value
+sum_mean_max_year_congressperson_maxmean.json => congressperson_name who spent more in each year given the max mean value
+sum_mean_max_year_congressperson_minmean.json => congressperson_name who spent more in each year given the min mean value
+sum_mean_max_year_party_maxtotal.json => party that spent more in each year given the max absolut value
+sum_mean_max_year_party_maxmean.json => party that spent more in each year given the max mean value
+sum_mean_max_year_party_minmean.json => party that spent more in each year given the min mean value
+spents_categories.json => the categories of spents and their labels
+sum_mean_max_year_spents_type_total.json => for each year and each kind of spent, there is the sum, mean, max and count of document_value
+sum_mean_max_year_spents_type_total_normalizedbycount => for each year and each kind of spent, there is the sum, mean, max and count of document_value normalized by occurencies
+max_expenses_type_year_sum_normalizedbycount => given the sum of all spents based on the document_value normalized by the count of them, we find the higher spent
+max_expenses_type_year_mean_normalizedbycount.json => given the mean of all spents based on the document_value normalized by the count of them, we find the higher spent
+sum_mean_max_year_maxspentbytype_normalizedbycount.json => for each party and each year, we find the spent with higher sum normalized by count
+sum_mean_max_year_meanspentbytype_normalizedbycount => for each party and each year, we find the spent with higher mean normalized by count
