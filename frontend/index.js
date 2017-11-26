@@ -6,7 +6,7 @@ window.onload = function(){
 }
 
 function changeContent(cont ,callback ,element){
-  if (context == cont ) return      
+  if (context == cont ) return
   //Cleaning content tag
   var content = document.getElementById("content")
   content.innerHTML = ''
@@ -21,12 +21,11 @@ function changeContent(cont ,callback ,element){
 }
 
 function senateGen(tag){
-  console.log("Introduzir html do senado");
-
+  //console.log("Introduzir html do senado");
   var html = ""
-  
+
   html +='<div id="senado">'
-         + '<div class="card -large">'
+         + '<div id="line" class="card -large">'
          + '</div>'
          + '<div class="card">'
          + '</div>'
@@ -35,15 +34,15 @@ function senateGen(tag){
        + '</div>'
 
   tag.innerHTML = html
-
   context = 'senado'
+  loadSenateGraphs()
 }
 
 
 function chamberGen(tag){
-  console.log("Introduzir html da camara")
+  //console.log("Introduzir html da camara")
   var html = ""
-  
+
   html +='<div id="camara">'
          + '<div class="card -large">'
          + '</div>'
@@ -54,6 +53,5 @@ function chamberGen(tag){
        + '</div>'
 
   tag.innerHTML = html
-
   context = 'camara'
 }
