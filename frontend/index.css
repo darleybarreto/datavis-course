@@ -9,6 +9,7 @@ html, body {
 }
 
 #header{
+  position: fixed;
   color: white;
   padding: 0px 10px;
   display: inline-block;
@@ -18,8 +19,7 @@ html, body {
 }
 
 #header .defoq{
-  color: black;
-  opacity: 0.7;
+  color: #404142;
 }
 
 
@@ -29,7 +29,7 @@ html, body {
   width: calc(100% - 50px);
   color: gray;
   background-color: white;
-  margin : 15px 5px 5px 15px;
+  margin : 35px 5px 5px 15px;
   padding: 0px 10px;
   text-align: center;
 }

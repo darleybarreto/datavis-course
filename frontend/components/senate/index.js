@@ -5,8 +5,9 @@ function loadSenateGraphs(){
 
 
 function lineGraphLoad(){
-  d3.json("../json_files/senate/sum_mean_max_year.json", function(data){
-    console.log(data);
+  d3.json("json_files/senate/sum_mean_max_year.json", function(err,data){
+    //console.log(data);
+    //console.log(err);
     var line_graph = dc.lineChart("#line")
     var cs_lf = crossfilter(data);
 
