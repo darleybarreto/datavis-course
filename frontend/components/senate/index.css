@@ -16,5 +16,5 @@
 
 #senado .card.-large{
 	width: calc(100% - 30px);
-
+	height: 200px;
 }

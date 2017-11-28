@@ -27,7 +27,7 @@ function senateGen(tag){
   html +='<div id="senado">'
          + '<div id="line" class="card -large">'
          + '</div>'
-         + '<div class="card">'
+         + '<div id="dist" class="card">'
          + '</div>'
          + '<div class="card">'
          + '</div>'
