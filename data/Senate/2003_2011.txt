@@ -1,6 +1,7 @@
+Gim Argello   PTB DF 2007 - 2015
 Adelmir Santana   DEM DF 2003 - 2011
 Alfredo Cotait   DEM SP 2003 - 2011
-Antonio Carlos Júnior   DEM BA 2003 - 2011
+Antonio Carlos Junior   DEM BA 2003 - 2011
 Demóstenes Torres DEM GO 2003 - 2011
 Efraim Morais DEM PB 2003 - 2011
 Eliseu Resende DEM MG 2007 - 2015
@@ -25,7 +26,7 @@ Jefferson Peres PDT AM 2003 - 2011
 Jefferson Praia   PDT AM 2003 - 2011
 João Durval PDT BA 2007 - 2015
 Osmar Dias PDT PR 2003 - 2011
-Patrícia Saboya PDT CE 2003 - 2011
+PATRICIA SABOYA GOMES PDT CE 2003 - 2011
 Antonio Carlos Magalhães PFL BA 2003 - 2011
 Paulo Octávio PFL DF 2003 - 2011
 Almeida Lima PMDB SE 2003 - 2011
@@ -58,7 +59,7 @@ Selma Elias   PMDB SC 2003 - 2011
 Sérgio Cabral PMDB RJ 2003 - 2011
 Valdir Raupp PMDB RO 2003 - 2011
 Valter Pereira   PMDB MS 2003 - 2011
-Wellington Salgado   PMDB MG 2003 - 2011
+Wellington Salgado de Oliveira  PMDB MG 2003 - 2011
 Francisco Dornelles PP RJ 2007 - 2015
 Euclydes Mello   PRB AL 2007 - 2015
 Marcelo Crivella PRB RJ 2003 - 2011
