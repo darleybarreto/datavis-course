@@ -15,7 +15,7 @@ function changeContent(cont ,callback ,element){
   for (let i=0; i < buttons.length ; i++){
     buttons[i].classList.remove("clicked")
   }
-  //add clicked for the button who deserve
+  //add clicked class for the button who deserve
   element.classList.add('clicked')
   callback(content)
 }
@@ -44,9 +44,9 @@ function chamberGen(tag){
   var html = ""
 
   html +='<div id="camara">'
-         + '<div class="card -large">'
+         + '<div id="main" class="card -large">'
          + '</div>'
-         + '<div class="card">'
+         + '<div id="type" class="card">'
          + '</div>'
          + '<div class="card">'
          + '</div>'
@@ -54,4 +54,5 @@ function chamberGen(tag){
 
   tag.innerHTML = html
   context = 'camara'
+  loadChamberGraphs()
 }
