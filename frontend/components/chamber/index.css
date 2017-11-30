@@ -18,3 +18,15 @@
 	width: calc(100% - 30px);
 	height: 200px;
 }
+
+#type{
+	width: 100%
+}
+
+#camara > .card > .header_extyp{
+	text-align: center;
+}
+
+#camara .footer{
+	text-align: center;
+}
