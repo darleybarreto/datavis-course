@@ -1,4 +1,4 @@
-{"index":0,"year":2008,"expense_type_id":0,"sum":5007.703877551,"mean":11.3553375908,"max":45175.85,"count":441}
+[{"index":0,"year":2008,"expense_type_id":0,"sum":5007.703877551,"mean":11.3553375908,"max":45175.85,"count":441}
 {"index":1,"year":2008,"expense_type_id":1,"sum":6563.1447073791,"mean":8.3500568796,"max":41239.32,"count":786}
 {"index":2,"year":2008,"expense_type_id":2,"sum":1565.1019834711,"mean":3.233681784,"max":27000.0,"count":484}
 {"index":3,"year":2008,"expense_type_id":3,"sum":7662.8162837838,"mean":51.7757857012,"max":61250.0,"count":148}
@@ -61,4 +61,4 @@
 {"index":60,"year":2017,"expense_type_id":3,"sum":2714.4900815851,"mean":3.1637413538,"max":31950.0,"count":858}
 {"index":61,"year":2017,"expense_type_id":4,"sum":962.4553780864,"mean":0.2475451075,"max":14000.0,"count":3888}
 {"index":62,"year":2017,"expense_type_id":5,"sum":989.8719697565,"mean":0.1943974803,"max":5796.74,"count":5092}
-{"index":63,"year":2017,"expense_type_id":6,"sum":3853.0124786325,"mean":32.9317305866,"max":38500.96,"count":117}
+{"index":63,"year":2017,"expense_type_id":6,"sum":3853.0124786325,"mean":32.9317305866,"max":38500.96,"count":117}]
