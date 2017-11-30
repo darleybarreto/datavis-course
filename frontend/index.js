@@ -1,5 +1,7 @@
+//initing firsts perpectives options
 var context = 'senado'
-//initing first option
+var year = 2009
+
 window.onload = function(){
   document.getElementById("panel").getElementsByClassName("button")[0].classList.add('clicked')
   senateGen(document.getElementById("content"))
@@ -38,6 +40,11 @@ function senateGen(tag){
   loadSenateGraphs()
 }
 
+function updateYearView(event){
+  year = event.target.value.toString()
+  if (context=='camara') loadChamberGraphs()
+  else {loadSenateGraphs()}
+}
 
 function chamberGen(tag){
   //console.log("Introduzir html da camara")
@@ -46,9 +53,13 @@ function chamberGen(tag){
   html +='<div id="camara">'
          + '<div id="main" class="card -large">'
          + '</div>'
-         + '<div id="type" class="card">'
-         + '</div>'
-         + '<div class="card">'
+         + '<div id="card-1" class="card">'
+          +  '<div class="header_extyp">'
+          +  '</div>'
+          +  '<div id="type">'
+          +  '</div>'
+          +  '<div class="footer">'
+          +  '</div>'
          + '</div>'
        + '</div>'
 

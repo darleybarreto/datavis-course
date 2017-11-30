@@ -8,6 +8,11 @@ html, body {
 
 }
 
+.year{
+  border: solid 0px ;
+  border-radius: 5px;
+  vertical-align: bottom;
+}
 #header{
   position: fixed;
   color: white;
