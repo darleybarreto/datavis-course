@@ -28,7 +28,7 @@ function lineGraphLoad(){
             .xUnits(dc.units.ordinal)
             .elasticY(true)
             ._rangeBandPadding(1)
-            .yAxisLabel("Gastos/100")
+            .yAxisLabel("Gastos/1000")
             .renderHorizontalGridLines(true)
             .legend(dc.legend().x(width-100).y(40).itemHeight(13).gap(5))
             .brushOn(false)
