@@ -6,7 +6,7 @@ window.onload = function(){
 }
 
 function changeContent(cont ,callback ,element){
-  if (context == cont ) return      
+  if (context == cont ) return
   //Cleaning content tag
   var content = document.getElementById("content")
   content.innerHTML = ''
@@ -15,45 +15,44 @@ function changeContent(cont ,callback ,element){
   for (let i=0; i < buttons.length ; i++){
     buttons[i].classList.remove("clicked")
   }
-  //add clicked for the button who deserve
+  //add clicked class for the button who deserve
   element.classList.add('clicked')
   callback(content)
 }
 
 function senateGen(tag){
-  console.log("Introduzir html do senado");
-
+  //console.log("Introduzir html do senado");
   var html = ""
-  
+
   html +='<div id="senado">'
-         + '<div class="card -large">'
+         + '<div id="line" class="card -large">'
          + '</div>'
-         + '<div class="card">'
+         + '<div id="dist" class="card">'
          + '</div>'
          + '<div class="card">'
          + '</div>'
        + '</div>'
 
   tag.innerHTML = html
-
   context = 'senado'
+  loadSenateGraphs()
 }
 
 
 function chamberGen(tag){
-  console.log("Introduzir html da camara")
+  //console.log("Introduzir html da camara")
   var html = ""
-  
+
   html +='<div id="camara">'
-         + '<div class="card -large">'
+         + '<div id="main" class="card -large">'
          + '</div>'
-         + '<div class="card">'
+         + '<div id="type" class="card">'
          + '</div>'
          + '<div class="card">'
          + '</div>'
        + '</div>'
 
   tag.innerHTML = html
-
   context = 'camara'
+  loadChamberGraphs()
 }
