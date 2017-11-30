@@ -1,4 +1,4 @@
-{"party":"DEM","year":2008,"expense_type_id":0,"sum":8232.872,"mean":126.6595692308,"max":32900.0,"count":65,"max_spent":8232.872}
+[{"party":"DEM","year":2008,"expense_type_id":0,"sum":8232.872,"mean":126.6595692308,"max":32900.0,"count":65,"max_spent":8232.872}
 {"party":"DEM","year":2009,"expense_type_id":0,"sum":3595.5039189189,"mean":24.2939453981,"max":66960.0,"count":148,"max_spent":3595.5039189189}
 {"party":"DEM","year":2010,"expense_type_id":0,"sum":4672.3912738853,"mean":29.7604539738,"max":37300.0,"count":157,"max_spent":4672.3912738853}
 {"party":"DEM","year":2011,"expense_type_id":3,"sum":2639.6967741935,"mean":85.151508845,"max":15000.0,"count":31,"max_spent":2639.6967741935}
@@ -165,4 +165,4 @@
 {"party":"S\/Partido","year":2009,"expense_type_id":3,"sum":3073.375,"mean":192.0859375,"max":12790.5,"count":16,"max_spent":3073.375}
 {"party":"S\/Partido","year":2010,"expense_type_id":3,"sum":4517.8571428571,"mean":645.4081632653,"max":10000.0,"count":7,"max_spent":4517.8571428571}
 {"party":"S\/Partido","year":2011,"expense_type_id":0,"sum":8592.3076923077,"mean":660.9467455621,"max":12000.0,"count":13,"max_spent":8592.3076923077}
-{"party":"S\/Partido","year":2012,"expense_type_id":0,"sum":9900.0,"mean":1980.0,"max":11000.0,"count":5,"max_spent":9900.0}
+{"party":"S\/Partido","year":2012,"expense_type_id":0,"sum":9900.0,"mean":1980.0,"max":11000.0,"count":5,"max_spent":9900.0}]
