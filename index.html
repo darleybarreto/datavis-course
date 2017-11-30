@@ -33,6 +33,20 @@
       <div id="panel"  class="panel">
           <button class="button" onclick="changeContent('senado',senateGen, this)">Senate</button>
           <button class="button" onclick="changeContent('camara',chamberGen, this)">Chamber</button>
+          <div class="year">
+            Year Perpective :
+            <select class="year" name="year" onchange="updateYearView(event)">
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+              <option value="2017">2017</option>
+            </select>
+          </div>
       </div>
 
       <!-- Visualizations into content tag -->
