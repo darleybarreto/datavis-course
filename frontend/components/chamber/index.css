@@ -2,34 +2,6 @@
 	padding: 0px 10px 10px 10px;
 }
 
-#camara .card{
-	vertical-align: top;
-	border-radius : 5px;
-	display: inline-block;
-	width: calc(50% - 30px);
-	padding:  10px 10px;
-	margin:  5px 5px;
-	box-shadow: 0px 5px 5px gray;
-	background-color: white;
-	height: 400px;
-}
-
-
-#camara .card.-large{
-	width: calc(100% - 30px);
-	height: 250px;
-}
-
 #type{
 	width: 100%
-}
-
-#camara > .card > .header{
-	text-align: center;
-	font-size: 20px;
-	color: black;
-}
-
-#camara  .footer{
-	text-align: center;
 }

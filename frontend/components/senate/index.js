@@ -4,8 +4,18 @@ function loadSenateGraphs(){
   }
 
   lineGraphLoad();
-  expansiveTypesLoad()
+  expansiveTypesLoad();
 
+}
+
+
+function loadSenateTimes(){
+  window.onresize = function(){
+    loadSenateGraphs()
+  }
+
+  expansiveTypesLoad();
+ 
 }
 
 
@@ -14,12 +24,13 @@ function lineGraphLoad(){
     console.log(data);
     console.log(err);
     //console.log(err);
-    var line_graph = dc.compositeChart("#line")
+    var line_graph = dc.compositeChart("#main")
     var cs_lf = crossfilter(data);
     var domain = []
     var expensiveDim = cs_lf.dimension(function(d){domain.push(d.year.toString()); return d.year.toString() });
     var expensiveGro = expensiveDim.group().reduceSum(function(d){return +d.sum/1000000;});
-    var width = document.getElementById("line").getBoundingClientRect().width - 50;
+    var width = document.getElementById("main").getBoundingClientRect().width - 50;
+    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Totais de gastos por ano"
 
     line_graph.width(width)
             .height(200)

@@ -26,9 +26,7 @@ function senateGen(tag){
   //console.log("Introduzir html do senado");
   var html = ""
 
-  html +='<div id="senado">'
-         + '<div id="line" class="card -large">'
-         + '</div>'
+  html +='<div id="senado">'         
          + '<div id="dist" class="card">'
          + '</div>'
          + '<div class="card">'
@@ -42,25 +40,23 @@ function senateGen(tag){
 
 function updateYearView(event){
   year = event.target.value.toString()
-  if (context=='camara') loadChamberGraphs()
-  else {loadSenateGraphs()}
+  if (context=='camara') loadChamberTimes()
+  else {loadSenateTimes()}
 }
 
 function chamberGen(tag){
   //console.log("Introduzir html da camara")
   var html = ""
 
-  html +='<div id="camara">'
-         + '<div id="main" class="card -large">'
-         +  '<div class="header -main">'
-         +  '</div>'
-         + '</div>'
+  html +='<div id="camara">'       
          + '<div id="card-1" class="card">'
           +  '<div class="header -extyp">'
           +  '</div>'
           +  '<div id="type">'
           +  '</div>'
           +  '<div class="footer">'
+          +     '<div>'
+          +     '</div>'
           +  '</div>'
          + '</div>'
          + '<div id="card-2" class="card">'

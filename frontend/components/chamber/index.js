@@ -13,7 +13,22 @@ function loadChamberGraphs(){
     partyExpensive(data)
 
   })
+}
 
+function loadChamberTimes(){
+  window.onresize = function(){
+    loadChamberGraphs()
+  }
+
+  d3.json("json_files/chamber/grouped.json",function(err,data){
+    var cs_chb = crossfilter(data)
+    // console.log(err);
+    console.log("Data",data);
+    //Domain Maniplation
+    expansiveTypeChamberLoad(data)
+    partyExpensive(data)
+
+  })
 }
 
 function mainGraphLoad(crossfilter){
@@ -80,7 +95,8 @@ function expansiveTypeChamberLoad(data){
 
     tag.textContent = "Tipo "+typeKey+"- Valor Bruto: R$ "+value.toFixed(2).toString().replace('.',',')
   }
-  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Tipos de gastos do ano de "+year
+
+  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Distribuição de gastos do ano de "+year
 
   var cf_ex =  crossfilter(data.filter(function (d){
     if (d.year.toString() == year){
@@ -114,7 +130,7 @@ function expansiveTypeChamberLoad(data){
                 .margins({top: 50, right: 50, bottom: 50, left: 60})
                 .brushOn(false)
                 .xAxisLabel("Tipos de gastos")
-                .yAxisLabel("Gasto/1000")
+                .yAxisLabel("Porcentagem")
                 .dimension(dim)
                 .group(grouped)
                 .on('renderlet', function(chart) {
@@ -123,7 +139,6 @@ function expansiveTypeChamberLoad(data){
                     });
                 });
   //
-
   expensive_chart.render()
 }
 
