@@ -12,3 +12,4 @@ max_expenses_type_year_sum_normalizedbycount => given the sum of all spents base
 max_expenses_type_year_mean_normalizedbycount.json => given the mean of all spents based on the document_value normalized by the count of them, we find the higher spent
 sum_mean_max_year_maxspentbytype_normalizedbycount.json => for each party and each year, we find the spent with higher sum normalized by count
 sum_mean_max_year_meanspentbytype_normalizedbycount => for each party and each year, we find the spent with higher mean normalized by count
+sum_mean_max_year_congressperson_each => for each congressperson_name, his expenses
