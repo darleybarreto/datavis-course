@@ -18,7 +18,7 @@ function lineGraphLoad(){
     var cs_lf = crossfilter(data);
     var domain = []
     var expensiveDim = cs_lf.dimension(function(d){domain.push(d.year.toString()); return d.year.toString() });
-    var expensiveGro = expensiveDim.group().reduceSum(function(d){return +d.max/1000;});
+    var expensiveGro = expensiveDim.group().reduceSum(function(d){return +d.sum/1000000;});
     var width = document.getElementById("line").getBoundingClientRect().width - 50;
 
     line_graph.width(width)
@@ -27,9 +27,10 @@ function lineGraphLoad(){
             .dimension(expensiveDim)
             .x(d3.scale.ordinal().domain(domain))
             .xUnits(dc.units.ordinal)
-            .elasticY(true)
+            .y(d3.scale.linear().domain([0, 26]))
+            .elasticY(false)
             ._rangeBandPadding(1)
-            .yAxisLabel("Gastos/1000")
+            .yAxisLabel("Gastos por milhão")
             .renderHorizontalGridLines(true)
             .legend(dc.legend().x(width-100).y(40).itemHeight(13).gap(5))
             .brushOn(false)
