@@ -3,6 +3,7 @@
 }
 
 #camara .card{
+	vertical-align: top;
 	border-radius : 5px;
 	display: inline-block;
 	width: calc(50% - 30px);
@@ -16,17 +17,19 @@
 
 #camara .card.-large{
 	width: calc(100% - 30px);
-	height: 200px;
+	height: 250px;
 }
 
 #type{
 	width: 100%
 }
 
-#camara > .card > .header_extyp{
+#camara > .card > .header{
 	text-align: center;
+	font-size: 20px;
+	color: black;
 }
 
-#camara .footer{
+#camara  .footer{
 	text-align: center;
 }
