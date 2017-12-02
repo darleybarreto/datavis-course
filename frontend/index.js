@@ -26,7 +26,7 @@ function senateGen(tag){
   //console.log("Introduzir html do senado");
   var html = ""
 
-  html +='<div id="senado">'         
+  html +='<div id="senado">'
          + '<div id="dist" class="card">'
          + '</div>'
          + '<div class="card">'
@@ -48,7 +48,7 @@ function chamberGen(tag){
   //console.log("Introduzir html da camara")
   var html = ""
 
-  html +='<div id="camara">'       
+  html +='<div id="camara">'
          + '<div id="card-1" class="card">'
           +  '<div class="header -extyp">'
           +  '</div>'
