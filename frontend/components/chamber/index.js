@@ -5,19 +5,22 @@ function loadChamberGraphs(){
 
   d3.json("json_files/chamber/grouped.json",function(err,data){
     mainGraphLoad(data);
-    expansiveTypeChamberLoad(data)
-    partyExpensive(data)
-
+    loadChamberTimes(data)
   })
 }
 
-function loadChamberTimes(){
-
-  d3.json("json_files/chamber/grouped.json",function(err,data){
-    expansiveTypeChamberLoad(data)
-    partyExpensive(data)
-
-  })
+function loadChamberTimes(d){
+  if (d == undefined){
+    d3.json("json_files/chamber/grouped.json",function(err,data){
+      expansiveTypeChamberLoad(data)
+      partyExpensive(data)
+    })
+  }
+  //
+  else{
+    expansiveTypeChamberLoad(d)
+    partyExpensive(d)
+  }
 }
 
 function mainGraphLoad(data){
@@ -41,16 +44,8 @@ function mainGraphLoad(data){
   var dim = cs_fi.dimension(function(d){domain.push(d.year.toString()); return [d.year,getVal(d.year)]})
 
   console.log(domain);
-  //Domain manipulation
-  // var last = domain.pop()
-  // domain.reverse().push(last)
-  // domain.reverse()
-  // console.log(domain);
 
   //Group
-  // var grouped = dim.group().reduceSum(function(d){
-  //
-  // })
   var grouped = dim.group().reduceSum(function(d){
     let res = d.content.sum_mean_max_year
     return res!= undefined ? res[0].sum.toFixed(0)/1000000 : 0 ;
