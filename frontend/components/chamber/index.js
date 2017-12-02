@@ -13,15 +13,17 @@ function loadChamberTimes(d){
   if (d == undefined){
     d3.json("json_files/chamber/grouped.json",function(err,data){
       expansiveTypeChamberLoad(data)
-      partyExpensive(data)
+//      partyExpensive(data)
       meanmean(data)
+      scatterChart(data)
     })
   }
   //
   else{
     expansiveTypeChamberLoad(d)
-    partyExpensive(d)
+//    partyExpensive(d)
     meanmean(d)
+    scatterChart(d)
   }
 }
 
@@ -196,93 +198,106 @@ function expansiveTypeChamberLoad(data){
   // expensive_chart.render()
 }
 
-function partyExpensive(data){
-  var party_chart = dc.bubbleChart('#party')
-
-  document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution in "+year
+function scatterChart(data){
+  var scatter_chart = dc.scatterPlot("#scatter");
+    
+  document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
 
   var cf_ex =  crossfilter(data.filter(function (d){
-    console.log(d.year.toString() == year);
+//    console.log(d.year.toString() == year);
     if (d.year.toString() == year){
-      y = d
-      max = d.content.sum_mean_max_year[0].sum
-      console.log(d);
+//      y = d
+//      max = d.content.sum_mean_max_year[0].sum
+//      console.log(d);
       return d
     }
-  })[0].content.sum_mean_max_year_meanspentbytype_normalizedbycount)
+  })[0].content.sum_mean_max_year_congressperson_each)
 
   var domain = []
 
   //Dimension of Graph
   var dim = cf_ex.dimension(function(d) {
-    //console.log(d);
+//    console.log([+d.sum,+d.count]);
     //domain.push(d.subquota_number.toString())
-    return [+d.sum.toFixed(0),+d.count,+d.mean,d.party]
+    return [+d.count, +d.sum];
   })
 
   //totalByType(domain[0],'card-1')
 
   //Group
-  var grouped = dim.group().reduceSum(function(d){
-    return d.count
-  })
+  var grouped = dim.group()
 
-  var width = document.getElementById("party").getBoundingClientRect().width - 20;
-  var colors = ["red", "#ccc","steelblue","green"]
-  party_chart
-    .width(width) // (optional) define chart width, :default = 200
-    .height(350) // (optional) define chart height, :default = 200
-    .transitionDuration(1000) // (optional) define chart transition duration, :default = 1000
-    // (optional) define margins
-    .margins({top: 50, right: 50, bottom: 50, left: 60})
-    .dimension(dim) // set dimension
-    /* Bubble chart expect the groups are reduced to multiple values which would then be used
-     * to generate x, y, and radius for each key (bubble) in the group */
-    .group(grouped)
-    // (optional) define color function or array for bubbles
-    //.colors(["red", "#ccc","steelblue","green"])
-    // (optional) define color domain to match your data domain if you want to bind data or color
-    //.colorDomain([-1750, 1644])
-    // (optional) define color value accessor
-    .colorAccessor(function(d, i){return colors[i%4] ;})
-    // closure used to retrieve x value from multi-value group
-    .keyAccessor(function(p) {return +p.key[0]/1000;})
-    // closure used to retrieve y value from multi-value group
-    .valueAccessor(function(p) {return +p.key[1];})
-    // closure used to retrieve radius value from multi-value group
-    .radiusValueAccessor(function(p) {return +p.key[2]/1000 ;})
-    // set x scale
-    .x(d3.scale.linear().domain([-5, 70]))
-    // set y scale
-    .y(d3.scale.linear().domain([-1, 15]))
-    // (optional) whether chart should rescale y axis to fit data, :default = false
-    .elasticY(false)
-    // (optional) when elasticY is on whether padding should be applied to y axis domain, :default=0
-    .yAxisPadding(100)
-    // (optional) whether chart should rescale x axis to fit data, :default = false
-    .elasticX(false)
-    // (optional) when elasticX is on whether padding should be applied to x axis domain, :default=0
-    .xAxisPadding(500)
-    .xAxisLabel("Net value an ")
-    .yAxisLabel("Number of expensives")
-    // set radius scale
-    .r(d3.scale.linear().domain([0, 100]))
-    // (optional) whether chart should render labels, :default = true
-    .renderLabel(false)
-    // (optional) closure to generate label per bubble, :default = group.key
-    //.label(function(p) {return p.key[3]})
-    // (optional) whether chart should render titles, :default = false
-    .renderTitle(true)
-    // (optional) closure to generate title per bubble, :default = d.key + ": " + d.value
-    .title(function(p) {
-         return  "Total: R$ "+p.key[0].toFixed(0) +",00\n"
-                 +"Mean: R$ " + p.key[2].toFixed(0) + ",00\n"
-                 +"Party: " +p.key[3] ;
-    })
-    // (optional) render horizontal grid lines, :default=false
-    .renderHorizontalGridLines(true)
-    // (optional) render vertical grid lines, :default=false
-    .renderVerticalGridLines(true);
+  var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
+//  var colors = ["red", "#ccc","steelblue","green"]
+  
+  scatter_chart
+    .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
+    .width(width)
+    .height(480)
+    .x(d3.scale.linear().domain([0,1700]))
+    .brushOn(false)
+    .symbolSize(8)
+    .clipPadding(10)
+    .yAxisLabel("Sum")
+    .xAxisLabel("Count")
+    .dimension(dim)
+    .group(grouped);
 
-  party_chart.render()
+  scatter_chart.render();
+//  scatter_chart 
+//    .width(width) // (optional) define chart width, :default = 200
+//    .height(350) // (optional) define chart height, :default = 200
+//    .transitionDuration(1000) // (optional) define chart transition duration, :default = 1000
+//    // (optional) define margins
+//    .margins({top: 50, right: 50, bottom: 50, left: 60})
+//    .dimension(dim) // set dimension
+//    /* Bubble chart expect the groups are reduced to multiple values which would then be used
+//     * to generate x, y, and radius for each key (bubble) in the group */
+//    .group(grouped)
+//    // (optional) define color function or array for bubbles
+//    //.colors(["red", "#ccc","steelblue","green"])
+//    // (optional) define color domain to match your data domain if you want to bind data or color
+//    //.colorDomain([-1750, 1644])
+//    // (optional) define color value accessor
+//    .colorAccessor(function(d, i){return colors[i%4] ;})
+//    // closure used to retrieve x value from multi-value group
+//    .keyAccessor(function(p) {return +p.key[0]/1000;})
+//    // closure used to retrieve y value from multi-value group
+//    .valueAccessor(function(p) {return +p.key[1];})
+//    // closure used to retrieve radius value from multi-value group
+//    .radiusValueAccessor(function(p) {return +p.key[2]/1000 ;})
+//    // set x scale
+//    .x(d3.scale.linear().domain([-5, 70]))
+//    // set y scale
+//    .y(d3.scale.linear().domain([-1, 15]))
+//    // (optional) whether chart should rescale y axis to fit data, :default = false
+//    .elasticY(false)
+//    // (optional) when elasticY is on whether padding should be applied to y axis domain, :default=0
+//    .yAxisPadding(100)
+//    // (optional) whether chart should rescale x axis to fit data, :default = false
+//    .elasticX(false)
+//    // (optional) when elasticX is on whether padding should be applied to x axis domain, :default=0
+//    .xAxisPadding(500)
+//    .xAxisLabel("Net value an ")
+//    .yAxisLabel("Number of expensives")
+//    // set radius scale
+//    .r(d3.scale.linear().domain([0, 100]))
+//    // (optional) whether chart should render labels, :default = true
+//    .renderLabel(false)
+//    // (optional) closure to generate label per bubble, :default = group.key
+//    //.label(function(p) {return p.key[3]})
+//    // (optional) whether chart should render titles, :default = false
+//    .renderTitle(true)
+//    // (optional) closure to generate title per bubble, :default = d.key + ": " + d.value
+//    .title(function(p) {
+//         return  "Total: R$ "+p.key[0].toFixed(0) +",00\n"
+//                 +"Mean: R$ " + p.key[2].toFixed(0) + ",00\n"
+//                 +"Party: " +p.key[3] ;
+//    })
+//    // (optional) render horizontal grid lines, :default=false
+//    .renderHorizontalGridLines(true)
+//    // (optional) render vertical grid lines, :default=false
+//    .renderVerticalGridLines(true);
+//
+//  party_chart.render()
 }
