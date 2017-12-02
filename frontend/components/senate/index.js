@@ -28,17 +28,21 @@ function lineGraphLoad(data){
       var year_data = data.filter(function(y_d){
         if(y_d.year == y) return y_d
       })[0]
-      console.log(year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000);
       return year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000
     }
 
     var dim = cs_lf.dimension(function(d){domain.push(d.year.toString()); return [d.year,getVal(d.year)]});
 
+    var aux = domain.pop()
+    domain.reverse()
+    domain.push(aux)
+    domain.reverse()
+
     var grouped = dim.group().reduceSum(function(d){return +d.content.sum_mean_max_year[0].sum/1000000;});
 
     var width = document.getElementById("main").getBoundingClientRect().width - 50;
 
-    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Totais de gastos por ano"
+    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Reimbursements by year"
 
     line_graph.width(width)
           .height(200)
