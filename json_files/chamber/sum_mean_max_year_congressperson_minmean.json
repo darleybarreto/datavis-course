@@ -1,9 +1,9 @@
-{"congressperson_name":"RODOVALHO","year":2009,"sum":7545.21,"mean":40.5656451613,"max":160.0}
-{"congressperson_name":"JORGE TADEU MUDALEN","year":2010,"sum":128170.6699999995,"mean":78.152847561,"max":4900.0}
-{"congressperson_name":"CELSO RUSSOMANNO","year":2011,"sum":2672.02,"mean":65.1712195122,"max":295.84}
-{"congressperson_name":"HUMBERTO SOUTO","year":2012,"sum":250.2,"mean":62.55,"max":103.4}
-{"congressperson_name":"MANUEL ROSA NECA","year":2013,"sum":23099.08,"mean":86.8386466165,"max":1545.07}
-{"congressperson_name":"JORGE TADEU MUDALEN","year":2014,"sum":142048.4500000003,"mean":86.142177077,"max":3000.0}
-{"congressperson_name":"L\u00c9O OLIVEIRA","year":2015,"sum":115.0,"mean":38.3333333333,"max":50.0}
-{"congressperson_name":"NILM\u00c1RIO MIRANDA","year":2016,"sum":1370.71,"mean":91.3806666667,"max":787.35}
-{"congressperson_name":"JORGE TADEU MUDALEN","year":2017,"sum":144055.3700000004,"mean":98.8712216884,"max":16000.0}
+{"year":2009,"congressperson_name":"RODOVALHO","sum":7545.21,"mean":40.5656451613,"max":160.0}
+{"year":2010,"congressperson_name":"JORGE TADEU MUDALEN","sum":127298.5899999996,"mean":77.6210914634,"max":4900.0}
+{"year":2011,"congressperson_name":"CELSO RUSSOMANNO","sum":2364.52,"mean":57.6712195122,"max":295.84}
+{"year":2012,"congressperson_name":"HUMBERTO SOUTO","sum":248.19,"mean":62.0475,"max":103.4}
+{"year":2013,"congressperson_name":"MANUEL ROSA NECA","sum":22853.84,"mean":85.9166917293,"max":1545.07}
+{"year":2014,"congressperson_name":"JORGE TADEU MUDALEN","sum":141867.5400000002,"mean":86.0324681625,"max":3000.0}
+{"year":2015,"congressperson_name":"L\u00c9O OLIVEIRA","sum":115.0,"mean":38.3333333333,"max":50.0}
+{"year":2016,"congressperson_name":"NILM\u00c1RIO MIRANDA","sum":1272.71,"mean":84.8473333333,"max":787.35}
+{"year":2017,"congressperson_name":"JORGE TADEU MUDALEN","sum":143706.2000000004,"mean":98.6315717227,"max":16000.0}
