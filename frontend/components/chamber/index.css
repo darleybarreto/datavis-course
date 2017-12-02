@@ -5,3 +5,9 @@
 #type, #party{
 	width: 100%
 }
+
+#camara > #card-1{
+	max-width: calc(100% - 30px);
+	width: calc(100% - 30px)
+
+}

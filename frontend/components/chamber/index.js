@@ -31,19 +31,16 @@ function mainGraphLoad(data){
     var year_data = data.filter(function(y_d){
       if(y_d.year == y) return y_d
     })[0]
-    console.log(year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000);
     return year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000
   }
   //Header
-  document.getElementById("main").getElementsByClassName("header")[0].textContent = "Totais de gastos por ano"
+  document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net values by year"
 
   //Graph tag
   var main_graph = dc.seriesChart("#main")
 
   //Dimension of Graph
   var dim = cs_fi.dimension(function(d){domain.push(d.year.toString()); return [d.year,getVal(d.year)]})
-
-  console.log(domain);
 
   //Group
   var grouped = dim.group().reduceSum(function(d){
@@ -72,83 +69,135 @@ function mainGraphLoad(data){
         .keyAccessor(function(d) {return +d.key[0];})
         .valueAccessor(function(d) {return +d.key[1] ;})
         .legend(dc.legend().x(350).y(350).itemHeight(13).gap(5).horizontal(1).legendWidth(140).itemWidth(70));
-
-
-
   //
   main_graph.render()
 
 }
 
 function expansiveTypeChamberLoad(data){
-  var expensive_chart = dc.barChart("#type")
-  var max;
-  var y;
+  var labels_numb = [] ;
+  var data_to_show;
 
-  function totalByType(typeKey,id){
-    var tag = document.getElementById(id).getElementsByClassName("footer")[0]
-    var value = y.content.sum_mean_max_year_spents_type_total.filter(function(typ){
-      if (typ.subquota_number == typeKey) return typ
-    })[0].sum
+  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Net values distribution of "+year
 
-    tag.textContent = "Tipo "+typeKey+"- Valor Bruto: R$ "+value.toFixed(2).toString().replace('.',',')
-  }
-
-  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Distribuição de gastos do ano de "+year
-
-  var cf_ex =  crossfilter(data.filter(function (d){
+  data.forEach(function(d){
+    let response = []
     if (d.year.toString() == year){
-      y = d
-      max = d.content.sum_mean_max_year[0].sum
-      return d
+      let res = d.content.sum_mean_max_year_spents_type_total
+      res.forEach(function(element){
+        response.push(element.sum.toFixed(0)/1000)
+        labels_numb.push(element.subquota_number)
+      })
+      data_to_show = response;
     }
-  })[0].content.sum_mean_max_year_spents_type_total)
-
-  var domain = []
-
-  //Dimension of Graph
-  var dim = cf_ex.dimension(function(d) {
-    domain.push(d.subquota_number.toString())
-    return d.subquota_number
   })
 
-  totalByType(domain[0],'card-1')
+  console.log(data_to_show);
+  console.log(labels_numb);
 
-  //Group
-  var grouped = dim.group().reduceSum(function(d){
-    return +d.sum/max
+  var ctx = document.getElementById('type').getContext('2d')
+
+  d3.json("json_files/chamber/spents_categories.json",function(d){
+      console.log(d);
+      var chart =  new Chart(ctx, {
+          // The type of chart we want to create
+          type: 'horizontalBar',
+
+          // The data for our dataset
+          data: {
+              labels: labels_numb.map(function(n){return d[n.toString()]}),
+              datasets: [{
+                  label: "Net Value",
+                  backgroundColor: 'rgb(255, 99, 132)',
+                  borderColor: 'rgb(255, 99, 132)',
+                  data: data_to_show,
+              }]
+          },
+          // Configuration options go here
+          options: {
+            scales: {
+                xAxes: [{
+                    gridLines: {
+                        offsetGridLines: true
+                    }
+                }]
+            }
+          }
+      });
+
   })
 
-  var width = document.getElementById("type").getBoundingClientRect().width - 20;
-
-  expensive_chart.width(width)
-                .height(350)
-                .x(d3.scale.ordinal().domain(domain))
-                .xUnits(dc.units.ordinal)
-                .margins({top: 50, right: 50, bottom: 50, left: 60})
-                .brushOn(false)
-                .xAxisLabel("Tipos de gastos")
-                .yAxisLabel("Porcentagem")
-                .dimension(dim)
-                .group(grouped)
-                .on('renderlet', function(chart) {
-                    chart.selectAll('rect').on("click", function(d) {
-                      totalByType(d.data.key,'card-1')
-                    });
-                });
+  // var expensive_chart = dc.barChart("#type")
+  // var max;
+  // var y;
   //
-  expensive_chart.render()
+  // function totalByType(typeKey,id){
+  //   var tag = document.getElementById(id).getElementsByClassName("footer")[0]
+  //   var value = y.content.sum_mean_max_year_spents_type_total.filter(function(typ){
+  //     if (typ.subquota_number == typeKey) return typ
+  //   })[0].sum
+  //
+  //   tag.textContent = "Type "+typeKey+"- Value: R$ "+value.toFixed(2).toString().replace('.',',')
+  // }
+  //
+  //
+  //
+  // var cf_ex =  crossfilter(data.filter(function (d){
+  //   if (d.year.toString() == year){
+  //     y = d
+  //     max = d.content.sum_mean_max_year[0].sum
+  //     return d
+  //   }
+  // })[0].content.sum_mean_max_year_spents_type_total)
+  //
+  // var domain = []
+  //
+  // //Dimension of Graph
+  // var dim = cf_ex.dimension(function(d) {
+  //   domain.push(d.subquota_number.toString())
+  //   return d.subquota_number
+  // })
+  //
+  // totalByType(domain[0],'card-1')
+  //
+  // //Group
+  // var grouped = dim.group().reduceSum(function(d){
+  //   return +d.sum/max
+  // })
+  //
+  // var width = document.getElementById("type").getBoundingClientRect().width - 20;
+  //
+  // expensive_chart.width(width)
+  //               .height(350)
+  //               .x(d3.scale.ordinal().domain(domain))
+  //               .xUnits(dc.units.ordinal)
+  //               .margins({top: 50, right: 50, bottom: 50, left: 60})
+  //               .brushOn(false)
+  //               .xAxisLabel("Reimbursements type")
+  //               .yAxisLabel("Percent")
+  //               .dimension(dim)
+  //               .ordering(function(d){console.log(d);})
+  //               .group(grouped)
+  //               .on('renderlet', function(chart) {
+  //                   chart.selectAll('rect').on("click", function(d) {
+  //                     totalByType(d.data.key,'card-1')
+  //                   });
+  //               });
+  // //
+  // expensive_chart.render()
 }
 
 function partyExpensive(data){
   var party_chart = dc.bubbleChart('#party')
 
-  document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Distribuição de gastos dos partidos no ano de "+year
+  document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution of "+year
 
   var cf_ex =  crossfilter(data.filter(function (d){
+    console.log(d.year.toString() == year);
     if (d.year.toString() == year){
       y = d
       max = d.content.sum_mean_max_year[0].sum
+      console.log(d);
       return d
     }
   })[0].content.sum_mean_max_year_meanspentbytype_normalizedbycount)
@@ -205,8 +254,8 @@ function partyExpensive(data){
     .elasticX(false)
     // (optional) when elasticX is on whether padding should be applied to x axis domain, :default=0
     .xAxisPadding(500)
-    .xAxisLabel("Gasto por milhar")
-    .yAxisLabel("Numero de Gastos")
+    .xAxisLabel("Net value an ")
+    .yAxisLabel("Number of expensives")
     // set radius scale
     .r(d3.scale.linear().domain([0, 100]))
     // (optional) whether chart should render labels, :default = true
@@ -218,8 +267,8 @@ function partyExpensive(data){
     // (optional) closure to generate title per bubble, :default = d.key + ": " + d.value
     .title(function(p) {
          return  "Total: R$ "+p.key[0].toFixed(0) +",00\n"
-                 +"Media: R$ " + p.key[2].toFixed(0) + ",00\n"
-                 +"Partido: " +p.key[3] ;
+                 +"Mean: R$ " + p.key[2].toFixed(0) + ",00\n"
+                 +"Party: " +p.key[3] ;
     })
     // (optional) render horizontal grid lines, :default=false
     .renderHorizontalGridLines(true)
