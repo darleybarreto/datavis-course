@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/darleybarreto/datavis-project#readme",
   "dependencies": {
+    "chartjs": "^0.3.24",
     "crossfilter": "^1.3.12",
     "dc": "^2.1.9"
   }

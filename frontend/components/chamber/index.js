@@ -4,49 +4,46 @@ function loadChamberGraphs(){
   }
 
   d3.json("json_files/chamber/grouped.json",function(err,data){
-    var cs_chb = crossfilter(data)
-    // console.log(err);
-    console.log("Data",data);
-    //Domain Maniplation
-    mainGraphLoad(cs_chb);
-    expansiveTypeChamberLoad(data)
-    partyExpensive(data)
-
+    mainGraphLoad(data);
+    loadChamberTimes(data)
   })
 }
 
-function loadChamberTimes(){
-  window.onresize = function(){
-    loadChamberGraphs()
+function loadChamberTimes(d){
+  if (d == undefined){
+    d3.json("json_files/chamber/grouped.json",function(err,data){
+      expansiveTypeChamberLoad(data)
+      partyExpensive(data)
+    })
   }
-
-  d3.json("json_files/chamber/grouped.json",function(err,data){
-    var cs_chb = crossfilter(data)
-    // console.log(err);
-    console.log("Data",data);
-    //Domain Maniplation
-    expansiveTypeChamberLoad(data)
-    partyExpensive(data)
-
-  })
+  //
+  else{
+    expansiveTypeChamberLoad(d)
+    partyExpensive(d)
+  }
 }
 
-function mainGraphLoad(crossfilter){
+function mainGraphLoad(data){
   var domain = []
+  var cs_fi = crossfilter(data)
+
+  function getVal(y){
+    var year_data = data.filter(function(y_d){
+      if(y_d.year == y) return y_d
+    })[0]
+    console.log(year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000);
+    return year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000
+  }
   //Header
   document.getElementById("main").getElementsByClassName("header")[0].textContent = "Totais de gastos por ano"
 
   //Graph tag
-  var main_graph = dc.compositeChart("#main")
+  var main_graph = dc.seriesChart("#main")
 
   //Dimension of Graph
-  var dim = crossfilter.dimension(function(d){domain.push(d.year); return d.year})
+  var dim = cs_fi.dimension(function(d){domain.push(d.year.toString()); return [d.year,getVal(d.year)]})
 
-  //Domain manipulation
-  // var last = domain.pop()
-  // domain.reverse().push(last)
-  // domain.reverse()
-  // console.log(domain);
+  console.log(domain);
 
   //Group
   var grouped = dim.group().reduceSum(function(d){
@@ -58,24 +55,25 @@ function mainGraphLoad(crossfilter){
   var width = document.getElementById("main").getBoundingClientRect().width - 50;
 
   main_graph.width(width)
-          .height(200)
-          .margins({top: 50, right: 50, bottom: 25, left: 60})
-          .dimension(dim)
-          .x(d3.scale.ordinal().domain(domain))
-          .xUnits(dc.units.ordinal)
-          .elasticY(false)
-          ._rangeBandPadding(1)
-          .y(d3.scale.linear().domain([0, 180]))
-          .yAxisLabel("Gastos por milhão")
-          .renderHorizontalGridLines(true)
-          .legend(dc.legend().x(width-100).y(40).itemHeight(13).gap(5))
-          .brushOn(false)
-          .compose([
-             dc.lineChart(main_graph)
-                       .renderDataPoints(true)
-                       .renderArea(true)
-                       .group(grouped, 'Gastos')
-            ]);
+        .height(200)
+        .chart(function(c) { return dc.lineChart(c).renderDataPoints(true); })
+        .x(d3.scale.ordinal().domain(domain))
+        .xUnits(dc.units.ordinal)
+        .brushOn(false)
+        .yAxisLabel("Gastos")
+        .xAxisLabel("Ano")
+        .clipPadding(10)
+        ._rangeBandPadding(1)
+        .elasticY(true)
+        .dimension(dim)
+        .group(grouped)
+        .mouseZoomable(false)
+        .seriesAccessor(function(d) {return })
+        .keyAccessor(function(d) {return +d.key[0];})
+        .valueAccessor(function(d) {return +d.key[1] ;})
+        .legend(dc.legend().x(350).y(350).itemHeight(13).gap(5).horizontal(1).legendWidth(140).itemWidth(70));
+
+
 
   //
   main_graph.render()
