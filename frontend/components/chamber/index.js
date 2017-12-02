@@ -228,7 +228,6 @@ function scatterChart(data){
   var grouped = dim.group()
 
   var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
-//  var colors = ["red", "#ccc","steelblue","green"]
   
   scatter_chart
     .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
