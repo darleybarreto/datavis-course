@@ -1,6 +1,6 @@
 //initing firsts perpectives options
 var context = 'senado'
-var year = 2009
+var year = '2009'
 
 window.onload = function(){
   document.getElementById("panel").getElementsByClassName("button")[0].classList.add('clicked')
@@ -52,8 +52,8 @@ function chamberGen(tag){
          + '<div id="card-1" class="card">'
           +  '<div class="header -extyp">'
           +  '</div>'
-          +  '<div id="type">'
-          +  '</div>'
+          +  '<canvas id="type">'
+          +  '</canvas>'
           +  '<div class="footer">'
           +     '<div>'
           +     '</div>'
