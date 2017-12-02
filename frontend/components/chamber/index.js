@@ -14,13 +14,19 @@ function loadChamberTimes(d){
     d3.json("json_files/chamber/grouped.json",function(err,data){
       expansiveTypeChamberLoad(data)
       partyExpensive(data)
+      meanmean(data)
     })
   }
   //
   else{
     expansiveTypeChamberLoad(d)
     partyExpensive(d)
+    meanmean(d)
   }
+}
+
+function meanmean(data){
+  
 }
 
 function mainGraphLoad(data){
