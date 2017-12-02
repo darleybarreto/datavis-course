@@ -34,7 +34,7 @@ function mainGraphLoad(data){
     return year_data.content.sum_mean_max_year[0].sum.toFixed(0)/1000000
   }
   //Header
-  document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net values by year"
+  document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net value per milion by year"
 
   //Graph tag
   var main_graph = dc.seriesChart("#main")
@@ -57,8 +57,8 @@ function mainGraphLoad(data){
         .x(d3.scale.ordinal().domain(domain))
         .xUnits(dc.units.ordinal)
         .brushOn(false)
-        .yAxisLabel("Gastos")
-        .xAxisLabel("Ano")
+        .yAxisLabel("Net Values")
+        .xAxisLabel("Year")
         .clipPadding(10)
         ._rangeBandPadding(1)
         .elasticY(true)
@@ -78,12 +78,17 @@ function expansiveTypeChamberLoad(data){
   var labels_numb = [] ;
   var data_to_show;
 
-  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Net values distribution of "+year
+  document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Net value distribution in "+year
+
+  function sortNumber(a,b) {
+    return b.sum - a.sum;
+  }
 
   data.forEach(function(d){
     let response = []
     if (d.year.toString() == year){
       let res = d.content.sum_mean_max_year_spents_type_total
+      res.sort(sortNumber)
       res.forEach(function(element){
         response.push(element.sum.toFixed(0)/1000)
         labels_numb.push(element.subquota_number)
@@ -91,9 +96,6 @@ function expansiveTypeChamberLoad(data){
       data_to_show = response;
     }
   })
-
-  console.log(data_to_show);
-  console.log(labels_numb);
 
   var ctx = document.getElementById('type').getContext('2d')
 
@@ -107,8 +109,8 @@ function expansiveTypeChamberLoad(data){
           data: {
               labels: labels_numb.map(function(n){return d[n.toString()]}),
               datasets: [{
-                  label: "Net Value",
-                  backgroundColor: 'rgb(255, 99, 132)',
+                  label: "Net Value / 1000",
+                  backgroundColor: '#80cdc1',
                   borderColor: 'rgb(255, 99, 132)',
                   data: data_to_show,
               }]
@@ -118,7 +120,8 @@ function expansiveTypeChamberLoad(data){
             scales: {
                 xAxes: [{
                     gridLines: {
-                        offsetGridLines: true
+                        offsetGridLines: false,
+                        maxBarThickness:20
                     }
                 }]
             }
@@ -190,7 +193,7 @@ function expansiveTypeChamberLoad(data){
 function partyExpensive(data){
   var party_chart = dc.bubbleChart('#party')
 
-  document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution of "+year
+  document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution in "+year
 
   var cf_ex =  crossfilter(data.filter(function (d){
     console.log(d.year.toString() == year);
