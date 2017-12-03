@@ -321,7 +321,7 @@ function scatterChart(dataset){
         xAxis: {
             gridLineWidth: 1,
             title: {
-                text: 'Count'
+                text: '#entries'
             },
             labels: {
                 format: '{value}'
@@ -332,7 +332,7 @@ function scatterChart(dataset){
             startOnTick: false,
             endOnTick: false,
             title: {
-                text: 'Sum'
+                text: 'sum'
             },
             labels: {
                 format: 'R${value}'
@@ -344,7 +344,7 @@ function scatterChart(dataset){
             useHTML: true,
             headerFormat: '<table>',
             pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
-                '<tr><th>count:</th><td>{point.x}</td></tr>' +
+                '<tr><th>#entries:</th><td>{point.x}</td></tr>' +
                 '<tr><th>sum:</th><td>R${point.y}</td></tr>' +
                 '<tr><th>mean:</th><td>R${point.z}</td></tr>',
             footerFormat: '</table>',
