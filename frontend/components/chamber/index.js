@@ -215,8 +215,8 @@ function mainGraphLoad(data){
         .keyAccessor(function(d) {return +d.key[0];})
         .valueAccessor(function(d) {return +d.key[1] ;})
         .legend(dc.legend().x(350).y(350).itemHeight(13).gap(5).horizontal(1).legendWidth(140).itemWidth(70));
-  //
-  main_graph.render()
+
+    main_graph.render()
 
 }
 
@@ -276,58 +276,6 @@ function expansiveTypeChamberLoad(data){
   })
 }
 
-// function partyExpensive(data){
-//   var party_chart = dc.bubbleChart('#party')
-
-//   document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution in "+year
-
-//   var cf_ex =  crossfilter(data.filter(function (d){
-//     console.log(d.year.toString() == year);
-//     if (d.year.toString() == year){
-//       y = d
-//       max = d.content.sum_mean_max_year[0].sum
-//       console.log(d);
-//       return d
-//     }
-//   })[0].content.sum_mean_max_year_meanspentbytype_normalizedbycount)
-
-//function scatterChart(data){
-//  var scatter_chart = dc.scatterPlot("#scatter");
-//    
-//  document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
-//
-//  var cf_ex =  crossfilter(data.filter(function (d){
-//    if (d.year.toString() == year){
-//      return d
-//    }
-//  })[0].content.sum_mean_max_year_congressperson_each)
-//
-//  //Dimension of Graph
-//  var dim = cf_ex.dimension(function(d) {
-//    return [+d.count, +d.sum];
-//  })
-//
-//  //Group
-//  var grouped = dim.group()
-//
-//  var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
-//  
-//  scatter_chart
-//    .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
-//    .width(width)
-//    .height(480)
-//    .x(d3.scale.linear().domain([0,1700]))
-//    .brushOn(false)
-//    .symbolSize(8)
-//    .clipPadding(10)
-//    .yAxisLabel("Sum")
-//    .xAxisLabel("Count")
-//    .dimension(dim)
-//    .group(grouped);
-//
-//  scatter_chart.render();
-//}
-
 function scatterChart(dataset){
     document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
 
@@ -339,28 +287,25 @@ function scatterChart(dataset){
     
     var data_plot = []
     for(let i in data_filtered){
-//        console.log(data_filtered[i].count)
         let count = data_filtered[i].count
         let sum = data_filtered[i].sum
         let mean = data_filtered[i].sum/data_filtered[i].count
         data_plot.push({x: +count,
                         y: +sum.toFixed(0),
                         z: +mean.toFixed(0),
-//                        z: 0.01,
                         name: data_filtered[i].congressperson_name,
                         color: "#80cdc1",
                         fillCollor: "#80cdc1"
                        })
     }
     
-//    console.log(data_plot)
     Highcharts.chart('scatter', {
             chart: {
                 type: 'scatter',
                 plotBorderWidth: 1,
                 zoomType: 'xy'
             },
-     
+        
         legend: {
             enabled: false
         },
@@ -381,21 +326,6 @@ function scatterChart(dataset){
             labels: {
                 format: '{value}'
             },
-//            plotLines: [{
-//                color: 'black',
-//                dashStyle: 'dot',
-//                width: 2,
-//                value: 65,
-//                label: {
-//                    rotation: 0,
-//                    y: 15,
-//                    style: {
-//                        fontStyle: 'italic'
-//                    },
-//                    text: 'Safe fat intake 65g/day'
-//                },
-//                zIndex: 3
-//            }]
         },
 
         yAxis: {
@@ -408,21 +338,6 @@ function scatterChart(dataset){
                 format: 'R${value}'
             },
             maxPadding: 0.2,
-//            plotLines: [{
-//                color: 'black',
-//                dashStyle: 'dot',
-//                width: 2,
-//                value: 50,
-//                label: {
-//                    align: 'right',
-//                    style: {
-//                        fontStyle: 'italic'
-//                    },
-//                    text: 'Safe sugar intake 50g/day',
-//                    x: -10
-//                },
-//                zIndex: 3
-//            }]
         },
 
         tooltip: {
@@ -447,23 +362,7 @@ function scatterChart(dataset){
 
         series: [{
             data: data_plot
-//            data: [
-//                { x: 95, y: 95, z: 13.8, name: 'BE', country: 'Belgium' },
-//                { x: 86.5, y: 102.9, z: 14.7, name: 'DE', country: 'Germany' },
-//                { x: 80.8, y: 91.5, z: 15.8, name: 'FI', country: 'Finland' },
-//                { x: 80.4, y: 102.5, z: 12, name: 'NL', country: 'Netherlands' },
-//                { x: 80.3, y: 86.1, z: 11.8, name: 'SE', country: 'Sweden' },
-//                { x: 78.4, y: 70.1, z: 16.6, name: 'ES', country: 'Spain' },
-//                { x: 74.2, y: 68.5, z: 14.5, name: 'FR', country: 'France' },
-//                { x: 73.5, y: 83.1, z: 10, name: 'NO', country: 'Norway' },
-//                { x: 71, y: 93.2, z: 24.7, name: 'UK', country: 'United Kingdom' },
-//                { x: 69.2, y: 57.6, z: 10.4, name: 'IT', country: 'Italy' },
-//                { x: 68.6, y: 20, z: 16, name: 'RU', country: 'Russia' },
-//                { x: 65.5, y: 126.4, z: 35.3, name: 'US', country: 'United States' },
-//                { x: 65.4, y: 50.8, z: 28.5, name: 'HU', country: 'Hungary' },
-//                { x: 63.4, y: 51.8, z: 15.4, name: 'PT', country: 'Portugal' },
-//                { x: 64, y: 82.9, z: 31.3, name: 'NZ', country: 'New Zealand' }
-//            ]
+
         }]
     });
 }
