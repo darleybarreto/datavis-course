@@ -127,8 +127,8 @@ function meanmean(data){
 
           points.forEach(point => {
             if(point.series.name == "Range"){
-              str += '<tr><td><span style="font-size:20px;color:' + '#beaed4' + '">●</span> ' + "Max: ("+max_mean_by_year[point.key].party+") R$ "+  max_mean_by_year[point.key].max+ 'k </td></tr>';
-              str += '<tr><td><span style="font-size:20px;color:' + '#fdc086' + '">●</span> ' + "Min: ("+min_mean_by_year[point.key].party+") R$ "+  min_mean_by_year[point.key].min+ 'k </td></tr>';
+              str += '<tr><td><span style="font-size:20px;color:' + '#1c9099' + '">●</span> ' + "Max: ("+max_mean_by_year[point.key].party+") R$ "+  max_mean_by_year[point.key].max+ 'k </td></tr>';
+              str += '<tr><td><span style="font-size:20px;color:' + '#ece2f0' + '">●</span> ' + "Min: ("+min_mean_by_year[point.key].party+") R$ "+  min_mean_by_year[point.key].min+ 'k </td></tr>';
             }
             else
               str += '<tr><td><span style="font-size:20px;color:' + point.color + '">●</span> ' + point.series.name + ': R$ '+mean_mean_by_year[point.key].mean+'k </td></tr>';
@@ -215,8 +215,8 @@ function mainGraphLoad(data){
         .keyAccessor(function(d) {return +d.key[0];})
         .valueAccessor(function(d) {return +d.key[1] ;})
         .legend(dc.legend().x(350).y(350).itemHeight(13).gap(5).horizontal(1).legendWidth(140).itemWidth(70));
-  //
-  main_graph.render()
+
+    main_graph.render()
 
 }
 
@@ -276,40 +276,95 @@ function expansiveTypeChamberLoad(data){
   })
 }
 
-function scatterChart(data){
-  var scatter_chart = dc.scatterPlot("#scatter");
+function scatterChart(dataset){
+    document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
 
-  document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
+    var data_filtered =  dataset.filter(function (d){
+        if (d.year.toString() == year){
+            return d
+        }
+    })[0].content.sum_mean_max_year_congressperson_each
 
-  var cf_ex =  crossfilter(data.filter(function (d){
-    if (d.year.toString() == year){
-      return d
+    var data_plot = []
+    for(let i in data_filtered){
+        let count = data_filtered[i].count
+        let sum = data_filtered[i].sum
+        let mean = data_filtered[i].sum/data_filtered[i].count
+        let party = data_filtered[i].party
+        data_plot.push({x: +count,
+                        y: +sum.toFixed(0),
+                        z: +mean.toFixed(0),
+                        name: data_filtered[i].congressperson_name,
+                        party: party,
+                        color: "#80cdc1",
+                        fillCollor: "#80cdc1"
+                       })
     }
-  })[0].content.sum_mean_max_year_congressperson_each)
 
-  //Dimension of Graph
-  var dim = cf_ex.dimension(function(d) {
-    return [+d.count, +d.sum];
-  })
+    Highcharts.chart('scatter', {
+            chart: {
+                type: 'scatter',
+                plotBorderWidth: 1,
+                zoomType: 'xy'
+            },
 
-  //Group
-  var grouped = dim.group()
+        legend: {
+            enabled: false
+        },
 
-  var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
+        title: {
+            text: false
+        },
 
-  scatter_chart
-    .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
-    .margins({top: 20, left: 60, right: 20, bottom: 20})
-    .width(width)
-    .height(480)
-    .x(d3.scale.linear().domain([0,1700]))
-    .brushOn(false)
-    .symbolSize(8)
-    .clipPadding(10)
-    .yAxisLabel("Sum")
-    .xAxisLabel("Count")
-    .dimension(dim)
-    .group(grouped);
+        subtitle: {
+            text: false
+        },
 
-  scatter_chart.render();
+        xAxis: {
+            gridLineWidth: 1,
+            title: {
+                text: '#entries'
+            },
+            labels: {
+                format: '{value}'
+            },
+        },
+
+        yAxis: {
+            startOnTick: false,
+            endOnTick: false,
+            title: {
+                text: 'sum'
+            },
+            labels: {
+                format: 'R${value}'
+            },
+            maxPadding: 0.2,
+        },
+
+        tooltip: {
+            useHTML: true,
+            headerFormat: '<table>',
+            pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3> <h3>party: {point.party} </h3></th></tr>' +
+                '<tr><th>#entries:</th><td>{point.x}</td></tr>' +
+                '<tr><th>sum:</th><td>R${point.y}</td></tr>' +
+                '<tr><th>mean:</th><td>R${point.z}</td></tr>',
+            footerFormat: '</table>',
+            followPointer: true
+        },
+
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: false,
+                    format: '{point.name}'
+                }
+            }
+        },
+
+        series: [{
+            data: data_plot
+
+        }]
+    });
 }

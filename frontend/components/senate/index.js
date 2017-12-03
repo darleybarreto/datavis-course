@@ -126,7 +126,7 @@ function expansiveTypeSenateLoad(data){
           lineWidth: 0,
           min: 0
       },
-    
+
       tooltip: {
           shared: true,
           pointFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>'
