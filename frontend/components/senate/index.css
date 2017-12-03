@@ -18,3 +18,7 @@
 	width: calc(100% - 30px);
 	height: 200px;
 }
+
+#senado > #card-senate-1{
+	height: auto !important;
+}

@@ -299,7 +299,7 @@ function scatterChart(data){
 
   scatter_chart
     .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
-    .margins({top: 20, left: 10, right: 10, bottom: 20})
+    .margins({top: 20, left: 60, right: 20, bottom: 20})
     .width(width)
     .height(480)
     .x(d3.scale.linear().domain([0,1700]))

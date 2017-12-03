@@ -70,7 +70,7 @@ function lineGraphLoad(data){
 
 function expansiveTypeSenateLoad(data){
   document.getElementById("card-senate-1").getElementsByClassName("header")[0].textContent = "Reimbursements types expenses in "+year;
-  
+
   var response = {},
       labels = [],
       dataset = [];
@@ -82,7 +82,7 @@ function expansiveTypeSenateLoad(data){
 
         res.forEach(function(element){
           let id = parseInt(element.expense_type_id);
-          
+
           if(!(id in response))
             response[id] = element.sum.toFixed(0)/1000;
           else
@@ -90,12 +90,15 @@ function expansiveTypeSenateLoad(data){
         })
       }
     });
-    
+
     for (let i in response){
       labels.push(categories[i]);
       dataset.push(response[i]);
+
     }
-    console.log(dataset)
+    console.log(labels);
+    console.log(dataset);
+
     Highcharts.chart('radar', {
       chart: {
         polar: true,
@@ -108,7 +111,7 @@ function expansiveTypeSenateLoad(data){
       pane: {
           size: '80%'
       },
-    
+
       xAxis: {
           categories: labels,
           tickmarkPlacement: 'on',
@@ -123,7 +126,7 @@ function expansiveTypeSenateLoad(data){
           lineWidth: 0,
           min: 0
       },
-
+    
       tooltip: {
           shared: true,
           pointFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>'
@@ -144,5 +147,5 @@ function expansiveTypeSenateLoad(data){
 
     });
 
-  }); 
+  });
 }
