@@ -4,17 +4,18 @@ function loadSenateGraphs(){
   }
   d3.json("json_files/senate/grouped.json", function(err,data){
     lineGraphLoad(data);
+    loadSenateTimes(data);
   })
 }
 
 function loadSenateTimes(d){
   if (d==undefined){
     d3.json("json_files/senate/grouped.json", function(err,data){
-      expansiveTypesLoad(data);
+      expansiveTypeSenateLoad(data);
     })
   }
   else{
-    expansiveTypesLoad(d);
+    expansiveTypeSenateLoad(d);
   }
 }
 
@@ -42,7 +43,7 @@ function lineGraphLoad(data){
 
     var width = document.getElementById("main").getBoundingClientRect().width - 50;
 
-    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Reimbursements by year"
+    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net value per milion by year"
 
     line_graph.width(width)
           .height(200)
@@ -67,37 +68,81 @@ function lineGraphLoad(data){
     line_graph.render()
 }
 
-function expansiveTypesLoad(){
-  d3.json("json_files/senate/sum_mean_max_year_spents_type_total_normalizedbycount.json", function(err,data){
-    // console.log(data);
-    // console.log(err);
-    // var line_typs = dc.compositeChart("#dist")
-    // var cs_lf = crossfilter(data);
-    // var domain = []
-    // var expensiveDim = cs_lf.dimension(function(d){domain.push(d.year.toString()); return d.year.toString() });
-    // var expensiveGro = expensiveDim.group().reduceSum(function(d){return +d.max/1000;});
-    // var width = document.getElementById("line").getBoundingClientRect().width - 50;
-    //
-    // line_typs.width(width)
-    //         .height(200)
-    //         .margins({top: 50, right: 50, bottom: 25, left: 60})
-    //         .dimension(expensiveDim)
-    //         .x(d3.scale.ordinal().domain(domain))
-    //         .xUnits(dc.units.ordinal)
-    //         .elasticY(true)
-    //         ._rangeBandPadding(1)
-    //         .yAxisLabel("Gastos/100")
-    //         .renderHorizontalGridLines(true)
-    //         .legend(dc.legend().x(width-100).y(40).itemHeight(13).gap(5))
-    //         .brushOn(false)
-    //         .compose([
-    //            dc.lineChart(line_typs)
-    //                      .renderDataPoints(true)
-    //                      .renderArea(true)
-    //                      .group(expensiveGro, 'Gastos')
-    //
-    //           ]);
-    //  //
-    // line_typs.render()
-  })
+function expansiveTypeSenateLoad(data){
+  document.getElementById("card-senate-1").getElementsByClassName("header")[0].textContent = "Reimbursements types expenses in "+year;
+  
+  var response = {},
+      labels = [],
+      dataset = [];
+
+  d3.json("json_files/senate/spents_categories.json",function(categories){
+    data.forEach(function(d){
+      if (d.year.toString() == year){
+        let res = d.content.sum_mean_max_year_spents_type_total
+
+        res.forEach(function(element){
+          let id = parseInt(element.expense_type_id);
+          
+          if(!(id in response))
+            response[id] = element.sum.toFixed(0)/1000;
+          else
+            response[id] += element.sum.toFixed(0)/1000;
+        })
+      }
+    });
+    
+    for (let i in response){
+      labels.push(categories[i]);
+      dataset.push(response[i]);
+    }
+    console.log(dataset)
+    Highcharts.chart('radar', {
+      chart: {
+        polar: true,
+        type: 'area'
+      },
+      title: {
+        text: null
+      },
+
+      pane: {
+          size: '80%'
+      },
+    
+      xAxis: {
+          categories: labels,
+          tickmarkPlacement: 'on',
+          lineWidth: 1,
+          labels:{
+            enabled: false
+          }
+      },
+
+      yAxis: {
+          gridLineInterpolation: 'polygon',
+          lineWidth: 0,
+          min: 0
+      },
+
+      tooltip: {
+          shared: true,
+          pointFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>'
+      },
+
+      legend: {
+          align: 'right',
+          verticalAlign: 'top',
+          y: 70,
+          layout: 'vertical'
+      },
+
+      series: [{
+          name: 'Reimbursements R$(k)',
+          data: dataset,
+          pointPlacement: 'on'
+      }]
+
+    });
+
+  }); 
 }
