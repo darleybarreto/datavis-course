@@ -32,84 +32,141 @@ function meanmean(data){
 
   var max_mean_by_year = {},
       min_mean_by_year = {},
-      mean_mean_by_year = {};
+      mean_mean_by_year = {},
+      mapDate = {};
 
   data.forEach(function(d){
     let res = d.content.sum_mean_party_year;
 
     res.forEach(function(element){
-      if(!(element.year in max_mean_by_year)){
-        max_mean_by_year[element.year] = {"party": element.party, "max": element.mean};
+      let year = parseInt(new Date(element.year.toString()).getTime())
+
+      mapDate[year] = element.year;
+      
+      if(!(year in max_mean_by_year)){
+        max_mean_by_year[year] = {"party": element.party, "max": element.mean, "n_congressman":element.n_congressman};
       }
       else{
-        if(element.mean > max_mean_by_year[element.year]["max"])
-          max_mean_by_year[element.year] = {"party": element.party, "max": element.mean};
+        if(element.mean > max_mean_by_year[year]["max"])
+          max_mean_by_year[year] = {"party": element.party, "max": element.mean, "n_congressman":element.n_congressman};
       }
 
-      if(!(element.year in min_mean_by_year)){
-        min_mean_by_year[element.year] = {"party": element.party, "min": element.mean};
+      if(!(year in min_mean_by_year)){
+        min_mean_by_year[year] = {"party": element.party, "min": element.mean, "n_congressman":element.n_congressman};
       }
       else{
-        if(element.mean < min_mean_by_year[element.year]["min"])
-          min_mean_by_year[element.year] = {"party": element.party, "min": element.mean};
+        if(element.mean < min_mean_by_year[year]["min"])
+          min_mean_by_year[year] = {"party": element.party, "min": element.mean, "n_congressman":element.n_congressman};
       }
 
-      if(!(element.year in mean_mean_by_year)){
-        mean_mean_by_year[element.year] = {"sum": element.mean, "count":0};
+      if(!(year in mean_mean_by_year)){
+        mean_mean_by_year[year] = {"sum": element.mean, "count":0};
 
       }
       else{
-        mean_mean_by_year[element.year]["sum"] += element.mean;
-        mean_mean_by_year[element.year]["count"]++;
+        mean_mean_by_year[year]["sum"] += element.mean;
+        mean_mean_by_year[year]["count"]++;
       }
     });
   });
-  var data_mean_mean_by_year = [];
+  var data_mean_mean_by_year = [],
+      data_min_max_by_year = [];
 
   for(let i in mean_mean_by_year){
-    data_mean_mean_by_year.push({"year":i,"mean":(mean_mean_by_year[i]["sum"]/mean_mean_by_year[i]["count"]).toFixed(0)/1000});
-  }
-  // console.log(max_mean_by_year)
-  // console.log(mean_mean_by_year)
-  // console.log(min_mean_by_year)
+    let year = parseInt(i)
+    min_mean_by_year[year]["min"] = min_mean_by_year[year]["min"].toFixed(0)/1000
+    max_mean_by_year[year]["max"] = max_mean_by_year[year]["max"].toFixed(0)/1000
+    mean_mean_by_year[year]["mean"] = (mean_mean_by_year[year]["sum"]/mean_mean_by_year[i]["count"]).toFixed(0)/1000
+    
+    data_mean_mean_by_year.push([year,mean_mean_by_year[i]["mean"]])
+    data_min_max_by_year.push([year, min_mean_by_year[i]["min"],max_mean_by_year[i]["max"]])
+  } 
 
-  var domain = []
-  var cs_fi = crossfilter(data_mean_mean_by_year)
-  var mean_graph = dc.seriesChart("#mean");
-  
-  var dim = cs_fi.dimension(function(d){
-    domain.push(d.year);
-    return [parseInt(d.year),d.mean]
+  Highcharts.chart('meangraph', {
+
+      title: {
+          text: null
+      },
+
+      xAxis: {
+          title: {
+              text: "Years"
+          },
+          type: 'datetime',
+          
+          dateTimeLabelFormats: { 
+            year: '%Y'
+          },
+      },
+
+      yAxis: {
+          title: {
+              text: "Net values"
+          },
+          labels: {
+            formatter: function() {
+                return 'R$' + this.value + 'k';
+            }
+          },
+          min:0
+      },
+      tooltip: {
+        backgroundColor: 'none',
+        borderWidth: 0,
+        shadow: false,
+        useHTML: true,
+        shared: true,
+        padding: 0,
+        split: false,
+        crosshairs: true,
+
+        formatter: function(tooltip) {
+          const points = this.points;
+          let str = '<table><tr>';
+          str += '<tr><td><span style="font-size:15px"> Year '+mapDate[points[0].key] +'</span></tr></td>'
+
+          points.forEach(point => {
+            if(point.series.name == "Range"){
+              str += '<tr><td><span style="font-size:20px;color:' + '#beaed4' + '">●</span> ' + "Max: ("+max_mean_by_year[point.key].party+") R$ "+  max_mean_by_year[point.key].max+ 'k </td></tr>';
+              str += '<tr><td><span style="font-size:20px;color:' + '#fdc086' + '">●</span> ' + "Min: ("+min_mean_by_year[point.key].party+") R$ "+  min_mean_by_year[point.key].min+ 'k </td></tr>';
+            }
+            else
+              str += '<tr><td><span style="font-size:20px;color:' + point.color + '">●</span> ' + point.series.name + ': R$ '+mean_mean_by_year[point.key].mean+'k </td></tr>';
+          
+          });
+
+          str += '</tr></table>';
+          return str;
+        },
+        positioner: function () {
+          const chart = this.chart;
+          return { x: (chart.plotWidth + chart.marginRight - this.label.getBBox().width) / 8, y: chart.plotTop};
+        }
+      },
+      
+      series: [{
+          name: 'Mean',
+          data: data_mean_mean_by_year,
+          zIndex: 1,
+          marker: {
+              fillColor: 'white',
+              lineWidth: 2,
+              lineColor: Highcharts.getOptions().colors[0]
+          }
+      }, {
+          name: 'Range',
+          data: data_min_max_by_year,
+          type: 'arearange',
+          lineWidth: 0,
+          linkedTo: ':previous',
+          color: Highcharts.getOptions().colors[2],
+          fillOpacity: 0.3,
+          zIndex: 0,
+          marker: {
+              enabled: false
+          }
+      }]
   });
-
-  var grouped = dim.group();
-
-  var width = document.getElementById("mean").getBoundingClientRect().width - 10;
-  
-  var tooltip = d3.select("#vis-container").append("div")
-      .attr("class", "tooltip")
-      .style("opacity", 0);
-
-  mean_graph.width(width)
-        .height(200)
-        .chart(function(c) { return dc.lineChart(c).renderDataPoints(true); })
-        .x(d3.scale.ordinal().domain(domain))
-        .xUnits(dc.units.ordinal)
-        .brushOn(false)
-        .yAxisLabel("Net Values")
-        .xAxisLabel("Year")
-        .clipPadding(10)
-        ._rangeBandPadding(1)
-        .elasticY(true)
-        .dimension(dim)
-        .group(grouped)
-        .mouseZoomable(false)
-        .seriesAccessor(function(d) {return })
-        .keyAccessor(function(d) {return +d.key[0];})
-        .valueAccessor(function(d) {return +d.key[1] ;})
-        .legend(dc.legend().x(350).y(350).itemHeight(13).gap(5).horizontal(1).legendWidth(140).itemWidth(70));
-  //
-  mean_graph.render()
 }
 
 function mainGraphLoad(data){
@@ -189,7 +246,7 @@ function expansiveTypeChamberLoad(data){
   var ctx = document.getElementById('type').getContext('2d')
 
   d3.json("json_files/chamber/spents_categories.json",function(d){
-      console.log(d);
+      // console.log(d);
       var chart =  new Chart(ctx, {
           // The type of chart we want to create
           type: 'horizontalBar',
