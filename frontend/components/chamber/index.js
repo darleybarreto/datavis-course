@@ -42,7 +42,7 @@ function meanmean(data){
       let year = parseInt(new Date(element.year.toString()).getTime())
 
       mapDate[year] = element.year;
-      
+
       if(!(year in max_mean_by_year)){
         max_mean_by_year[year] = {"party": element.party, "max": element.mean, "n_congressman":element.n_congressman};
       }
@@ -77,10 +77,10 @@ function meanmean(data){
     min_mean_by_year[year]["min"] = min_mean_by_year[year]["min"].toFixed(0)/1000
     max_mean_by_year[year]["max"] = max_mean_by_year[year]["max"].toFixed(0)/1000
     mean_mean_by_year[year]["mean"] = (mean_mean_by_year[year]["sum"]/mean_mean_by_year[i]["count"]).toFixed(0)/1000
-    
+
     data_mean_mean_by_year.push([year,mean_mean_by_year[i]["mean"]])
     data_min_max_by_year.push([year, min_mean_by_year[i]["min"],max_mean_by_year[i]["max"]])
-  } 
+  }
 
   Highcharts.chart('meangraph', {
 
@@ -93,8 +93,8 @@ function meanmean(data){
               text: "Years"
           },
           type: 'datetime',
-          
-          dateTimeLabelFormats: { 
+
+          dateTimeLabelFormats: {
             year: '%Y'
           },
       },
@@ -132,7 +132,7 @@ function meanmean(data){
             }
             else
               str += '<tr><td><span style="font-size:20px;color:' + point.color + '">●</span> ' + point.series.name + ': R$ '+mean_mean_by_year[point.key].mean+'k </td></tr>';
-          
+
           });
 
           str += '</tr></table>';
@@ -143,7 +143,7 @@ function meanmean(data){
           return { x: (chart.plotWidth + chart.marginRight - this.label.getBBox().width) / 8, y: chart.plotTop};
         }
       },
-      
+
       series: [{
           name: 'Mean',
           data: data_mean_mean_by_year,
@@ -273,87 +273,12 @@ function expansiveTypeChamberLoad(data){
             }
           }
       });
-
   })
-
-  // var expensive_chart = dc.barChart("#type")
-  // var max;
-  // var y;
-  //
-  // function totalByType(typeKey,id){
-  //   var tag = document.getElementById(id).getElementsByClassName("footer")[0]
-  //   var value = y.content.sum_mean_max_year_spents_type_total.filter(function(typ){
-  //     if (typ.subquota_number == typeKey) return typ
-  //   })[0].sum
-  //
-  //   tag.textContent = "Type "+typeKey+"- Value: R$ "+value.toFixed(2).toString().replace('.',',')
-  // }
-  //
-  //
-  //
-  // var cf_ex =  crossfilter(data.filter(function (d){
-  //   if (d.year.toString() == year){
-  //     y = d
-  //     max = d.content.sum_mean_max_year[0].sum
-  //     return d
-  //   }
-  // })[0].content.sum_mean_max_year_spents_type_total)
-  //
-  // var domain = []
-  //
-  // //Dimension of Graph
-  // var dim = cf_ex.dimension(function(d) {
-  //   domain.push(d.subquota_number.toString())
-  //   return d.subquota_number
-  // })
-  //
-  // totalByType(domain[0],'card-1')
-  //
-  // //Group
-  // var grouped = dim.group().reduceSum(function(d){
-  //   return +d.sum/max
-  // })
-  //
-  // var width = document.getElementById("type").getBoundingClientRect().width - 20;
-  //
-  // expensive_chart.width(width)
-  //               .height(350)
-  //               .x(d3.scale.ordinal().domain(domain))
-  //               .xUnits(dc.units.ordinal)
-  //               .margins({top: 50, right: 50, bottom: 50, left: 60})
-  //               .brushOn(false)
-  //               .xAxisLabel("Reimbursements type")
-  //               .yAxisLabel("Percent")
-  //               .dimension(dim)
-  //               .ordering(function(d){console.log(d);})
-  //               .group(grouped)
-  //               .on('renderlet', function(chart) {
-  //                   chart.selectAll('rect').on("click", function(d) {
-  //                     totalByType(d.data.key,'card-1')
-  //                   });
-  //               });
-  // //
-  // expensive_chart.render()
 }
-
-// function partyExpensive(data){
-//   var party_chart = dc.bubbleChart('#party')
-
-//   document.getElementById("card-2").getElementsByClassName("header")[0].textContent = "Party net values distribution in "+year
-
-//   var cf_ex =  crossfilter(data.filter(function (d){
-//     console.log(d.year.toString() == year);
-//     if (d.year.toString() == year){
-//       y = d
-//       max = d.content.sum_mean_max_year[0].sum
-//       console.log(d);
-//       return d
-//     }
-//   })[0].content.sum_mean_max_year_meanspentbytype_normalizedbycount)
 
 function scatterChart(data){
   var scatter_chart = dc.scatterPlot("#scatter");
-    
+
   document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
 
   var cf_ex =  crossfilter(data.filter(function (d){
@@ -371,9 +296,10 @@ function scatterChart(data){
   var grouped = dim.group()
 
   var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
-  
+
   scatter_chart
     .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
+    .margins({top: 20, left: 10, right: 10, bottom: 20})
     .width(width)
     .height(480)
     .x(d3.scale.linear().domain([0,1700]))
