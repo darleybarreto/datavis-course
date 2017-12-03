@@ -163,29 +163,33 @@ function loadSankeyDiagram(dataset){
       }
   })[0].content.sum_mean_max_year_maxspentbytype_normalizedbycount
 
-  var data_plot = []
-  for(let i in data_filtered){
-      let party = data_filtered[i].party
-      let type = data_filtered[i].expense_type_id
-      let sum = +data_filtered[i].sum.toFixed(0)
-      data_plot.push([party, type, sum])
-  }
-  console.log(data_plot);
+  d3.json("json_files/senate/spents_categories.json",function(error,d){
+    console.log(d);
+    var data_plot = []
+    for(let i in data_filtered){
+        let party = data_filtered[i].party
+        let type = d[data_filtered[i].expense_type_id.toString()]
+        let sum = +data_filtered[i].sum.toFixed(0)
+        data_plot.push([party, type, sum])
+    }
+    console.log(data_plot);
 
-  Highcharts.chart('sankey', {
+    Highcharts.chart('sankey', {
 
-         title: {
-             text: 'Highcharts Sankey Diagram'
-         },
+           title: {
+               text: ''
+           },
 
-         series: [{
-             keys: ['from', 'to', 'weight'],
-             data: data_plot,
-             type: 'sankey',
-             name: 'Sankey'
-         }]
+           series: [{
+               keys: ['from', 'to', 'weight'],
+               data: data_plot,
+               type: 'sankey',
+               name: 'Sankey'
+           }]
 
-  });
+    });
+
+  })
 
     // Highcharts.chart('sankey', {
     //
