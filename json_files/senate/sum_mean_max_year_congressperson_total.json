@@ -21,17 +21,17 @@
 {"congressperson_name":"AECIO NEVES","year":2017,"sum":146748.5,"mean":922.9465408805,"max":9000.0}
 {"congressperson_name":"AIRTON SANDOVAL","year":2017,"sum":137813.6199999998,"mean":753.0798907104,"max":6766.0}
 {"congressperson_name":"ALFREDO COTAIT","year":2010,"sum":29532.64,"mean":335.5981818182,"max":18000.0}
-{"congressperson_name":"ALFREDO COTAIT","year":2011,"sum":15000.0,"mean":375.0,"max":8976.15}
+{"congressperson_name":"ALFREDO COTAIT","year":2011,"sum":2066.99,"mean":137.7993333333,"max":429.17}
 {"congressperson_name":"ALFREDO NASCIMENTO","year":2010,"sum":10756.98,"mean":1344.6225,"max":2500.0}
 {"congressperson_name":"ALFREDO NASCIMENTO","year":2011,"sum":66410.39,"mean":1328.2078,"max":3000.0}
 {"congressperson_name":"ALFREDO NASCIMENTO","year":2012,"sum":193696.5099999999,"mean":1445.4963432836,"max":5181.25}
 {"congressperson_name":"ALFREDO NASCIMENTO","year":2013,"sum":327838.2199999998,"mean":1939.8711242604,"max":8000.0}
 {"congressperson_name":"ALFREDO NASCIMENTO","year":2014,"sum":229497.3699999999,"mean":1807.0659055118,"max":8000.0}
-{"congressperson_name":"ALFREDO NASCIMENTO","year":2015,"sum":20083.63,"mean":2008.363,"max":3420.0}
+{"congressperson_name":"ALFREDO NASCIMENTO","year":2015,"sum":10203.04,"mean":2040.608,"max":3420.0}
 {"congressperson_name":"ALMEIDA LIMA","year":2008,"sum":166026.66,"mean":4611.8516666667,"max":35000.0}
 {"congressperson_name":"ALMEIDA LIMA","year":2009,"sum":179876.77,"mean":1462.4127642276,"max":14719.59}
 {"congressperson_name":"ALMEIDA LIMA","year":2010,"sum":179960.65,"mean":1405.942578125,"max":6000.0}
-{"congressperson_name":"ALMEIDA LIMA","year":2011,"sum":15000.0,"mean":1666.6666666667,"max":6000.0}
+{"congressperson_name":"ALMEIDA LIMA","year":2011,"sum":394.27,"mean":394.27,"max":394.27}
 {"congressperson_name":"ALOIZIO MERCADANTE","year":2008,"sum":161579.34,"mean":3672.2577272727,"max":15664.0}
 {"congressperson_name":"ALOIZIO MERCADANTE","year":2009,"sum":120491.9800000002,"mean":184.8036503067,"max":7625.55}
 {"congressperson_name":"ALOIZIO MERCADANTE","year":2010,"sum":120993.14,"mean":316.7359685864,"max":3700.0}
@@ -62,7 +62,7 @@
 {"congressperson_name":"ANA RITA","year":2012,"sum":299559.0100000003,"mean":770.0745758355,"max":4543.18}
 {"congressperson_name":"ANA RITA","year":2013,"sum":319208.55,"mean":800.0214285714,"max":5038.28}
 {"congressperson_name":"ANA RITA","year":2014,"sum":298515.7600000001,"mean":838.5274157303,"max":6575.0}
-{"congressperson_name":"ANA RITA","year":2015,"sum":9189.45,"mean":1148.68125,"max":2740.98}
+{"congressperson_name":"ANA RITA","year":2015,"sum":1784.84,"mean":892.42,"max":1728.03}
 {"congressperson_name":"ANGELA PORTELA","year":2011,"sum":380769.17,"mean":1529.1934538153,"max":17800.0}
 {"congressperson_name":"ANGELA PORTELA","year":2012,"sum":414270.3200000002,"mean":1697.8291803279,"max":9450.0}
 {"congressperson_name":"ANGELA PORTELA","year":2013,"sum":420982.53,"mean":2063.6398529412,"max":26000.0}
@@ -74,7 +74,7 @@
 {"congressperson_name":"ANIBAL DINIZ","year":2012,"sum":413930.9500000001,"mean":543.2164698163,"max":38435.0}
 {"congressperson_name":"ANIBAL DINIZ","year":2013,"sum":463830.0000000002,"mean":600.8160621762,"max":28000.0}
 {"congressperson_name":"ANIBAL DINIZ","year":2014,"sum":379667.5199999998,"mean":687.8034782609,"max":35000.0}
-{"congressperson_name":"ANIBAL DINIZ","year":2015,"sum":21160.45,"mean":1113.7078947368,"max":3300.0}
+{"congressperson_name":"ANIBAL DINIZ","year":2015,"sum":5166.16,"mean":861.0266666667,"max":2067.59}
 {"congressperson_name":"ANTONIO ANASTASIA","year":2015,"sum":245723.01,"mean":906.7269741697,"max":5900.0}
 {"congressperson_name":"ANTONIO ANASTASIA","year":2016,"sum":309027.9900000002,"mean":1144.5481111111,"max":6613.31}
 {"congressperson_name":"ANTONIO ANASTASIA","year":2017,"sum":258801.6400000001,"mean":1060.6624590164,"max":6943.98}
@@ -82,7 +82,6 @@
 {"congressperson_name":"ANTONIO CARLOS JUNIOR","year":2008,"sum":164953.16,"mean":9164.0644444444,"max":32900.0}
 {"congressperson_name":"ANTONIO CARLOS JUNIOR","year":2009,"sum":178038.22,"mean":1575.5594690265,"max":14464.44}
 {"congressperson_name":"ANTONIO CARLOS JUNIOR","year":2010,"sum":177927.8500000001,"mean":1779.2785,"max":8500.0}
-{"congressperson_name":"ANTONIO CARLOS JUNIOR","year":2011,"sum":14941.47,"mean":2134.4957142857,"max":4458.48}
 {"congressperson_name":"ANTONIO CARLOS RODRIGUES","year":2012,"sum":35995.81,"mean":580.5775806452,"max":7260.0}
 {"congressperson_name":"ANTONIO CARLOS RODRIGUES","year":2013,"sum":288530.6799999999,"mean":683.7219905213,"max":6500.0}
 {"congressperson_name":"ANTONIO CARLOS RODRIGUES","year":2014,"sum":263101.8300000001,"mean":840.5809265176,"max":5283.0}
@@ -118,7 +117,6 @@
 {"congressperson_name":"AUGUSTO BOTELHO","year":2008,"sum":169670.91,"mean":7376.9960869565,"max":25829.25}
 {"congressperson_name":"AUGUSTO BOTELHO","year":2009,"sum":179800.01,"mean":2683.582238806,"max":12790.5}
 {"congressperson_name":"AUGUSTO BOTELHO","year":2010,"sum":178804.09,"mean":2416.2714864865,"max":13864.62}
-{"congressperson_name":"AUGUSTO BOTELHO","year":2011,"sum":14700.0,"mean":3675.0,"max":9900.0}
 {"congressperson_name":"BELINI MEURER","year":2010,"sum":24180.2,"mean":193.4416,"max":2299.55}
 {"congressperson_name":"BENEDITO DE LIRA","year":2011,"sum":163840.6500000001,"mean":645.0419291339,"max":8000.0}
 {"congressperson_name":"BENEDITO DE LIRA","year":2012,"sum":179224.3800000001,"mean":568.9662857143,"max":9840.0}
@@ -139,7 +137,7 @@
 {"congressperson_name":"CASILDO MALDANER","year":2012,"sum":291071.2500000006,"mean":404.8278859527,"max":7000.0}
 {"congressperson_name":"CASILDO MALDANER","year":2013,"sum":315005.0800000004,"mean":461.8842815249,"max":6800.0}
 {"congressperson_name":"CASILDO MALDANER","year":2014,"sum":326608.2000000004,"mean":617.406805293,"max":8700.0}
-{"congressperson_name":"CASILDO MALDANER","year":2015,"sum":14608.15,"mean":486.9383333333,"max":4832.3}
+{"congressperson_name":"CASILDO MALDANER","year":2015,"sum":1040.69,"mean":173.4483333333,"max":437.61}
 {"congressperson_name":"CASSIO CUNHA LIMA","year":2011,"sum":12827.54,"mean":534.4808333333,"max":2690.32}
 {"congressperson_name":"CASSIO CUNHA LIMA","year":2012,"sum":199499.9,"mean":371.5081936685,"max":25000.0}
 {"congressperson_name":"CASSIO CUNHA LIMA","year":2013,"sum":317883.89,"mean":610.1418234165,"max":25000.0}
@@ -157,7 +155,7 @@
 {"congressperson_name":"CICERO LUCENA","year":2012,"sum":414116.3100000003,"mean":3539.4556410256,"max":46000.0}
 {"congressperson_name":"CICERO LUCENA","year":2013,"sum":415508.1700000003,"mean":3196.2166923077,"max":50000.0}
 {"congressperson_name":"CICERO LUCENA","year":2014,"sum":421884.2800000001,"mean":3636.9334482759,"max":90000.0}
-{"congressperson_name":"CICERO LUCENA","year":2015,"sum":11768.01,"mean":2942.0025,"max":8500.0}
+{"congressperson_name":"CICERO LUCENA","year":2015,"sum":2538.98,"mean":1269.49,"max":1918.98}
 {"congressperson_name":"CIDINHO SANTOS","year":2012,"sum":85715.36,"mean":599.4081118881,"max":2902.0}
 {"congressperson_name":"CIDINHO SANTOS","year":2014,"sum":58456.75,"mean":1102.9575471698,"max":6000.0}
 {"congressperson_name":"CIDINHO SANTOS","year":2016,"sum":232399.9800000001,"mean":1489.7434615385,"max":8000.0}
@@ -185,18 +183,16 @@
 {"congressperson_name":"CYRO MIRANDA","year":2012,"sum":242630.4900000002,"mean":1155.3832857143,"max":25000.0}
 {"congressperson_name":"CYRO MIRANDA","year":2013,"sum":228248.9400000002,"mean":1342.6408235294,"max":10000.0}
 {"congressperson_name":"CYRO MIRANDA","year":2014,"sum":252542.4000000003,"mean":1343.3106382979,"max":13000.0}
-{"congressperson_name":"CYRO MIRANDA","year":2015,"sum":21045.2,"mean":4209.04,"max":7600.0}
 {"congressperson_name":"DALIRIO BEBER","year":2015,"sum":126026.4799999999,"mean":451.7078136201,"max":8830.0}
 {"congressperson_name":"DALIRIO BEBER","year":2016,"sum":214115.9099999999,"mean":393.5954227941,"max":3500.0}
 {"congressperson_name":"DALIRIO BEBER","year":2017,"sum":163919.8099999998,"mean":467.008005698,"max":4000.0}
-{"congressperson_name":"DANIMAR CRISTINA","year":2011,"sum":14643.61,"mean":77.8915425532,"max":3570.0}
+{"congressperson_name":"DANIMAR CRISTINA","year":2011,"sum":5352.89,"mean":121.6565909091,"max":3570.0}
 {"congressperson_name":"DARIO BERGER","year":2015,"sum":261835.3599999999,"mean":452.2199654577,"max":4850.0}
 {"congressperson_name":"DARIO BERGER","year":2016,"sum":319814.0899999996,"mean":723.5612895928,"max":4850.0}
 {"congressperson_name":"DARIO BERGER","year":2017,"sum":209212.7099999999,"mean":810.9019767442,"max":4850.0}
 {"congressperson_name":"DAVI ALCOLUMBRE","year":2015,"sum":469581.4799999999,"mean":2863.3017073171,"max":216780.0}
 {"congressperson_name":"DAVI ALCOLUMBRE","year":2016,"sum":510076.0700000001,"mean":3835.1584210526,"max":256980.0}
 {"congressperson_name":"DAVI ALCOLUMBRE","year":2017,"sum":103588.12,"mean":1278.8656790123,"max":3550.0}
-{"congressperson_name":"DECA","year":2016,"sum":133912.76,"mean":1046.1934375,"max":7125.0}
 {"congressperson_name":"DELCIDIO DO AMARAL","year":2008,"sum":163355.85,"mean":5445.195,"max":11201.67}
 {"congressperson_name":"DELCIDIO DO AMARAL","year":2009,"sum":179615.2199999999,"mean":2064.5427586207,"max":10366.72}
 {"congressperson_name":"DELCIDIO DO AMARAL","year":2010,"sum":147766.22,"mean":1802.0270731707,"max":4400.0}
@@ -210,8 +206,6 @@
 {"congressperson_name":"DEMOSTENES TORRES","year":2010,"sum":180000.0,"mean":1363.6363636364,"max":10000.0}
 {"congressperson_name":"DEMOSTENES TORRES","year":2011,"sum":247356.5299999999,"mean":1845.9442537313,"max":13134.48}
 {"congressperson_name":"DEMOSTENES TORRES","year":2012,"sum":96114.88,"mean":1264.6694736842,"max":11000.0}
-{"congressperson_name":"DONIZETI NOGUEIRA","year":2015,"sum":277228.9099999999,"mean":533.1325192308,"max":6600.0}
-{"congressperson_name":"DONIZETI NOGUEIRA","year":2016,"sum":109265.8599999999,"mean":600.3618681319,"max":6000.0}
 {"congressperson_name":"DOUGLAS CINTRA","year":2014,"sum":38786.45,"mean":902.0104651163,"max":2964.0}
 {"congressperson_name":"DOUGLAS CINTRA","year":2015,"sum":304475.23,"mean":922.6522121212,"max":10000.0}
 {"congressperson_name":"DOUGLAS CINTRA","year":2016,"sum":74002.63,"mean":685.209537037,"max":5000.0}
@@ -228,7 +222,7 @@
 {"congressperson_name":"EDUARDO AZEREDO","year":2008,"sum":165590.34,"mean":4475.4145945946,"max":10484.83}
 {"congressperson_name":"EDUARDO AZEREDO","year":2009,"sum":179924.6,"mean":705.5866666667,"max":8055.47}
 {"congressperson_name":"EDUARDO AZEREDO","year":2010,"sum":180000.0,"mean":833.3333333333,"max":4845.91}
-{"congressperson_name":"EDUARDO AZEREDO","year":2011,"sum":15000.0,"mean":833.3333333333,"max":5541.54}
+{"congressperson_name":"EDUARDO AZEREDO","year":2011,"sum":3255.62,"mean":465.0885714286,"max":1268.3}
 {"congressperson_name":"EDUARDO BRAGA","year":2011,"sum":49702.57,"mean":1057.5014893617,"max":2169.66}
 {"congressperson_name":"EDUARDO BRAGA","year":2012,"sum":358824.2900000002,"mean":1514.0265400844,"max":37500.0}
 {"congressperson_name":"EDUARDO BRAGA","year":2013,"sum":377163.6900000001,"mean":1954.2160103627,"max":11200.0}
@@ -247,11 +241,10 @@
 {"congressperson_name":"EDUARDO SUPLICY","year":2012,"sum":176254.1300000003,"mean":415.6937028302,"max":3000.0}
 {"congressperson_name":"EDUARDO SUPLICY","year":2013,"sum":188533.3,"mean":505.4512064343,"max":3000.0}
 {"congressperson_name":"EDUARDO SUPLICY","year":2014,"sum":193615.45,"mean":796.771399177,"max":12500.0}
-{"congressperson_name":"EDUARDO SUPLICY","year":2015,"sum":20304.23,"mean":2538.02875,"max":15000.0}
+{"congressperson_name":"EDUARDO SUPLICY","year":2015,"sum":1704.93,"mean":568.31,"max":1149.33}
 {"congressperson_name":"EFRAIM MORAIS","year":2008,"sum":165023.29,"mean":7858.2519047619,"max":27000.0}
 {"congressperson_name":"EFRAIM MORAIS","year":2009,"sum":179998.67,"mean":2769.2103076923,"max":23000.0}
 {"congressperson_name":"EFRAIM MORAIS","year":2010,"sum":179996.5,"mean":4285.630952381,"max":37300.0}
-{"congressperson_name":"EFRAIM MORAIS","year":2011,"sum":14997.0,"mean":7498.5,"max":9777.0}
 {"congressperson_name":"ELISEU RESENDE","year":2008,"sum":159406.91,"mean":4427.9697222222,"max":11994.51}
 {"congressperson_name":"ELISEU RESENDE","year":2009,"sum":179626.0599999998,"mean":260.3276231884,"max":11551.56}
 {"congressperson_name":"ELISEU RESENDE","year":2010,"sum":180000.0,"mean":219.7802197802,"max":4000.0}
@@ -265,7 +258,7 @@
 {"congressperson_name":"EPITACIO CAFETEIRA","year":2012,"sum":245891.95,"mean":3235.4203947368,"max":11156.0}
 {"congressperson_name":"EPITACIO CAFETEIRA","year":2013,"sum":138901.5900000001,"mean":2204.7871428571,"max":11000.0}
 {"congressperson_name":"EPITACIO CAFETEIRA","year":2014,"sum":24432.01,"mean":488.6402,"max":1200.0}
-{"congressperson_name":"EPITACIO CAFETEIRA","year":2015,"sum":1865.95,"mean":466.4875,"max":1200.0}
+{"congressperson_name":"EPITACIO CAFETEIRA","year":2015,"sum":476.0,"mean":476.0,"max":476.0}
 {"congressperson_name":"EXPEDITO JUNIOR","year":2008,"sum":165000.0,"mean":11785.7142857143,"max":31453.3}
 {"congressperson_name":"EXPEDITO JUNIOR","year":2009,"sum":161500.0,"mean":4614.2857142857,"max":23055.0}
 {"congressperson_name":"FATIMA BEZERRA","year":2015,"sum":295399.8000000002,"mean":473.3971153846,"max":4000.0}
@@ -326,16 +319,14 @@
 {"congressperson_name":"GERALDO MESQUITA JUNIOR","year":2008,"sum":103561.73,"mean":2798.9656756757,"max":8424.5}
 {"congressperson_name":"GERALDO MESQUITA JUNIOR","year":2009,"sum":166455.02,"mean":647.6849027237,"max":6500.0}
 {"congressperson_name":"GERALDO MESQUITA JUNIOR","year":2010,"sum":118088.44,"mean":485.9606584362,"max":6800.0}
-{"congressperson_name":"GERALDO MESQUITA JUNIOR","year":2011,"sum":793.25,"mean":396.625,"max":480.0}
 {"congressperson_name":"GERSON CAMATA","year":2008,"sum":85249.34,"mean":2304.0362162162,"max":10619.72}
 {"congressperson_name":"GERSON CAMATA","year":2009,"sum":72021.5399999999,"mean":241.6830201342,"max":7000.0}
 {"congressperson_name":"GERSON CAMATA","year":2010,"sum":137419.8,"mean":335.9897310513,"max":20000.0}
-{"congressperson_name":"GERSON CAMATA","year":2011,"sum":4589.98,"mean":148.0638709677,"max":482.41}
+{"congressperson_name":"GERSON CAMATA","year":2011,"sum":1127.6,"mean":161.0857142857,"max":422.01}
 {"congressperson_name":"GILBERTO GOELLNER","year":2008,"sum":164956.41,"mean":5891.3003571429,"max":17417.36}
 {"congressperson_name":"GILBERTO GOELLNER","year":2009,"sum":179999.9999999999,"mean":728.7449392713,"max":13624.7}
 {"congressperson_name":"GILBERTO GOELLNER","year":2010,"sum":117439.78,"mean":917.49828125,"max":13000.0}
-{"congressperson_name":"GILBERTO GOELLNER","year":2011,"sum":5370.85,"mean":358.0566666667,"max":1252.82}
-{"congressperson_name":"GILBERTO PISELO","year":2016,"sum":3923.04,"mean":1307.68,"max":2855.91}
+{"congressperson_name":"GILBERTO GOELLNER","year":2011,"sum":2717.75,"mean":339.71875,"max":1071.61}
 {"congressperson_name":"GILVAM BORGES","year":2008,"sum":105000.0,"mean":15000.0,"max":15000.0}
 {"congressperson_name":"GILVAM BORGES","year":2009,"sum":180000.0,"mean":15000.0,"max":15000.0}
 {"congressperson_name":"GILVAM BORGES","year":2010,"sum":120000.0,"mean":15000.0,"max":15000.0}
@@ -356,14 +347,14 @@
 {"congressperson_name":"GLEISI HOFFMANN","year":2016,"sum":343492.72,"mean":740.2860344828,"max":44500.0}
 {"congressperson_name":"GLEISI HOFFMANN","year":2017,"sum":292600.8099999999,"mean":485.2418076285,"max":3839.4}
 {"congressperson_name":"HELIO COSTA","year":2010,"sum":88594.62,"mean":194.7134505495,"max":2300.0}
-{"congressperson_name":"HELIO COSTA","year":2011,"sum":12466.28,"mean":296.8161904762,"max":2070.0}
+{"congressperson_name":"HELIO COSTA","year":2011,"sum":3761.38,"mean":313.4483333333,"max":1459.9}
 {"congressperson_name":"HELIO JOSE","year":2015,"sum":197306.55,"mean":2055.2765625,"max":85000.0}
 {"congressperson_name":"HELIO JOSE","year":2016,"sum":244198.49,"mean":1453.5624404762,"max":35000.0}
 {"congressperson_name":"HELIO JOSE","year":2017,"sum":138151.9,"mean":1105.2152,"max":10500.0}
 {"congressperson_name":"HERACLITO FORTES","year":2008,"sum":137189.59,"mean":3048.6575555556,"max":18000.0}
 {"congressperson_name":"HERACLITO FORTES","year":2009,"sum":152718.98,"mean":877.6952873563,"max":9600.0}
 {"congressperson_name":"HERACLITO FORTES","year":2010,"sum":135292.9,"mean":878.5253246753,"max":8000.0}
-{"congressperson_name":"HERACLITO FORTES","year":2011,"sum":15000.0,"mean":833.3333333333,"max":6173.18}
+{"congressperson_name":"HERACLITO FORTES","year":2011,"sum":1774.43,"mean":221.80375,"max":704.87}
 {"congressperson_name":"HUMBERTO COSTA","year":2011,"sum":287177.2600000001,"mean":424.8184319527,"max":9000.0}
 {"congressperson_name":"HUMBERTO COSTA","year":2012,"sum":412755.8400000005,"mean":334.2152550607,"max":7650.0}
 {"congressperson_name":"HUMBERTO COSTA","year":2013,"sum":359093.1799999999,"mean":397.6668660022,"max":7200.0}
@@ -381,7 +372,7 @@
 {"congressperson_name":"INACIO ARRUDA","year":2012,"sum":351549.5200000006,"mean":960.5178142077,"max":8534.0}
 {"congressperson_name":"INACIO ARRUDA","year":2013,"sum":409769.3000000005,"mean":941.9983908046,"max":6000.0}
 {"congressperson_name":"INACIO ARRUDA","year":2014,"sum":348355.4300000001,"mean":849.6473902439,"max":7250.0}
-{"congressperson_name":"INACIO ARRUDA","year":2015,"sum":32604.19,"mean":795.2241463415,"max":6000.0}
+{"congressperson_name":"INACIO ARRUDA","year":2015,"sum":7535.21,"mean":538.2292857143,"max":2043.87}
 {"congressperson_name":"IVO CASSOL","year":2011,"sum":206838.18,"mean":953.1713364055,"max":15550.0}
 {"congressperson_name":"IVO CASSOL","year":2012,"sum":415256.7000000002,"mean":703.8249152542,"max":18150.0}
 {"congressperson_name":"IVO CASSOL","year":2013,"sum":415382.4000000007,"mean":764.9767955801,"max":12050.0}
@@ -392,7 +383,7 @@
 {"congressperson_name":"IVONETE DANTAS","year":2011,"sum":11133.19,"mean":359.1351612903,"max":1981.85}
 {"congressperson_name":"IVONETE DANTAS","year":2012,"sum":35294.97,"mean":315.1336607143,"max":1975.66}
 {"congressperson_name":"IVONETE DANTAS","year":2014,"sum":227841.0599999999,"mean":957.3153781513,"max":6000.0}
-{"congressperson_name":"IVONETE DANTAS","year":2015,"sum":18459.62,"mean":1318.5442857143,"max":6000.0}
+{"congressperson_name":"IVONETE DANTAS","year":2015,"sum":1146.4,"mean":191.0666666667,"max":363.03}
 {"congressperson_name":"JADER BARBALHO","year":2012,"sum":290743.0000000001,"mean":3825.5657894737,"max":15400.0}
 {"congressperson_name":"JADER BARBALHO","year":2013,"sum":485114.4,"mean":5844.7518072289,"max":21600.0}
 {"congressperson_name":"JADER BARBALHO","year":2014,"sum":391715.4899999998,"mean":4304.5658241758,"max":21600.0}
@@ -406,7 +397,7 @@
 {"congressperson_name":"JARBAS VASCONCELOS","year":2012,"sum":297441.6100000002,"mean":869.7123099415,"max":6571.95}
 {"congressperson_name":"JARBAS VASCONCELOS","year":2013,"sum":316669.9700000002,"mean":801.6961265823,"max":4200.0}
 {"congressperson_name":"JARBAS VASCONCELOS","year":2014,"sum":309039.3099999999,"mean":798.5511886305,"max":4200.0}
-{"congressperson_name":"JARBAS VASCONCELOS","year":2015,"sum":21775.93,"mean":806.5159259259,"max":4200.0}
+{"congressperson_name":"JARBAS VASCONCELOS","year":2015,"sum":5490.71,"mean":1098.142,"max":4200.0}
 {"congressperson_name":"JAYME CAMPOS","year":2008,"sum":161733.48,"mean":7701.5942857143,"max":15988.5}
 {"congressperson_name":"JAYME CAMPOS","year":2009,"sum":108091.03,"mean":2636.3665853659,"max":9044.0}
 {"congressperson_name":"JAYME CAMPOS","year":2010,"sum":177897.89,"mean":1678.2819811321,"max":8500.0}
@@ -414,10 +405,9 @@
 {"congressperson_name":"JAYME CAMPOS","year":2012,"sum":225470.4400000001,"mean":1445.3233333333,"max":15000.0}
 {"congressperson_name":"JAYME CAMPOS","year":2013,"sum":180800.0200000002,"mean":1116.0495061728,"max":10000.0}
 {"congressperson_name":"JAYME CAMPOS","year":2014,"sum":162756.4000000001,"mean":1713.2252631579,"max":12000.0}
-{"congressperson_name":"JAYME CAMPOS","year":2015,"sum":15601.63,"mean":5200.5433333333,"max":7609.84}
 {"congressperson_name":"JEFFERSON PRAIA","year":2009,"sum":66801.51,"mean":467.1434265734,"max":6000.0}
 {"congressperson_name":"JEFFERSON PRAIA","year":2010,"sum":93888.74,"mean":494.1512631579,"max":5500.0}
-{"congressperson_name":"JEFFERSON PRAIA","year":2011,"sum":1234.92,"mean":308.73,"max":585.0}
+{"congressperson_name":"JEFFERSON PRAIA","year":2011,"sum":521.94,"mean":260.97,"max":483.39}
 {"congressperson_name":"JOAO ALBERTO SOUZA","year":2011,"sum":258346.9600000001,"mean":3112.6139759036,"max":38000.0}
 {"congressperson_name":"JOAO ALBERTO SOUZA","year":2012,"sum":68560.43,"mean":3116.3831818182,"max":9000.0}
 {"congressperson_name":"JOAO ALBERTO SOUZA","year":2013,"sum":435840.5999999998,"mean":2741.1358490566,"max":14000.0}
@@ -441,9 +431,9 @@
 {"congressperson_name":"JOAO DURVAL","year":2012,"sum":305857.3400000001,"mean":672.2139340659,"max":5700.0}
 {"congressperson_name":"JOAO DURVAL","year":2013,"sum":343441.7400000001,"mean":637.1831910946,"max":5700.0}
 {"congressperson_name":"JOAO DURVAL","year":2014,"sum":351133.0800000002,"mean":798.0297272727,"max":15900.0}
-{"congressperson_name":"JOAO DURVAL","year":2015,"sum":17998.64,"mean":999.9244444444,"max":10000.0}
+{"congressperson_name":"JOAO DURVAL","year":2015,"sum":2091.85,"mean":418.37,"max":1120.0}
 {"congressperson_name":"JOAO FAUSTINO","year":2010,"sum":31127.15,"mean":471.6234848485,"max":5000.0}
-{"congressperson_name":"JOAO FAUSTINO","year":2011,"sum":9447.8,"mean":590.4875,"max":6000.0}
+{"congressperson_name":"JOAO FAUSTINO","year":2011,"sum":807.0,"mean":269.0,"max":380.0}
 {"congressperson_name":"JOAO PEDRO","year":2008,"sum":122886.42,"mean":4388.8007142857,"max":15180.7}
 {"congressperson_name":"JOAO PEDRO","year":2009,"sum":137379.19,"mean":1215.7450442478,"max":13800.0}
 {"congressperson_name":"JOAO PEDRO","year":2010,"sum":27705.51,"mean":729.0923684211,"max":10000.0}
@@ -457,7 +447,6 @@
 {"congressperson_name":"JOAO TENORIO","year":2008,"sum":87113.64,"mean":4355.682,"max":22442.0}
 {"congressperson_name":"JOAO TENORIO","year":2009,"sum":21911.76,"mean":1095.588,"max":2598.12}
 {"congressperson_name":"JOAO TENORIO","year":2010,"sum":41394.47,"mean":962.6620930233,"max":5992.8}
-{"congressperson_name":"JOAO TENORIO","year":2011,"sum":3103.88,"mean":620.776,"max":1320.0}
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2008,"sum":164685.59,"mean":4574.5997222222,"max":12800.0}
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2009,"sum":178478.8,"mean":1802.8161616162,"max":11000.0}
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2010,"sum":155813.11,"mean":1558.1311,"max":12000.0}
@@ -465,7 +454,7 @@
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2012,"sum":450945.5100000006,"mean":1657.8879044118,"max":16160.0}
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2013,"sum":443092.0000000002,"mean":1717.4108527132,"max":13650.0}
 {"congressperson_name":"JOAO VICENTE CLAUDINO","year":2014,"sum":427429.92,"mean":2006.7132394366,"max":15000.0}
-{"congressperson_name":"JOAO VICENTE CLAUDINO","year":2015,"sum":38834.45,"mean":2427.153125,"max":16873.59}
+{"congressperson_name":"JOAO VICENTE CLAUDINO","year":2015,"sum":32722.46,"mean":3272.246,"max":16873.59}
 {"congressperson_name":"JORGE VIANA","year":2011,"sum":222902.44,"mean":624.3765826331,"max":7270.0}
 {"congressperson_name":"JORGE VIANA","year":2012,"sum":308272.2900000003,"mean":620.2661770624,"max":6000.0}
 {"congressperson_name":"JORGE VIANA","year":2013,"sum":325879.1000000002,"mean":654.3757028112,"max":15000.0}
@@ -484,8 +473,6 @@
 {"congressperson_name":"JOSE AGRIPINO","year":2015,"sum":288272.01,"mean":1921.8134,"max":10000.0}
 {"congressperson_name":"JOSE AGRIPINO","year":2016,"sum":306939.2599999998,"mean":1993.1120779221,"max":7621.85}
 {"congressperson_name":"JOSE AGRIPINO","year":2017,"sum":213278.78,"mean":1706.23024,"max":6800.0}
-{"congressperson_name":"JOSE ANIBAL","year":2016,"sum":214906.0299999999,"mean":738.5086941581,"max":6699.05}
-{"congressperson_name":"JOSE ANIBAL","year":2017,"sum":43613.41,"mean":660.8092424242,"max":6699.05}
 {"congressperson_name":"JOSE BEZERRA","year":2010,"sum":57240.5,"mean":2120.0185185185,"max":11000.0}
 {"congressperson_name":"JOSE MARANHAO","year":2008,"sum":144585.7,"mean":8505.0411764706,"max":21376.78}
 {"congressperson_name":"JOSE MARANHAO","year":2009,"sum":14383.2,"mean":4794.4,"max":6033.2}
@@ -498,7 +485,7 @@
 {"congressperson_name":"JOSE NERY","year":2008,"sum":164075.65,"mean":3646.1255555556,"max":11125.65}
 {"congressperson_name":"JOSE NERY","year":2009,"sum":177661.7499999999,"mean":343.6397485493,"max":10709.46}
 {"congressperson_name":"JOSE NERY","year":2010,"sum":175922.3299999996,"mean":178.6013502538,"max":4080.0}
-{"congressperson_name":"JOSE NERY","year":2011,"sum":14399.15,"mean":449.9734375,"max":2975.0}
+{"congressperson_name":"JOSE NERY","year":2011,"sum":625.69,"mean":89.3842857143,"max":510.0}
 {"congressperson_name":"JOSE PIMENTEL","year":2011,"sum":248054.29,"mean":481.658815534,"max":10236.2}
 {"congressperson_name":"JOSE PIMENTEL","year":2012,"sum":415677.2100000004,"mean":776.9667476636,"max":9159.8}
 {"congressperson_name":"JOSE PIMENTEL","year":2013,"sum":453189.51,"mean":692.9503211009,"max":9933.2}
@@ -564,7 +551,7 @@
 {"congressperson_name":"LUCIA VANIA","year":2015,"sum":252542.4000000001,"mean":841.808,"max":12000.0}
 {"congressperson_name":"LUCIA VANIA","year":2016,"sum":252835.1499999999,"mean":685.1901084011,"max":13225.0}
 {"congressperson_name":"LUCIA VANIA","year":2017,"sum":210506.0899999998,"mean":743.8377738516,"max":20000.0}
-{"congressperson_name":"LUIZ CARLOS","year":2011,"sum":13326.1,"mean":205.0169230769,"max":1400.0}
+{"congressperson_name":"LUIZ CARLOS","year":2011,"sum":3709.19,"mean":161.2691304348,"max":1165.0}
 {"congressperson_name":"LUIZ HENRIQUE","year":2011,"sum":207397.5500000002,"mean":522.4119647355,"max":5000.0}
 {"congressperson_name":"LUIZ HENRIQUE","year":2012,"sum":285309.0400000006,"mean":576.3818989899,"max":4200.29}
 {"congressperson_name":"LUIZ HENRIQUE","year":2013,"sum":337379.08,"mean":702.8730833333,"max":3560.33}
@@ -583,7 +570,6 @@
 {"congressperson_name":"MAO SANTA","year":2008,"sum":163234.15,"mean":6045.7092592593,"max":28644.16}
 {"congressperson_name":"MAO SANTA","year":2009,"sum":179434.3799999999,"mean":2492.1441666667,"max":13575.56}
 {"congressperson_name":"MAO SANTA","year":2010,"sum":179037.7199999999,"mean":890.7349253731,"max":15000.0}
-{"congressperson_name":"MAO SANTA","year":2011,"sum":15000.0,"mean":15000.0,"max":15000.0}
 {"congressperson_name":"MARCELO CRIVELLA","year":2008,"sum":165000.0,"mean":5689.6551724138,"max":35932.33}
 {"congressperson_name":"MARCELO CRIVELLA","year":2009,"sum":177949.4800000001,"mean":206.1987022016,"max":16000.0}
 {"congressperson_name":"MARCELO CRIVELLA","year":2010,"sum":119501.24,"mean":287.2625961538,"max":9703.26}
@@ -595,7 +581,7 @@
 {"congressperson_name":"MARCO ANTONIO COSTA","year":2008,"sum":45354.64,"mean":2834.665,"max":5067.95}
 {"congressperson_name":"MARCO ANTONIO COSTA","year":2012,"sum":34386.92,"mean":592.8779310345,"max":2500.0}
 {"congressperson_name":"MARCO ANTONIO COSTA","year":2013,"sum":5220.5,"mean":401.5769230769,"max":2500.0}
-{"congressperson_name":"MARCO ANTONIO COSTA","year":2015,"sum":2746.55,"mean":686.6375,"max":855.65}
+{"congressperson_name":"MARCO ANTONIO COSTA","year":2015,"sum":1160.78,"mean":580.39,"max":610.93}
 {"congressperson_name":"MARCONI PERILLO","year":2008,"sum":165258.85,"mean":3843.2290697674,"max":16643.93}
 {"congressperson_name":"MARCONI PERILLO","year":2009,"sum":180000.0000000001,"mean":857.1428571429,"max":7379.17}
 {"congressperson_name":"MARCONI PERILLO","year":2010,"sum":147085.7600000001,"mean":724.5603940887,"max":5091.0}
@@ -612,7 +598,7 @@
 {"congressperson_name":"MARINA SILVA","year":2008,"sum":53554.3,"mean":2550.2047619048,"max":8958.91}
 {"congressperson_name":"MARINA SILVA","year":2009,"sum":97502.07,"mean":840.5350862069,"max":11467.49}
 {"congressperson_name":"MARINA SILVA","year":2010,"sum":39094.27,"mean":535.5379452055,"max":2400.0}
-{"congressperson_name":"MARINA SILVA","year":2011,"sum":6489.54,"mean":648.954,"max":2400.0}
+{"congressperson_name":"MARINA SILVA","year":2011,"sum":143.23,"mean":143.23,"max":143.23}
 {"congressperson_name":"MARINOR BRITO","year":2011,"sum":332638.9599999998,"mean":251.4277853364,"max":5380.0}
 {"congressperson_name":"MARIO COUTO","year":2008,"sum":164779.83,"mean":7846.6585714286,"max":17839.0}
 {"congressperson_name":"MARIO COUTO","year":2009,"sum":164341.54,"mean":460.3404481793,"max":11812.37}
@@ -621,7 +607,6 @@
 {"congressperson_name":"MARIO COUTO","year":2012,"sum":382796.0600000012,"mean":376.7677755906,"max":12000.0}
 {"congressperson_name":"MARIO COUTO","year":2013,"sum":431230.3700000001,"mean":698.9147001621,"max":15000.0}
 {"congressperson_name":"MARIO COUTO","year":2014,"sum":228717.23,"mean":759.8579069767,"max":15840.0}
-{"congressperson_name":"MARIO COUTO","year":2015,"sum":4016.6,"mean":803.32,"max":1854.57}
 {"congressperson_name":"MARISA SERRANO","year":2008,"sum":164794.14,"mean":3832.4218604651,"max":10140.74}
 {"congressperson_name":"MARISA SERRANO","year":2009,"sum":179996.0099999999,"mean":458.0051145038,"max":5500.64}
 {"congressperson_name":"MARISA SERRANO","year":2010,"sum":179989.5099999999,"mean":471.1767277487,"max":4992.49}
@@ -644,7 +629,7 @@
 {"congressperson_name":"NEUTO DE CONTO","year":2008,"sum":161353.33,"mean":4033.83325,"max":14110.84}
 {"congressperson_name":"NEUTO DE CONTO","year":2009,"sum":165066.8699999999,"mean":589.5245357143,"max":10598.42}
 {"congressperson_name":"NEUTO DE CONTO","year":2010,"sum":142860.92,"mean":519.4942545455,"max":10158.36}
-{"congressperson_name":"NEUTO DE CONTO","year":2011,"sum":15000.0,"mean":625.0,"max":4171.0}
+{"congressperson_name":"NEUTO DE CONTO","year":2011,"sum":1067.91,"mean":177.985,"max":365.42}
 {"congressperson_name":"NIURA DEMARCHI","year":2010,"sum":29131.79,"mean":410.3069014085,"max":4316.68}
 {"congressperson_name":"ODACIR SOARES","year":2014,"sum":121113.66,"mean":1835.0554545455,"max":10000.0}
 {"congressperson_name":"OMAR AZIZ","year":2015,"sum":384293.0799999999,"mean":12396.5509677419,"max":48900.0}
@@ -653,7 +638,7 @@
 {"congressperson_name":"OSMAR DIAS","year":2008,"sum":152144.05,"mean":3538.2337209302,"max":15151.89}
 {"congressperson_name":"OSMAR DIAS","year":2009,"sum":180000.0,"mean":310.3448275862,"max":9329.78}
 {"congressperson_name":"OSMAR DIAS","year":2010,"sum":111703.51,"mean":224.3042369478,"max":5000.0}
-{"congressperson_name":"OSMAR DIAS","year":2011,"sum":15000.0,"mean":245.9016393443,"max":5000.0}
+{"congressperson_name":"OSMAR DIAS","year":2011,"sum":1613.29,"mean":100.830625,"max":334.95}
 {"congressperson_name":"OSVALDO SOBRINHO","year":2009,"sum":31518.9,"mean":2251.35,"max":8180.0}
 {"congressperson_name":"OSVALDO SOBRINHO","year":2013,"sum":33671.72,"mean":701.4941666667,"max":3000.0}
 {"congressperson_name":"OSVALDO SOBRINHO","year":2014,"sum":1281.28,"mean":1281.28,"max":1281.28}
@@ -663,13 +648,10 @@
 {"congressperson_name":"PAPALEO PAES","year":2008,"sum":113380.38,"mean":2983.6942105263,"max":7802.54}
 {"congressperson_name":"PAPALEO PAES","year":2009,"sum":133418.0699999999,"mean":1389.7715625,"max":7000.0}
 {"congressperson_name":"PAPALEO PAES","year":2010,"sum":95918.21,"mean":1453.3062121212,"max":7000.0}
-{"congressperson_name":"PAPALEO PAES","year":2011,"sum":618.8,"mean":206.2666666667,"max":359.2}
-{"congressperson_name":"PASTOR VALADARES","year":2016,"sum":109588.27,"mean":1712.31671875,"max":10150.0}
-{"congressperson_name":"PASTOR VALADARES","year":2017,"sum":3654.36,"mean":1218.12,"max":1850.0}
+{"congressperson_name":"PAPALEO PAES","year":2011,"sum":259.6,"mean":129.8,"max":185.0}
 {"congressperson_name":"PATRICIA SABOYA GOMES","year":2008,"sum":168339.59,"mean":3659.5563043478,"max":27221.0}
 {"congressperson_name":"PATRICIA SABOYA GOMES","year":2009,"sum":102859.7099999999,"mean":750.8008029197,"max":9448.25}
 {"congressperson_name":"PATRICIA SABOYA GOMES","year":2010,"sum":151794.87,"mean":527.0655208333,"max":11000.0}
-{"congressperson_name":"PATRICIA SABOYA GOMES","year":2011,"sum":14030.19,"mean":2004.3128571429,"max":4680.0}
 {"congressperson_name":"PAULO BAUER","year":2011,"sum":259798.34,"mean":322.7308571429,"max":10000.0}
 {"congressperson_name":"PAULO BAUER","year":2012,"sum":392010.2900000004,"mean":426.5617954298,"max":10000.0}
 {"congressperson_name":"PAULO BAUER","year":2013,"sum":298936.1100000003,"mean":441.559985229,"max":6655.0}
@@ -697,19 +679,15 @@
 {"congressperson_name":"PAULO ROCHA","year":2015,"sum":373594.3499999996,"mean":1073.5469827586,"max":10250.0}
 {"congressperson_name":"PAULO ROCHA","year":2016,"sum":485114.4000000008,"mean":819.45,"max":8000.0}
 {"congressperson_name":"PAULO ROCHA","year":2017,"sum":322130.23,"mean":1084.6135690236,"max":10000.0}
-{"congressperson_name":"PEDRO CHAVES DOS SANTOS FILHO","year":2016,"sum":245642.0000000001,"mean":913.1672862454,"max":11000.0}
-{"congressperson_name":"PEDRO CHAVES DOS SANTOS FILHO","year":2017,"sum":279229.89,"mean":1336.0281818182,"max":18500.0}
 {"congressperson_name":"PEDRO SIMON","year":2011,"sum":27569.46,"mean":787.6988571429,"max":1724.45}
 {"congressperson_name":"PEDRO SIMON","year":2012,"sum":44886.52,"mean":997.4782222222,"max":2449.81}
 {"congressperson_name":"PEDRO SIMON","year":2013,"sum":81312.76,"mean":1195.7758823529,"max":3106.5}
 {"congressperson_name":"PEDRO SIMON","year":2014,"sum":126084.2399999999,"mean":1400.936,"max":2745.6}
-{"congressperson_name":"PEDRO SIMON","year":2015,"sum":8767.0,"mean":1461.1666666667,"max":1902.03}
+{"congressperson_name":"PEDRO SIMON","year":2015,"sum":3518.74,"mean":1759.37,"max":1759.37}
 {"congressperson_name":"PEDRO TAQUES","year":2011,"sum":201865.4099999998,"mean":398.9434980237,"max":4200.0}
 {"congressperson_name":"PEDRO TAQUES","year":2012,"sum":236539.3800000003,"mean":507.5952360515,"max":4200.0}
 {"congressperson_name":"PEDRO TAQUES","year":2013,"sum":237580.1499999997,"mean":407.5131217839,"max":4400.0}
 {"congressperson_name":"PEDRO TAQUES","year":2014,"sum":235055.8600000003,"mean":493.8148319328,"max":4650.0}
-{"congressperson_name":"PINTO ITAMARATY","year":2016,"sum":85377.22,"mean":2587.1884848485,"max":17500.0}
-{"congressperson_name":"PINTO ITAMARATY","year":2017,"sum":35049.0,"mean":8762.25,"max":21000.0}
 {"congressperson_name":"RAIMUNDO COLOMBO","year":2008,"sum":106808.97,"mean":3955.8877777778,"max":13602.14}
 {"congressperson_name":"RAIMUNDO COLOMBO","year":2009,"sum":172814.2999999999,"mean":410.4852731591,"max":8974.99}
 {"congressperson_name":"RAIMUNDO COLOMBO","year":2010,"sum":116274.95,"mean":336.0547687861,"max":10666.59}
@@ -747,11 +725,9 @@
 {"congressperson_name":"RICARDO FERRACO","year":2015,"sum":313063.27,"mean":1047.0343478261,"max":7000.0}
 {"congressperson_name":"RICARDO FERRACO","year":2016,"sum":279506.91,"mean":944.2801013514,"max":11500.0}
 {"congressperson_name":"RICARDO FERRACO","year":2017,"sum":285264.5000000001,"mean":1114.314453125,"max":15000.0}
-{"congressperson_name":"RICARDO FRANCO","year":2015,"sum":10498.25,"mean":807.5576923077,"max":4800.0}
-{"congressperson_name":"RICARDO FRANCO","year":2016,"sum":75385.69,"mean":919.3376829268,"max":4800.0}
 {"congressperson_name":"ROBERTO CAVALCANTI","year":2009,"sum":26300.0,"mean":1753.3333333333,"max":2500.0}
 {"congressperson_name":"ROBERTO CAVALCANTI","year":2010,"sum":60627.24,"mean":797.7268421053,"max":5000.0}
-{"congressperson_name":"ROBERTO CAVALCANTI","year":2011,"sum":4179.16,"mean":696.5266666667,"max":2500.0}
+{"congressperson_name":"ROBERTO CAVALCANTI","year":2011,"sum":3547.57,"mean":886.8925,"max":2500.0}
 {"congressperson_name":"ROBERTO MUNIZ","year":2016,"sum":188559.7700000001,"mean":528.178627451,"max":4125.22}
 {"congressperson_name":"ROBERTO MUNIZ","year":2017,"sum":231547.6599999999,"mean":559.2938647343,"max":4125.22}
 {"congressperson_name":"ROBERTO REQUIAO","year":2011,"sum":159430.39,"mean":417.3570418848,"max":13440.0}
@@ -793,7 +769,7 @@
 {"congressperson_name":"ROSEANA SARNEY","year":2009,"sum":55000.0,"mean":4583.3333333333,"max":13695.85}
 {"congressperson_name":"RUBEN FIGUEIRO","year":2013,"sum":298443.6599999999,"mean":715.6922302158,"max":7000.0}
 {"congressperson_name":"RUBEN FIGUEIRO","year":2014,"sum":367775.0500000003,"mean":921.7419799499,"max":7000.0}
-{"congressperson_name":"RUBEN FIGUEIRO","year":2015,"sum":23492.92,"mean":870.1081481481,"max":4117.14}
+{"congressperson_name":"RUBEN FIGUEIRO","year":2015,"sum":5832.18,"mean":486.015,"max":1456.95}
 {"congressperson_name":"SADI CASSOL","year":2009,"sum":50311.5,"mean":251.5575,"max":4200.0}
 {"congressperson_name":"SADI CASSOL","year":2010,"sum":37112.33,"mean":242.564248366,"max":5350.0}
 {"congressperson_name":"SANDRA BRAGA","year":2015,"sum":361580.9400000001,"mean":1434.845,"max":12000.0}
@@ -816,18 +792,17 @@
 {"congressperson_name":"SERGIO ZAMBIASI","year":2008,"sum":155211.86,"mean":3527.5422727273,"max":7000.0}
 {"congressperson_name":"SERGIO ZAMBIASI","year":2009,"sum":89952.1699999999,"mean":362.7103629032,"max":6000.0}
 {"congressperson_name":"SERGIO ZAMBIASI","year":2010,"sum":108761.2,"mean":311.6366762178,"max":8500.0}
-{"congressperson_name":"SERGIO ZAMBIASI","year":2011,"sum":7861.7,"mean":374.3666666667,"max":2189.76}
+{"congressperson_name":"SERGIO ZAMBIASI","year":2011,"sum":4676.43,"mean":311.762,"max":2189.76}
 {"congressperson_name":"SERYS SLHESSARENKO","year":2008,"sum":148071.28,"mean":3290.4728888889,"max":10136.49}
 {"congressperson_name":"SERYS SLHESSARENKO","year":2009,"sum":160625.11,"mean":544.4918983051,"max":7200.0}
 {"congressperson_name":"SERYS SLHESSARENKO","year":2010,"sum":141229.6799999999,"mean":499.0448056537,"max":8000.0}
-{"congressperson_name":"SERYS SLHESSARENKO","year":2011,"sum":14429.31,"mean":801.6283333333,"max":7000.0}
+{"congressperson_name":"SERYS SLHESSARENKO","year":2011,"sum":3557.3,"mean":889.325,"max":3420.0}
 {"congressperson_name":"SIBA MACHADO","year":2008,"sum":52375.94,"mean":3491.7293333333,"max":11275.12}
 {"congressperson_name":"SIMONE TEBET","year":2015,"sum":163041.9600000001,"mean":754.8238888889,"max":3400.0}
 {"congressperson_name":"SIMONE TEBET","year":2016,"sum":200693.6000000002,"mean":891.9715555556,"max":3923.94}
 {"congressperson_name":"SIMONE TEBET","year":2017,"sum":131342.51,"mean":951.7573188406,"max":4801.99}
 {"congressperson_name":"SODRE SANTORO","year":2012,"sum":24434.67,"mean":1628.978,"max":17784.98}
 {"congressperson_name":"SODRE SANTORO","year":2013,"sum":141990.41,"mean":999.9324647887,"max":12083.35}
-{"congressperson_name":"SODRE SANTORO","year":2015,"sum":40724.45,"mean":8144.89,"max":35000.0}
 {"congressperson_name":"TASSO JEREISSATI","year":2008,"sum":27865.0,"mean":3980.7142857143,"max":4000.0}
 {"congressperson_name":"TASSO JEREISSATI","year":2009,"sum":38650.0,"mean":3865.0,"max":4600.0}
 {"congressperson_name":"TASSO JEREISSATI","year":2010,"sum":23000.0,"mean":4600.0,"max":4600.0}
@@ -837,7 +812,6 @@
 {"congressperson_name":"TELMARIO MOTA","year":2015,"sum":447963.7300000003,"mean":927.4611387164,"max":20000.0}
 {"congressperson_name":"TELMARIO MOTA","year":2016,"sum":488678.9200000004,"mean":833.9230716724,"max":18000.0}
 {"congressperson_name":"TELMARIO MOTA","year":2017,"sum":265659.4000000001,"mean":774.5172011662,"max":14000.0}
-{"congressperson_name":"THIERES PINTO","year":2017,"sum":81332.71,"mean":945.7291860465,"max":20000.0}
 {"congressperson_name":"TIAO VIANA","year":2008,"sum":133810.84,"mean":3431.0471794872,"max":7576.29}
 {"congressperson_name":"TIAO VIANA","year":2009,"sum":131332.08,"mean":1076.4924590164,"max":6556.62}
 {"congressperson_name":"TIAO VIANA","year":2010,"sum":168206.89,"mean":1356.5071774194,"max":40000.0}
@@ -855,7 +829,7 @@
 {"congressperson_name":"VALTER PEREIRA","year":2008,"sum":165183.18,"mean":5161.974375,"max":17170.74}
 {"congressperson_name":"VALTER PEREIRA","year":2009,"sum":177865.2399999999,"mean":464.4001044386,"max":10925.0}
 {"congressperson_name":"VALTER PEREIRA","year":2010,"sum":178690.6999999999,"mean":689.9254826255,"max":6500.0}
-{"congressperson_name":"VALTER PEREIRA","year":2011,"sum":11876.27,"mean":913.5592307692,"max":6500.0}
+{"congressperson_name":"VALTER PEREIRA","year":2011,"sum":486.22,"mean":121.555,"max":183.05}
 {"congressperson_name":"VANESSA GRAZZIOTIN","year":2011,"sum":383584.6799999995,"mean":740.510965251,"max":26400.0}
 {"congressperson_name":"VANESSA GRAZZIOTIN","year":2012,"sum":400589.1500000004,"mean":996.4904228856,"max":28000.0}
 {"congressperson_name":"VANESSA GRAZZIOTIN","year":2013,"sum":521134.0699999999,"mean":1065.7138445808,"max":18900.0}
@@ -871,7 +845,6 @@
 {"congressperson_name":"VICENTINHO ALVES","year":2016,"sum":299890.52,"mean":4052.5745945946,"max":30000.0}
 {"congressperson_name":"VICENTINHO ALVES","year":2017,"sum":249221.6,"mean":6922.8222222222,"max":15000.0}
 {"congressperson_name":"VIRGINIO DE CARVALHO","year":2008,"sum":133028.85,"mean":5783.8630434783,"max":20000.0}
-{"congressperson_name":"VIRGINIO DE CARVALHO","year":2016,"sum":46418.49,"mean":1365.2497058824,"max":5200.0}
 {"congressperson_name":"VITAL DO REGO","year":2011,"sum":215897.0100000001,"mean":473.4583552632,"max":5800.0}
 {"congressperson_name":"VITAL DO REGO","year":2012,"sum":383512.4100000005,"mean":902.3821411765,"max":11070.0}
 {"congressperson_name":"VITAL DO REGO","year":2013,"sum":342924.0600000002,"mean":936.9509836066,"max":14000.0}
@@ -906,7 +879,6 @@
 {"congressperson_name":"WILDER MORAIS","year":2016,"sum":252542.3999999999,"mean":693.7978021978,"max":10693.8}
 {"congressperson_name":"WILDER MORAIS","year":2017,"sum":172205.41,"mean":1103.8808333333,"max":11223.58}
 {"congressperson_name":"WILSON SANTIAGO","year":2011,"sum":282758.2699999999,"mean":1273.6859009009,"max":20250.0}
-{"congressperson_name":"WIRLANDE DA LUZ","year":2016,"sum":11298.25,"mean":1129.825,"max":2234.37}
 {"congressperson_name":"ZEZE PERRELLA","year":2011,"sum":161942.97,"mean":2841.1047368421,"max":15000.0}
 {"congressperson_name":"ZEZE PERRELLA","year":2012,"sum":335890.4200000002,"mean":1805.8624731183,"max":18333.35}
 {"congressperson_name":"ZEZE PERRELLA","year":2013,"sum":222520.97,"mean":1636.1836029412,"max":9000.0}

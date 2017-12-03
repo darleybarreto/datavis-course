@@ -13,11 +13,13 @@ function loadSenateTimes(d){
     d3.json("json_files/senate/grouped.json", function(err,data){
       expansiveTypeSenateLoad(data);
       loadSankeyDiagram(data);
+      meanmean(d,"sum_mean_max_year_party_maxtotal");
     })
   }
   else{
     expansiveTypeSenateLoad(d);
     loadSankeyDiagram(d);
+    meanmean(d,"sum_mean_max_year_party_maxtotal");
   }
 }
 
@@ -98,8 +100,8 @@ function expansiveTypeSenateLoad(data){
       dataset.push(response[i]);
 
     }
-    console.log(labels);
-    console.log(dataset);
+    // console.log(labels);
+    // console.log(dataset);
 
     Highcharts.chart('radar', {
       chart: {
@@ -158,7 +160,7 @@ function loadSankeyDiagram(dataset){
 
   var data_filtered =  dataset.filter(function (d){
       if (d.year.toString() == year.toString()){
-        console.log(d);
+        // console.log(d);
         return d
       }
   })[0].content.sum_mean_max_year_maxspentbytype_normalizedbycount
@@ -170,7 +172,7 @@ function loadSankeyDiagram(dataset){
       let sum = +data_filtered[i].sum.toFixed(0)
       data_plot.push([party, type, sum])
   }
-  console.log(data_plot);
+  // console.log(data_plot);
 
   Highcharts.chart('sankey', {
 

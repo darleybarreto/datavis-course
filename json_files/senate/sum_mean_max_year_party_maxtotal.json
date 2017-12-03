@@ -45,7 +45,6 @@
 {"year":2010,"party":"PV","sum":39094.27,"mean":39094.27,"n_congressman":1}
 {"year":2010,"party":"S\/Partido","sum":178804.09,"mean":178804.09,"n_congressman":1}
 {"year":2011,"party":"DEM","sum":898836.9699999996,"mean":89883.697,"n_congressman":10}
-{"year":2011,"party":"False","sum":247032.96,"mean":9149.3688888889,"n_congressman":27}
 {"year":2011,"party":"PCdoB","sum":677888.2699999999,"mean":338944.135,"n_congressman":2}
 {"year":2011,"party":"PDT","sum":981930.1700000011,"mean":163655.0283333335,"n_congressman":6}
 {"year":2011,"party":"PMDB","sum":3848853.9099999862,"mean":148032.8426923072,"n_congressman":26}
@@ -112,7 +111,6 @@
 {"year":2014,"party":"PTB","sum":1847941.3499999996,"mean":230992.66875,"n_congressman":8}
 {"year":2014,"party":"PV","sum":216325.5599999999,"mean":216325.5599999999,"n_congressman":1}
 {"year":2015,"party":"DEM","sum":1351276.1700000037,"mean":270255.2340000008,"n_congressman":5}
-{"year":2015,"party":"False","sum":550361.24,"mean":26207.6780952381,"n_congressman":21}
 {"year":2015,"party":"PCdoB","sum":522642.3799999997,"mean":261321.1899999999,"n_congressman":2}
 {"year":2015,"party":"PDT","sum":768221.0900000004,"mean":192055.2725000001,"n_congressman":4}
 {"year":2015,"party":"PMDB","sum":5267161.439999993,"mean":219465.0599999997,"n_congressman":24}
@@ -131,7 +129,6 @@
 {"year":2015,"party":"PTB","sum":809490.0200000011,"mean":161898.0040000002,"n_congressman":5}
 {"year":2015,"party":"PTC","sum":396821.7999999999,"mean":396821.7999999999,"n_congressman":1}
 {"year":2016,"party":"DEM","sum":1307636.0399999993,"mean":261527.2079999999,"n_congressman":5}
-{"year":2016,"party":"False","sum":1035717.6100000013,"mean":103571.7610000001,"n_congressman":10}
 {"year":2016,"party":"PCdoB","sum":477079.7600000002,"mean":477079.7600000002,"n_congressman":1}
 {"year":2016,"party":"PDT","sum":732004.6799999998,"mean":244001.5599999999,"n_congressman":3}
 {"year":2016,"party":"PMDB","sum":5290895.9399999976,"mean":264544.7969999999,"n_congressman":20}
@@ -149,7 +146,6 @@
 {"year":2016,"party":"PTB","sum":719387.970000001,"mean":239795.9900000003,"n_congressman":3}
 {"year":2016,"party":"PTC","sum":420471.0100000001,"mean":420471.0100000001,"n_congressman":1}
 {"year":2017,"party":"DEM","sum":829744.2600000015,"mean":165948.8520000003,"n_congressman":5}
-{"year":2017,"party":"False","sum":442879.3700000003,"mean":88575.8740000001,"n_congressman":5}
 {"year":2017,"party":"PCdoB","sum":291913.4699999999,"mean":291913.4699999999,"n_congressman":1}
 {"year":2017,"party":"PDT","sum":646778.3099999998,"mean":215592.7699999999,"n_congressman":3}
 {"year":2017,"party":"PMDB","sum":4340787.3199999845,"mean":217039.3659999992,"n_congressman":20}
