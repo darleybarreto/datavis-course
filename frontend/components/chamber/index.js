@@ -127,8 +127,8 @@ function meanmean(data){
 
           points.forEach(point => {
             if(point.series.name == "Range"){
-              str += '<tr><td><span style="font-size:20px;color:' + '#beaed4' + '">●</span> ' + "Max: ("+max_mean_by_year[point.key].party+") R$ "+  max_mean_by_year[point.key].max+ 'k </td></tr>';
-              str += '<tr><td><span style="font-size:20px;color:' + '#fdc086' + '">●</span> ' + "Min: ("+min_mean_by_year[point.key].party+") R$ "+  min_mean_by_year[point.key].min+ 'k </td></tr>';
+              str += '<tr><td><span style="font-size:20px;color:' + '#1c9099' + '">●</span> ' + "Max: ("+max_mean_by_year[point.key].party+") R$ "+  max_mean_by_year[point.key].max+ 'k </td></tr>';
+              str += '<tr><td><span style="font-size:20px;color:' + '#ece2f0' + '">●</span> ' + "Min: ("+min_mean_by_year[point.key].party+") R$ "+  min_mean_by_year[point.key].min+ 'k </td></tr>';
             }
             else
               str += '<tr><td><span style="font-size:20px;color:' + point.color + '">●</span> ' + point.series.name + ': R$ '+mean_mean_by_year[point.key].mean+'k </td></tr>';
@@ -351,39 +351,116 @@ function expansiveTypeChamberLoad(data){
 //     }
 //   })[0].content.sum_mean_max_year_meanspentbytype_normalizedbycount)
 
-function scatterChart(data){
-  var scatter_chart = dc.scatterPlot("#scatter");
+//function scatterChart(data){
+//  var scatter_chart = dc.scatterPlot("#scatter");
+//    
+//  document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
+//
+//  var cf_ex =  crossfilter(data.filter(function (d){
+//    if (d.year.toString() == year){
+//      return d
+//    }
+//  })[0].content.sum_mean_max_year_congressperson_each)
+//
+//  //Dimension of Graph
+//  var dim = cf_ex.dimension(function(d) {
+//    return [+d.count, +d.sum];
+//  })
+//
+//  //Group
+//  var grouped = dim.group()
+//
+//  var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
+//  
+//  scatter_chart
+//    .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
+//    .width(width)
+//    .height(480)
+//    .x(d3.scale.linear().domain([0,1700]))
+//    .brushOn(false)
+//    .symbolSize(8)
+//    .clipPadding(10)
+//    .yAxisLabel("Sum")
+//    .xAxisLabel("Count")
+//    .dimension(dim)
+//    .group(grouped);
+//
+//  scatter_chart.render();
+//}
+
+function scatterChart(dataset){
+    document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
+
+    var data_filtered =  dataset.filter(function (d){
+        if (d.year.toString() == year){
+            return d
+        }
+    })[0].content.sum_mean_max_year_congressperson_each
     
-  document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
-
-  var cf_ex =  crossfilter(data.filter(function (d){
-    if (d.year.toString() == year){
-      return d
-    }
-  })[0].content.sum_mean_max_year_congressperson_each)
-
-  //Dimension of Graph
-  var dim = cf_ex.dimension(function(d) {
-    return [+d.count, +d.sum];
-  })
-
-  //Group
-  var grouped = dim.group()
-
-  var width = document.getElementById("card-3").getBoundingClientRect().width - 50;
-  
-  scatter_chart
-    .colors(d3.scale.ordinal().domain(d3.range(1)).range(['#80cdc1']))
-    .width(width)
-    .height(480)
-    .x(d3.scale.linear().domain([0,1700]))
-    .brushOn(false)
-    .symbolSize(8)
-    .clipPadding(10)
-    .yAxisLabel("Sum")
-    .xAxisLabel("Count")
-    .dimension(dim)
-    .group(grouped);
-
-  scatter_chart.render();
+    
+    Highcharts.chart('scatter', {
+        chart: {
+            type: 'scatter',
+            zoomType: 'xy'
+        },
+        title: {
+            text: false
+        },
+        subtitle: {
+            text: false
+        },
+        xAxis: {
+            title: {
+                enabled: true,
+                text: 'Count'
+            },
+            startOnTick: true,
+            endOnTick: true,
+            showLastLabel: true
+        },
+        yAxis: {
+            title: {
+                text: 'Sum'
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'left',
+            verticalAlign: 'top',
+            x: 100,
+            y: 70,
+            floating: true,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+            borderWidth: 1
+        },
+        plotOptions: {
+            scatter: {
+                marker: {
+                    radius: 5,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: 'sum: R${point.sum}, count: {point.count}'
+                }
+            }
+        },
+        series: [ {
+            name: 'algo',
+            color: 'rgba(119, 152, 191, .5)',
+            data: data_filtered
+        }]
+    });
 }
