@@ -6,7 +6,7 @@
 	width: 100%
 }
 
-#camara > #card-1{
+#camara > #card-1, #card-3{
 	max-width: calc(100% - 30px);
 	width: calc(100% - 30px)
 
