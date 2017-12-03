@@ -19,6 +19,11 @@
 	height: 200px;
 }
 
-#senado > #card-senate-1{
+#senado > #card-senate-0,#card-senate-1{
 	height: auto !important;
+}
+
+#card-senate-0{
+	overflow: hidden;
+	width: calc(100% - 30px) !important;
 }
