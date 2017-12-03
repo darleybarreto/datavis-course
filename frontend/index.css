@@ -50,7 +50,7 @@ html, body {
 
 .card.-large{
   width: calc(100% - 50px);
-  height: 250px;
+  /*height: 250px;*/
   margin-left: 15px;
 }
 
@@ -59,6 +59,7 @@ html, body {
 }
 
 #header{
+  z-index: 1;
   position: fixed;
   color: white;
   padding: 0px 10px;
