@@ -95,7 +95,7 @@ function expansiveTypeSenateLoad(data){
       labels.push(categories[i]);
       dataset.push(response[i]);
     }
-    console.log(dataset)
+//    console.log(dataset)
     Highcharts.chart('radar', {
       chart: {
         polar: true,
