@@ -27,7 +27,15 @@ function senateGen(tag){
   var html = ""
 
   html +='<div id="senado">'
-         + '<div id="dist" class="card">'
+         + '<div id="card-senate-0" class="card">'
+            +  '<div class="header -extyp">'
+            +  '</div>'
+            +  '<div id="sankey">'
+            +  '</div>'
+            +  '<div class="footer">'
+            +     '<div>'
+            +     '</div>'
+          + '</div>'
          + '</div>'
          + '<div id="card-senate-1" class="card">'
           +  '<div class="header -extyp">'
