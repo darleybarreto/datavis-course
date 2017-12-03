@@ -290,10 +290,12 @@ function scatterChart(dataset){
         let count = data_filtered[i].count
         let sum = data_filtered[i].sum
         let mean = data_filtered[i].sum/data_filtered[i].count
+        let party = data_filtered[i].party
         data_plot.push({x: +count,
                         y: +sum.toFixed(0),
                         z: +mean.toFixed(0),
                         name: data_filtered[i].congressperson_name,
+                        party: party,
                         color: "#80cdc1",
                         fillCollor: "#80cdc1"
                        })
@@ -343,7 +345,7 @@ function scatterChart(dataset){
         tooltip: {
             useHTML: true,
             headerFormat: '<table>',
-            pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
+            pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3> <h3>party: {point.party} </h3></th></tr>' +
                 '<tr><th>#entries:</th><td>{point.x}</td></tr>' +
                 '<tr><th>sum:</th><td>R${point.y}</td></tr>' +
                 '<tr><th>mean:</th><td>R${point.z}</td></tr>',
