@@ -8,10 +8,6 @@
 {"party":"DEM","year":2015,"expense_type_id":1,"sum":431482.4300000002,"mean":841.0963547758,"max":10446.71,"count":513,"max_spent":431482.4300000002}
 {"party":"DEM","year":2016,"expense_type_id":1,"sum":436352.1100000007,"mean":745.901042735,"max":10693.8,"count":585,"max_spent":436352.1100000007}
 {"party":"DEM","year":2017,"expense_type_id":1,"sum":322916.46,"mean":767.0224703088,"max":11223.58,"count":421,"max_spent":322916.46}
-{"party":"False","year":2011,"expense_type_id":1,"sum":135800.42,"mean":404.1679166667,"max":15000.0,"count":336,"max_spent":135800.42}
-{"party":"False","year":2015,"expense_type_id":4,"sum":153305.39,"mean":1825.0641666667,"max":5800.0,"count":84,"max_spent":153305.39}
-{"party":"False","year":2016,"expense_type_id":4,"sum":276320.1200000002,"mean":1211.9303508772,"max":6699.05,"count":228,"max_spent":276320.1200000002}
-{"party":"False","year":2017,"expense_type_id":0,"sum":125080.41,"mean":7357.6711764706,"max":20000.0,"count":17,"max_spent":125080.41}
 {"party":"PCdoB","year":2008,"expense_type_id":1,"sum":86059.47,"mean":7823.5881818182,"max":13684.9,"count":11,"max_spent":86059.47}
 {"party":"PCdoB","year":2009,"expense_type_id":1,"sum":88822.06,"mean":976.0665934066,"max":11712.35,"count":91,"max_spent":88822.06}
 {"party":"PCdoB","year":2010,"expense_type_id":1,"sum":90480.1999999999,"mean":690.6885496183,"max":6000.0,"count":131,"max_spent":90480.1999999999}
