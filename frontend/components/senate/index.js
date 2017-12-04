@@ -156,35 +156,39 @@ function expansiveTypeSenateLoad(data){
 function loadSankeyDiagram(dataset){
 
   document.getElementById("card-senate-0").getElementsByClassName("header")[0].textContent = "Reimbursment type by party in " + year
-  document.getElementById("card-senate-0").getElementsByClassName("footer")[0].textContent = "How each party contribute for each type of reimbursement"
+  document.getElementById("card-senate-0").getElementsByClassName("footer")[0].textContent = "How the 10 greatest expenses are distributed"
 
   var data_filtered =  dataset.filter(function (d){
-      if (d.year.toString() == year.toString()){console.log(d);  return d}
-  })[0].content.sum_mean_max_year_maxspentbytype_normalizedbycount
+      if (d.year.toString() == year.toString()){return d}
+  })[0].content.year_party_type
 
-  d3.json("json_files/senate/spents_categories.json",function(error,d){
+
+  //
+  var data_plot = []
+  for(let i in data_filtered){
+      let party = data_filtered[i].party
+      let type = data_filtered[i].expense_type
+      let sum = +data_filtered[i].sum.toFixed(0)
+      data_plot.push([party, type, sum])
+  }
+
+  data_plot = data_plot.sort(function(a, b){return b[2]-a[2] })
+  data_plot = data_plot.slice(0, 10)
+  //
+  // console.log(data_plot)
+  Highcharts.chart('sankey', {
     //
-    var data_plot = []
-    for(let i in data_filtered){
-        let party = data_filtered[i].party
-        let type = d[data_filtered[i].expense_type_id.toString()]
-        let sum = +data_filtered[i].sum.toFixed(0)
-        data_plot.push([party, type, sum])
-    }
-    //
-    Highcharts.chart('sankey', {
-      //
-      title: {
-           text: ''
-       },
-       //
-      series: [{
-         keys: ['from', 'to', 'weight'],
-         data: data_plot,
-         type: 'sankey',
-         name: ' Party -> Reimbursment Type'
-      }]
-    })
-    //
+    title: {
+         text: ''
+     },
+     //
+    series: [{
+       keys: ['from', 'to', 'weight'],
+       data: data_plot,
+       type: 'sankey',
+       name: ' Party -> Reimbursment Type'
+    }]
   })
+    //
 };
+
