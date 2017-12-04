@@ -47,8 +47,8 @@ function lineGraphLoad(data){
 
     var width = document.getElementById("main").getBoundingClientRect().width - 50;
 
-    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net value per milion by year"
-    document.getElementById("main").getElementsByClassName("footer")[0].textContent = "Evolution of net value by the years"
+    document.getElementById("main").getElementsByClassName("header")[0].textContent = "Reimbursement value per milion by year"
+    document.getElementById("main").getElementsByClassName("footer")[0].textContent = "Evolution of Reimbursement Value by years"
 
     line_graph.width(width)
           .height(200)
@@ -56,8 +56,8 @@ function lineGraphLoad(data){
           .x(d3.scale.ordinal().domain(domain))
           .xUnits(dc.units.ordinal)
           .brushOn(false)
-          .yAxisLabel("Gastos")
-          .xAxisLabel("Ano")
+          .yAxisLabel("Reimbursements")
+          .xAxisLabel("Year")
           .clipPadding(10)
           ._rangeBandPadding(1)
           .elasticY(true)
@@ -73,7 +73,7 @@ function lineGraphLoad(data){
 }
 
 function expansiveTypeSenateLoad(data){
-  document.getElementById("card-senate-1").getElementsByClassName("header")[0].textContent = "Reimbursements types expenses in "+year;
+  document.getElementById("card-senate-1").getElementsByClassName("header")[0].textContent = "Reimbursement types expenses in "+year;
   document.getElementById("card-senate-1").getElementsByClassName("footer")[0].textContent = "Distribution of types for Reimbursment in year of perspective";
   var response = {},
       labels = [],
@@ -155,8 +155,8 @@ function expansiveTypeSenateLoad(data){
 
 function loadSankeyDiagram(dataset){
 
-  document.getElementById("card-senate-0").getElementsByClassName("header")[0].textContent = "Reimbursment type by party in "+year
-  document.getElementById("card-senate-0").getElementsByClassName("footer")[0].textContent = "How each party contribute for each kind of reimbursment type"
+  document.getElementById("card-senate-0").getElementsByClassName("header")[0].textContent = "Reimbursment type by party in " + year
+  document.getElementById("card-senate-0").getElementsByClassName("footer")[0].textContent = "How each party contribute for each type of reimbursement"
 
   var data_filtered =  dataset.filter(function (d){
       if (d.year.toString() == year.toString()){console.log(d);  return d}

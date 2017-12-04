@@ -81,7 +81,7 @@ function chamberGen(tag){
 }
 
 function meanmean(data,col){
-  document.getElementById("mean").getElementsByClassName("header")[0].textContent = "Mean party net value by year in R$ 1000";
+  document.getElementById("mean").getElementsByClassName("header")[0].textContent = "Mean by party by year in R$ 1000";
   document.getElementById("mean").getElementsByClassName("footer")[0].textContent = "Evolution of mean of means by party by year ";
 
   var max_mean_by_year = {},
@@ -156,7 +156,7 @@ function meanmean(data,col){
 
       yAxis: {
           title: {
-              text: "Net values"
+              text: "mean"
           },
           labels: {
             formatter: function() {
@@ -200,7 +200,7 @@ function meanmean(data,col){
       },
 
       series: [{
-          name: 'Mean',
+          name: 'Mean of means',
           data: data_mean_mean_by_year,
           zIndex: 1,
           marker: {
