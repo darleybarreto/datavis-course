@@ -1,0 +1,948 @@
+[{"index":0,"year":2008,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":91963.06}
+{"index":1,"year":2008,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":823764.8400000001}
+{"index":2,"year":2008,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":228857.65}
+{"index":3,"year":2008,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":535136.6800000001}
+{"index":4,"year":2008,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":170315.74}
+{"index":5,"year":2008,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":15380.41}
+{"index":6,"year":2008,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":86059.47}
+{"index":7,"year":2008,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":14246.04}
+{"index":8,"year":2008,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":10247.24}
+{"index":9,"year":2008,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":21656.04}
+{"index":10,"year":2008,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":35920.52}
+{"index":11,"year":2008,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":293340.43}
+{"index":12,"year":2008,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":117223.0}
+{"index":13,"year":2008,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":59717.08}
+{"index":14,"year":2008,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":102325.33}
+{"index":15,"year":2008,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":125576.39}
+{"index":16,"year":2008,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1077496.8900000008}
+{"index":17,"year":2008,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":287631.67}
+{"index":18,"year":2008,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":501044.3199999998}
+{"index":19,"year":2008,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":640410.4600000001}
+{"index":20,"year":2008,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1727.96}
+{"index":21,"year":2008,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":9561.95}
+{"index":22,"year":2008,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":33934.38}
+{"index":23,"year":2008,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":122041.0}
+{"index":24,"year":2008,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":23244.1}
+{"index":25,"year":2008,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":217847.13}
+{"index":26,"year":2008,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":55550.0}
+{"index":27,"year":2008,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":88165.66}
+{"index":28,"year":2008,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":122117.14}
+{"index":29,"year":2008,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":14890.78}
+{"index":30,"year":2008,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":70624.87}
+{"index":31,"year":2008,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":36272.33}
+{"index":32,"year":2008,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":15129.45}
+{"index":33,"year":2008,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":28082.57}
+{"index":34,"year":2008,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7182.5}
+{"index":35,"year":2008,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":117619.89}
+{"index":36,"year":2008,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":37878.55}
+{"index":37,"year":2008,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":6700.0}
+{"index":38,"year":2008,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":118587.59}
+{"index":39,"year":2008,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3283.99}
+{"index":40,"year":2008,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":192500.67}
+{"index":41,"year":2008,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":33000.0}
+{"index":42,"year":2008,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":59640.0}
+{"index":43,"year":2008,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":7838.34}
+{"index":44,"year":2008,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":186756.8699999999}
+{"index":45,"year":2008,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":944364.7099999997}
+{"index":46,"year":2008,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":142850.05}
+{"index":47,"year":2008,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":287247.31}
+{"index":48,"year":2008,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":392471.1500000001}
+{"index":49,"year":2008,"party":"PSL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":5374.25}
+{"index":50,"year":2008,"party":"PSL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":7646.06}
+{"index":51,"year":2008,"party":"PSL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":13652.82}
+{"index":52,"year":2008,"party":"PSL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":18681.51}
+{"index":53,"year":2008,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7965.53}
+{"index":54,"year":2008,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":88485.35}
+{"index":55,"year":2008,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":14210.0}
+{"index":56,"year":2008,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":12963.02}
+{"index":57,"year":2008,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":40451.75}
+{"index":58,"year":2008,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":199950.12}
+{"index":59,"year":2008,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":520868.48}
+{"index":60,"year":2008,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":65059.37}
+{"index":61,"year":2008,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":103180.29}
+{"index":62,"year":2008,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":426582.6599999999}
+{"index":63,"year":2008,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":32928.53}
+{"index":64,"year":2008,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":560294.09}
+{"index":65,"year":2008,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":52270.0}
+{"index":66,"year":2008,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":477060.66}
+{"index":67,"year":2008,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":89673.5}
+{"index":68,"year":2008,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":2071.35}
+{"index":69,"year":2008,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":32526.74}
+{"index":70,"year":2008,"party":"PV","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":4488.5}
+{"index":71,"year":2008,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":14467.71}
+{"index":72,"year":2008,"party":"S\/Partido","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3293.0}
+{"index":73,"year":2008,"party":"S\/Partido","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":115630.17}
+{"index":74,"year":2008,"party":"S\/Partido","expense_type":"Publicity of parliamentary activity","sum":49048.15}
+{"index":75,"year":2008,"party":"S\/Partido","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":90.0}
+{"index":76,"year":2008,"party":"S\/Partido","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":1609.59}
+{"index":77,"year":2009,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":49790.9}
+{"index":78,"year":2009,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":759231.8700000016}
+{"index":79,"year":2009,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":404129.56}
+{"index":80,"year":2009,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":532134.58}
+{"index":81,"year":2009,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":306405.6799999997}
+{"index":82,"year":2009,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":15348.8}
+{"index":83,"year":2009,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":88822.06}
+{"index":84,"year":2009,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":40630.0}
+{"index":85,"year":2009,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":8704.94}
+{"index":86,"year":2009,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":26494.2}
+{"index":87,"year":2009,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":28430.69}
+{"index":88,"year":2009,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":305667.9499999998}
+{"index":89,"year":2009,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":164774.85}
+{"index":90,"year":2009,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":60931.78}
+{"index":91,"year":2009,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":125270.72}
+{"index":92,"year":2009,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":95176.3900000001}
+{"index":93,"year":2009,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":922759.750000002}
+{"index":94,"year":2009,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":412682.48}
+{"index":95,"year":2009,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":327562.5}
+{"index":96,"year":2009,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":650920.9100000001}
+{"index":97,"year":2009,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":2644.3}
+{"index":98,"year":2009,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":15865.14}
+{"index":99,"year":2009,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":3747.0}
+{"index":100,"year":2009,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":13250.0}
+{"index":101,"year":2009,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":139717.52}
+{"index":102,"year":2009,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":25172.83}
+{"index":103,"year":2009,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":123383.73}
+{"index":104,"year":2009,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":171551.71}
+{"index":105,"year":2009,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":27863.94}
+{"index":106,"year":2009,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":137686.53}
+{"index":107,"year":2009,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":21767.63}
+{"index":108,"year":2009,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":71858.77}
+{"index":109,"year":2009,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":30400.0}
+{"index":110,"year":2009,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":17734.31}
+{"index":111,"year":2009,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":62488.77}
+{"index":112,"year":2009,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4532.89}
+{"index":113,"year":2009,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":82311.68}
+{"index":114,"year":2009,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":118645.0}
+{"index":115,"year":2009,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":3620.0}
+{"index":116,"year":2009,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":129736.46}
+{"index":117,"year":2009,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":655.8}
+{"index":118,"year":2009,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":106127.42}
+{"index":119,"year":2009,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":53975.18}
+{"index":120,"year":2009,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":12825.0}
+{"index":121,"year":2009,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":5850.98}
+{"index":122,"year":2009,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":176031.8799999999}
+{"index":123,"year":2009,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1043499.1900000022}
+{"index":124,"year":2009,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":221684.89}
+{"index":125,"year":2009,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":246794.75}
+{"index":126,"year":2009,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":446502.7000000002}
+{"index":127,"year":2009,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7379.74}
+{"index":128,"year":2009,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":104300.1099999999}
+{"index":129,"year":2009,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":20821.35}
+{"index":130,"year":2009,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":136.92}
+{"index":131,"year":2009,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":45023.63}
+{"index":132,"year":2009,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":125337.02}
+{"index":133,"year":2009,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":466828.5299999997}
+{"index":134,"year":2009,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":138601.04}
+{"index":135,"year":2009,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":98874.8}
+{"index":136,"year":2009,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":481359.85}
+{"index":137,"year":2009,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":68285.2500000001}
+{"index":138,"year":2009,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":452751.0999999991}
+{"index":139,"year":2009,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":166702.82}
+{"index":140,"year":2009,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":349004.7300000002}
+{"index":141,"year":2009,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":78919.3299999999}
+{"index":142,"year":2009,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4746.79}
+{"index":143,"year":2009,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":57473.89}
+{"index":144,"year":2009,"party":"PV","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":4550.0}
+{"index":145,"year":2009,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":30731.39}
+{"index":146,"year":2009,"party":"S\/Partido","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":100.0}
+{"index":147,"year":2009,"party":"S\/Partido","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":122822.04}
+{"index":148,"year":2009,"party":"S\/Partido","expense_type":"Publicity of parliamentary activity","sum":49174.0}
+{"index":149,"year":2009,"party":"S\/Partido","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":1500.0}
+{"index":150,"year":2009,"party":"S\/Partido","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":6203.97}
+{"index":151,"year":2010,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":69677.07}
+{"index":152,"year":2010,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":711011.900000001}
+{"index":153,"year":2010,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":176254.98}
+{"index":154,"year":2010,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":733565.4299999994}
+{"index":155,"year":2010,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":331862.8499999998}
+{"index":156,"year":2010,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":10401.7}
+{"index":157,"year":2010,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":90480.1999999999}
+{"index":158,"year":2010,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":23451.0}
+{"index":159,"year":2010,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":13936.26}
+{"index":160,"year":2010,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":14312.4}
+{"index":161,"year":2010,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":41169.78}
+{"index":162,"year":2010,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":344989.7900000001}
+{"index":163,"year":2010,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":94448.0}
+{"index":164,"year":2010,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":48173.88}
+{"index":165,"year":2010,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":190164.1999999998}
+{"index":166,"year":2010,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":141337.89}
+{"index":167,"year":2010,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":915273.5200000026}
+{"index":168,"year":2010,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":266154.61}
+{"index":169,"year":2010,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":291355.4999999999}
+{"index":170,"year":2010,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":597253.0599999997}
+{"index":171,"year":2010,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3135.95}
+{"index":172,"year":2010,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":14838.11}
+{"index":173,"year":2010,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":158876.39}
+{"index":174,"year":2010,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":21463.54}
+{"index":175,"year":2010,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":162906.89}
+{"index":176,"year":2010,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":14680.0}
+{"index":177,"year":2010,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":106497.48}
+{"index":178,"year":2010,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":172796.2499999999}
+{"index":179,"year":2010,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":994.62}
+{"index":180,"year":2010,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":41241.1}
+{"index":181,"year":2010,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":21763.26}
+{"index":182,"year":2010,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":44500.0}
+{"index":183,"year":2010,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":71629.5}
+{"index":184,"year":2010,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1509.27}
+{"index":185,"year":2010,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":80507.51}
+{"index":186,"year":2010,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":5300.0}
+{"index":187,"year":2010,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":138177.04}
+{"index":188,"year":2010,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":145245.97}
+{"index":189,"year":2010,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":28391.75}
+{"index":190,"year":2010,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":5400.0}
+{"index":191,"year":2010,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":130914.3299999999}
+{"index":192,"year":2010,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":869470.6100000039}
+{"index":193,"year":2010,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":70154.96}
+{"index":194,"year":2010,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":213891.8899999999}
+{"index":195,"year":2010,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":443313.3700000002}
+{"index":196,"year":2010,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":10889.19}
+{"index":197,"year":2010,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":97433.0900000001}
+{"index":198,"year":2010,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":16673.52}
+{"index":199,"year":2010,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":928.11}
+{"index":200,"year":2010,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":49998.42}
+{"index":201,"year":2010,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":104431.34}
+{"index":202,"year":2010,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":332752.9999999997}
+{"index":203,"year":2010,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":81748.0}
+{"index":204,"year":2010,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":179488.54}
+{"index":205,"year":2010,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":459948.6099999999}
+{"index":206,"year":2010,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":63098.96}
+{"index":207,"year":2010,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":444393.7999999994}
+{"index":208,"year":2010,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":136854.43}
+{"index":209,"year":2010,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":389448.4400000001}
+{"index":210,"year":2010,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":92848.1899999998}
+{"index":211,"year":2010,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1865.76}
+{"index":212,"year":2010,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":19418.64}
+{"index":213,"year":2010,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":17809.87}
+{"index":214,"year":2010,"party":"S\/Partido","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":223.9}
+{"index":215,"year":2010,"party":"S\/Partido","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":137079.77}
+{"index":216,"year":2010,"party":"S\/Partido","expense_type":"Publicity of parliamentary activity","sum":31625.0}
+{"index":217,"year":2010,"party":"S\/Partido","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":5360.0}
+{"index":218,"year":2010,"party":"S\/Partido","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":4515.42}
+{"index":219,"year":2011,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":34777.09}
+{"index":220,"year":2011,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":312050.2}
+{"index":221,"year":2011,"party":"DEM","expense_type":"National air, water and land transport","sum":125155.5200000001}
+{"index":222,"year":2011,"party":"DEM","expense_type":"Private Security Services","sum":26472.69}
+{"index":223,"year":2011,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":81830.6}
+{"index":224,"year":2011,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":134137.36}
+{"index":225,"year":2011,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":184413.51}
+{"index":226,"year":2011,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":18108.27}
+{"index":227,"year":2011,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":268893.58}
+{"index":228,"year":2011,"party":"PCdoB","expense_type":"National air, water and land transport","sum":151696.1000000002}
+{"index":229,"year":2011,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":153870.08}
+{"index":230,"year":2011,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":37376.81}
+{"index":231,"year":2011,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":47943.43}
+{"index":232,"year":2011,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":29226.76}
+{"index":233,"year":2011,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":355432.54}
+{"index":234,"year":2011,"party":"PDT","expense_type":"National air, water and land transport","sum":112705.0100000001}
+{"index":235,"year":2011,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":106025.0}
+{"index":236,"year":2011,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":198045.62}
+{"index":237,"year":2011,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":180495.24}
+{"index":238,"year":2011,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":189312.9999999999}
+{"index":239,"year":2011,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1053837.6900000013}
+{"index":240,"year":2011,"party":"PMDB","expense_type":"National air, water and land transport","sum":802389.850000003}
+{"index":241,"year":2011,"party":"PMDB","expense_type":"Private Security Services","sum":75524.52}
+{"index":242,"year":2011,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":598520.21}
+{"index":243,"year":2011,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":544817.84}
+{"index":244,"year":2011,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":584450.8000000005}
+{"index":245,"year":2011,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7336.34}
+{"index":246,"year":2011,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":401842.4200000006}
+{"index":247,"year":2011,"party":"PP","expense_type":"National air, water and land transport","sum":172742.6800000003}
+{"index":248,"year":2011,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":272547.98}
+{"index":249,"year":2011,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":194507.49}
+{"index":250,"year":2011,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":225042.6300000001}
+{"index":251,"year":2011,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":41768.82}
+{"index":252,"year":2011,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":308125.01}
+{"index":253,"year":2011,"party":"PR","expense_type":"National air, water and land transport","sum":237063.5600000004}
+{"index":254,"year":2011,"party":"PR","expense_type":"Private Security Services","sum":2857.98}
+{"index":255,"year":2011,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":184211.84}
+{"index":256,"year":2011,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":116956.45}
+{"index":257,"year":2011,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":203354.6200000002}
+{"index":258,"year":2011,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1173.95}
+{"index":259,"year":2011,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":50822.04}
+{"index":260,"year":2011,"party":"PRB","expense_type":"National air, water and land transport","sum":22116.38}
+{"index":261,"year":2011,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":38850.0}
+{"index":262,"year":2011,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":54550.0}
+{"index":263,"year":2011,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":98577.4199999999}
+{"index":264,"year":2011,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":36414.08}
+{"index":265,"year":2011,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":175266.4700000001}
+{"index":266,"year":2011,"party":"PSB","expense_type":"National air, water and land transport","sum":106791.04}
+{"index":267,"year":2011,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":41100.0}
+{"index":268,"year":2011,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":21192.0}
+{"index":269,"year":2011,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":112059.3}
+{"index":270,"year":2011,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1122.5}
+{"index":271,"year":2011,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":145350.04}
+{"index":272,"year":2011,"party":"PSC","expense_type":"National air, water and land transport","sum":18548.99}
+{"index":273,"year":2011,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":2725.0}
+{"index":274,"year":2011,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":3975.95}
+{"index":275,"year":2011,"party":"PSD","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":13871.27}
+{"index":276,"year":2011,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":78492.26}
+{"index":277,"year":2011,"party":"PSD","expense_type":"National air, water and land transport","sum":47887.93}
+{"index":278,"year":2011,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":115200.0}
+{"index":279,"year":2011,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":71300.0}
+{"index":280,"year":2011,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":43686.78}
+{"index":281,"year":2011,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":53777.95}
+{"index":282,"year":2011,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":679369.0300000021}
+{"index":283,"year":2011,"party":"PSDB","expense_type":"National air, water and land transport","sum":468642.7799999959}
+{"index":284,"year":2011,"party":"PSDB","expense_type":"Private Security Services","sum":1897.82}
+{"index":285,"year":2011,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":182368.45}
+{"index":286,"year":2011,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":355068.3499999997}
+{"index":287,"year":2011,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":605823.1699999999}
+{"index":288,"year":2011,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":16394.27}
+{"index":289,"year":2011,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":188414.5499999998}
+{"index":290,"year":2011,"party":"PSOL","expense_type":"National air, water and land transport","sum":211943.5500000006}
+{"index":291,"year":2011,"party":"PSOL","expense_type":"Private Security Services","sum":900.0}
+{"index":292,"year":2011,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":100326.25}
+{"index":293,"year":2011,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":34424.36}
+{"index":294,"year":2011,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":79450.6600000001}
+{"index":295,"year":2011,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":190682.0599999999}
+{"index":296,"year":2011,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":875105.02}
+{"index":297,"year":2011,"party":"PT","expense_type":"National air, water and land transport","sum":838308.0000000034}
+{"index":298,"year":2011,"party":"PT","expense_type":"Private Security Services","sum":3437.92}
+{"index":299,"year":2011,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":393709.29}
+{"index":300,"year":2011,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":305831.8}
+{"index":301,"year":2011,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":779799.9600000005}
+{"index":302,"year":2011,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":84363.6300000001}
+{"index":303,"year":2011,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":611385.2600000001}
+{"index":304,"year":2011,"party":"PTB","expense_type":"National air, water and land transport","sum":117476.3400000001}
+{"index":305,"year":2011,"party":"PTB","expense_type":"Private Security Services","sum":108328.34}
+{"index":306,"year":2011,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":493541.5}
+{"index":307,"year":2011,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":320258.41}
+{"index":308,"year":2011,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":120657.68}
+{"index":309,"year":2011,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":10503.87}
+{"index":310,"year":2011,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":46068.25}
+{"index":311,"year":2011,"party":"PV","expense_type":"National air, water and land transport","sum":40319.55}
+{"index":312,"year":2011,"party":"PV","expense_type":"Publicity of parliamentary activity","sum":18050.0}
+{"index":313,"year":2011,"party":"PV","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":55600.0}
+{"index":314,"year":2011,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":25739.97}
+{"index":315,"year":2011,"party":"S\/Partido","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":11105.08}
+{"index":316,"year":2011,"party":"S\/Partido","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":78569.41}
+{"index":317,"year":2011,"party":"S\/Partido","expense_type":"National air, water and land transport","sum":8374.64}
+{"index":318,"year":2011,"party":"S\/Partido","expense_type":"Private Security Services","sum":283.18}
+{"index":319,"year":2011,"party":"S\/Partido","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":111700.0}
+{"index":320,"year":2011,"party":"S\/Partido","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":36536.87}
+{"index":321,"year":2012,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":23515.33}
+{"index":322,"year":2012,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":381454.95}
+{"index":323,"year":2012,"party":"DEM","expense_type":"National air, water and land transport","sum":217118.3500000005}
+{"index":324,"year":2012,"party":"DEM","expense_type":"Private Security Services","sum":38292.32}
+{"index":325,"year":2012,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":56201.0}
+{"index":326,"year":2012,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":158741.58}
+{"index":327,"year":2012,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":223033.62}
+{"index":328,"year":2012,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":18409.81}
+{"index":329,"year":2012,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":167382.95}
+{"index":330,"year":2012,"party":"PCdoB","expense_type":"National air, water and land transport","sum":274003.1500000007}
+{"index":331,"year":2012,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":173475.36}
+{"index":332,"year":2012,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":38502.97}
+{"index":333,"year":2012,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":80364.43}
+{"index":334,"year":2012,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":37728.7}
+{"index":335,"year":2012,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":432953.9500000001}
+{"index":336,"year":2012,"party":"PDT","expense_type":"National air, water and land transport","sum":205678.8600000002}
+{"index":337,"year":2012,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":149047.66}
+{"index":338,"year":2012,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":251556.6600000001}
+{"index":339,"year":2012,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":211554.8299999999}
+{"index":340,"year":2012,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":251471.6}
+{"index":341,"year":2012,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":746174.9800000023}
+{"index":342,"year":2012,"party":"PMDB","expense_type":"National air, water and land transport","sum":1550603.7599999942}
+{"index":343,"year":2012,"party":"PMDB","expense_type":"Private Security Services","sum":70488.06}
+{"index":344,"year":2012,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":820468.5700000002}
+{"index":345,"year":2012,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":517185.19}
+{"index":346,"year":2012,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":711934.2100000022}
+{"index":347,"year":2012,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7781.35}
+{"index":348,"year":2012,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":530865.9200000007}
+{"index":349,"year":2012,"party":"PP","expense_type":"National air, water and land transport","sum":301609.7300000009}
+{"index":350,"year":2012,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":220083.82}
+{"index":351,"year":2012,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":212705.27}
+{"index":352,"year":2012,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":281583.6900000002}
+{"index":353,"year":2012,"party":"PPL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1950.0}
+{"index":354,"year":2012,"party":"PPL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":37923.07}
+{"index":355,"year":2012,"party":"PPL","expense_type":"National air, water and land transport","sum":8795.62}
+{"index":356,"year":2012,"party":"PPL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":2703.27}
+{"index":357,"year":2012,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":74687.34}
+{"index":358,"year":2012,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":591347.1700000002}
+{"index":359,"year":2012,"party":"PR","expense_type":"National air, water and land transport","sum":518067.8999999999}
+{"index":360,"year":2012,"party":"PR","expense_type":"Private Security Services","sum":10487.23}
+{"index":361,"year":2012,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":116146.72}
+{"index":362,"year":2012,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":83313.43}
+{"index":363,"year":2012,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":371102.46}
+{"index":364,"year":2012,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":714.4}
+{"index":365,"year":2012,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":76617.75}
+{"index":366,"year":2012,"party":"PRB","expense_type":"National air, water and land transport","sum":30229.44}
+{"index":367,"year":2012,"party":"PRB","expense_type":"Private Security Services","sum":24900.0}
+{"index":368,"year":2012,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":32480.0}
+{"index":369,"year":2012,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":40119.0}
+{"index":370,"year":2012,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":94631.98}
+{"index":371,"year":2012,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":57123.19}
+{"index":372,"year":2012,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":275496.6999999997}
+{"index":373,"year":2012,"party":"PSB","expense_type":"National air, water and land transport","sum":334064.3000000002}
+{"index":374,"year":2012,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":185670.0}
+{"index":375,"year":2012,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":75870.13}
+{"index":376,"year":2012,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":135522.5600000001}
+{"index":377,"year":2012,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":12124.0}
+{"index":378,"year":2012,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":103344.29}
+{"index":379,"year":2012,"party":"PSC","expense_type":"National air, water and land transport","sum":83248.11}
+{"index":380,"year":2012,"party":"PSC","expense_type":"Private Security Services","sum":400.0}
+{"index":381,"year":2012,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":3700.0}
+{"index":382,"year":2012,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":300.0}
+{"index":383,"year":2012,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":20446.16}
+{"index":384,"year":2012,"party":"PSD","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":125.0}
+{"index":385,"year":2012,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":99021.18}
+{"index":386,"year":2012,"party":"PSD","expense_type":"National air, water and land transport","sum":47489.55}
+{"index":387,"year":2012,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":248076.0}
+{"index":388,"year":2012,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":11600.0}
+{"index":389,"year":2012,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":53689.34}
+{"index":390,"year":2012,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":42921.77}
+{"index":391,"year":2012,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":749017.9400000043}
+{"index":392,"year":2012,"party":"PSDB","expense_type":"National air, water and land transport","sum":763850.8199999976}
+{"index":393,"year":2012,"party":"PSDB","expense_type":"Private Security Services","sum":3747.52}
+{"index":394,"year":2012,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":255865.64}
+{"index":395,"year":2012,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":294199.94}
+{"index":396,"year":2012,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":715728.6800000006}
+{"index":397,"year":2012,"party":"PSL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":637.56}
+{"index":398,"year":2012,"party":"PSL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1316.03}
+{"index":399,"year":2012,"party":"PSL","expense_type":"National air, water and land transport","sum":20770.08}
+{"index":400,"year":2012,"party":"PSL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":659.0}
+{"index":401,"year":2012,"party":"PSL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":11004.25}
+{"index":402,"year":2012,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1939.22}
+{"index":403,"year":2012,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":43329.83}
+{"index":404,"year":2012,"party":"PSOL","expense_type":"National air, water and land transport","sum":197748.4900000001}
+{"index":405,"year":2012,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":65090.0}
+{"index":406,"year":2012,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":34594.75}
+{"index":407,"year":2012,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":40018.63}
+{"index":408,"year":2012,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":269389.1199999996}
+{"index":409,"year":2012,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1074448.5500000012}
+{"index":410,"year":2012,"party":"PT","expense_type":"National air, water and land transport","sum":1317987.3699999994}
+{"index":411,"year":2012,"party":"PT","expense_type":"Private Security Services","sum":486.8}
+{"index":412,"year":2012,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":419174.82}
+{"index":413,"year":2012,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":384794.4299999997}
+{"index":414,"year":2012,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":903289.8299999998}
+{"index":415,"year":2012,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":103658.5900000001}
+{"index":416,"year":2012,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":736329.7600000019}
+{"index":417,"year":2012,"party":"PTB","expense_type":"National air, water and land transport","sum":291343.7300000008}
+{"index":418,"year":2012,"party":"PTB","expense_type":"Private Security Services","sum":123700.96}
+{"index":419,"year":2012,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":437579.0}
+{"index":420,"year":2012,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":344354.0500000001}
+{"index":421,"year":2012,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":142501.0999999999}
+{"index":422,"year":2012,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":15351.88}
+{"index":423,"year":2012,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":54415.56}
+{"index":424,"year":2012,"party":"PV","expense_type":"National air, water and land transport","sum":98980.5400000001}
+{"index":425,"year":2012,"party":"PV","expense_type":"Publicity of parliamentary activity","sum":6666.0}
+{"index":426,"year":2012,"party":"PV","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":16618.0}
+{"index":427,"year":2012,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":31140.7}
+{"index":428,"year":2012,"party":"S\/Partido","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1423.3}
+{"index":429,"year":2012,"party":"S\/Partido","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":18176.18}
+{"index":430,"year":2012,"party":"S\/Partido","expense_type":"National air, water and land transport","sum":3002.17}
+{"index":431,"year":2012,"party":"S\/Partido","expense_type":"Private Security Services","sum":158.69}
+{"index":432,"year":2012,"party":"S\/Partido","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":49500.0}
+{"index":433,"year":2012,"party":"S\/Partido","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":23854.54}
+{"index":434,"year":2013,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":36406.85}
+{"index":435,"year":2013,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":293606.5900000001}
+{"index":436,"year":2013,"party":"DEM","expense_type":"National air, water and land transport","sum":190892.8800000004}
+{"index":437,"year":2013,"party":"DEM","expense_type":"Private Security Services","sum":58840.11}
+{"index":438,"year":2013,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":159290.47}
+{"index":439,"year":2013,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":31329.09}
+{"index":440,"year":2013,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":269542.8000000001}
+{"index":441,"year":2013,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":24019.33}
+{"index":442,"year":2013,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":208628.79}
+{"index":443,"year":2013,"party":"PCdoB","expense_type":"National air, water and land transport","sum":345125.85}
+{"index":444,"year":2013,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":196180.78}
+{"index":445,"year":2013,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":56127.88}
+{"index":446,"year":2013,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":100820.74}
+{"index":447,"year":2013,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":27157.47}
+{"index":448,"year":2013,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":537477.9700000004}
+{"index":449,"year":2013,"party":"PDT","expense_type":"National air, water and land transport","sum":247514.7700000003}
+{"index":450,"year":2013,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":60917.12}
+{"index":451,"year":2013,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":103700.0}
+{"index":452,"year":2013,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":236665.5699999999}
+{"index":453,"year":2013,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":237009.7399999998}
+{"index":454,"year":2013,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":937490.5500000017}
+{"index":455,"year":2013,"party":"PMDB","expense_type":"National air, water and land transport","sum":1754724.3799999936}
+{"index":456,"year":2013,"party":"PMDB","expense_type":"Private Security Services","sum":58866.82}
+{"index":457,"year":2013,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":914397.5000000001}
+{"index":458,"year":2013,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":669223.8899999998}
+{"index":459,"year":2013,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":809089.5700000008}
+{"index":460,"year":2013,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7954.95}
+{"index":461,"year":2013,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":413730.0900000004}
+{"index":462,"year":2013,"party":"PP","expense_type":"National air, water and land transport","sum":390893.3200000008}
+{"index":463,"year":2013,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":190155.53}
+{"index":464,"year":2013,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":301700.0}
+{"index":465,"year":2013,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":296740.3200000003}
+{"index":466,"year":2013,"party":"PPL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3600.0}
+{"index":467,"year":2013,"party":"PPL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":62861.45}
+{"index":468,"year":2013,"party":"PPL","expense_type":"National air, water and land transport","sum":6565.8}
+{"index":469,"year":2013,"party":"PPL","expense_type":"Publicity of parliamentary activity","sum":450.0}
+{"index":470,"year":2013,"party":"PPL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":15500.0}
+{"index":471,"year":2013,"party":"PPL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":6000.0}
+{"index":472,"year":2013,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":109211.07}
+{"index":473,"year":2013,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":348260.0799999998}
+{"index":474,"year":2013,"party":"PR","expense_type":"National air, water and land transport","sum":527438.4800000006}
+{"index":475,"year":2013,"party":"PR","expense_type":"Private Security Services","sum":1706.06}
+{"index":476,"year":2013,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":135423.93}
+{"index":477,"year":2013,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":91826.4}
+{"index":478,"year":2013,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":404288.8100000003}
+{"index":479,"year":2013,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":85798.43}
+{"index":480,"year":2013,"party":"PRB","expense_type":"National air, water and land transport","sum":57989.95}
+{"index":481,"year":2013,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":89000.0}
+{"index":482,"year":2013,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":9709.64}
+{"index":483,"year":2013,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":114861.12}
+{"index":484,"year":2013,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":59623.55}
+{"index":485,"year":2013,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":284792.58}
+{"index":486,"year":2013,"party":"PSB","expense_type":"National air, water and land transport","sum":421889.1299999998}
+{"index":487,"year":2013,"party":"PSB","expense_type":"Private Security Services","sum":22459.1}
+{"index":488,"year":2013,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":251036.0}
+{"index":489,"year":2013,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":21644.0}
+{"index":490,"year":2013,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":131539.64}
+{"index":491,"year":2013,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":23078.93}
+{"index":492,"year":2013,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":117220.08}
+{"index":493,"year":2013,"party":"PSC","expense_type":"National air, water and land transport","sum":140221.61}
+{"index":494,"year":2013,"party":"PSC","expense_type":"Private Security Services","sum":610.0}
+{"index":495,"year":2013,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":3738.59}
+{"index":496,"year":2013,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":34268.63}
+{"index":497,"year":2013,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":106725.33}
+{"index":498,"year":2013,"party":"PSD","expense_type":"National air, water and land transport","sum":149661.0000000001}
+{"index":499,"year":2013,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":120000.0}
+{"index":500,"year":2013,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":42199.0}
+{"index":501,"year":2013,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":45936.19}
+{"index":502,"year":2013,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":57567.38}
+{"index":503,"year":2013,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":823052.4300000011}
+{"index":504,"year":2013,"party":"PSDB","expense_type":"National air, water and land transport","sum":916886.7699999991}
+{"index":505,"year":2013,"party":"PSDB","expense_type":"Private Security Services","sum":1110.0}
+{"index":506,"year":2013,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":363615.84}
+{"index":507,"year":2013,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":355172.82}
+{"index":508,"year":2013,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":821092.2800000033}
+{"index":509,"year":2013,"party":"PSL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":139.0}
+{"index":510,"year":2013,"party":"PSL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1063.29}
+{"index":511,"year":2013,"party":"PSL","expense_type":"National air, water and land transport","sum":752.52}
+{"index":512,"year":2013,"party":"PSL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":3265.69}
+{"index":513,"year":2013,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4425.8}
+{"index":514,"year":2013,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":22994.68}
+{"index":515,"year":2013,"party":"PSOL","expense_type":"National air, water and land transport","sum":208500.5400000001}
+{"index":516,"year":2013,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":78497.37}
+{"index":517,"year":2013,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":6150.0}
+{"index":518,"year":2013,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":46088.35}
+{"index":519,"year":2013,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":205954.5200000001}
+{"index":520,"year":2013,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1050307.9200000041}
+{"index":521,"year":2013,"party":"PT","expense_type":"National air, water and land transport","sum":1487894.7300000023}
+{"index":522,"year":2013,"party":"PT","expense_type":"Private Security Services","sum":818.0}
+{"index":523,"year":2013,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":209590.48}
+{"index":524,"year":2013,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":420031.9799999998}
+{"index":525,"year":2013,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":913962.7999999995}
+{"index":526,"year":2013,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":98490.83}
+{"index":527,"year":2013,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":310393.96}
+{"index":528,"year":2013,"party":"PTB","expense_type":"National air, water and land transport","sum":360848.2900000007}
+{"index":529,"year":2013,"party":"PTB","expense_type":"Private Security Services","sum":251458.55}
+{"index":530,"year":2013,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":616930.88}
+{"index":531,"year":2013,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":376883.52}
+{"index":532,"year":2013,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":151745.69}
+{"index":533,"year":2013,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":9773.26}
+{"index":534,"year":2013,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":105583.98}
+{"index":535,"year":2013,"party":"PV","expense_type":"National air, water and land transport","sum":100004.82}
+{"index":536,"year":2013,"party":"PV","expense_type":"Publicity of parliamentary activity","sum":13405.0}
+{"index":537,"year":2013,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":36474.29}
+{"index":538,"year":2014,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":75921.69}
+{"index":539,"year":2014,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":309196.1200000001}
+{"index":540,"year":2014,"party":"DEM","expense_type":"National air, water and land transport","sum":188497.2600000002}
+{"index":541,"year":2014,"party":"DEM","expense_type":"Private Security Services","sum":100265.09}
+{"index":542,"year":2014,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":109648.49}
+{"index":543,"year":2014,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":45000.24}
+{"index":544,"year":2014,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":187618.8}
+{"index":545,"year":2014,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":15311.66}
+{"index":546,"year":2014,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":252303.6}
+{"index":547,"year":2014,"party":"PCdoB","expense_type":"National air, water and land transport","sum":258615.5500000002}
+{"index":548,"year":2014,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":174659.41}
+{"index":549,"year":2014,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":74866.12}
+{"index":550,"year":2014,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":84792.72}
+{"index":551,"year":2014,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":28172.44}
+{"index":552,"year":2014,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":587550.3200000003}
+{"index":553,"year":2014,"party":"PDT","expense_type":"National air, water and land transport","sum":254564.57}
+{"index":554,"year":2014,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":148366.88}
+{"index":555,"year":2014,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":91175.7}
+{"index":556,"year":2014,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":224387.0599999999}
+{"index":557,"year":2014,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":168372.5400000001}
+{"index":558,"year":2014,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":856803.7700000001}
+{"index":559,"year":2014,"party":"PMDB","expense_type":"National air, water and land transport","sum":1434667.8999999969}
+{"index":560,"year":2014,"party":"PMDB","expense_type":"Private Security Services","sum":58658.31}
+{"index":561,"year":2014,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":810892.29}
+{"index":562,"year":2014,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":533510.4300000001}
+{"index":563,"year":2014,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":928225.2000000005}
+{"index":564,"year":2014,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":8903.62}
+{"index":565,"year":2014,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":341263.2099999998}
+{"index":566,"year":2014,"party":"PP","expense_type":"National air, water and land transport","sum":277319.8300000005}
+{"index":567,"year":2014,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":81344.0}
+{"index":568,"year":2014,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":436602.98}
+{"index":569,"year":2014,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":323600.6999999998}
+{"index":570,"year":2014,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":81282.06}
+{"index":571,"year":2014,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":254204.47}
+{"index":572,"year":2014,"party":"PR","expense_type":"National air, water and land transport","sum":530475.21}
+{"index":573,"year":2014,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":85777.29}
+{"index":574,"year":2014,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":60002.8}
+{"index":575,"year":2014,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":372935.79}
+{"index":576,"year":2014,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":77.36}
+{"index":577,"year":2014,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":31141.35}
+{"index":578,"year":2014,"party":"PRB","expense_type":"National air, water and land transport","sum":41651.49}
+{"index":579,"year":2014,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":13675.03}
+{"index":580,"year":2014,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":3096.72}
+{"index":581,"year":2014,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":136452.29}
+{"index":582,"year":2014,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":61937.83}
+{"index":583,"year":2014,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":191065.23}
+{"index":584,"year":2014,"party":"PSB","expense_type":"National air, water and land transport","sum":293009.7000000002}
+{"index":585,"year":2014,"party":"PSB","expense_type":"Private Security Services","sum":53901.84}
+{"index":586,"year":2014,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":193468.0}
+{"index":587,"year":2014,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":41255.0}
+{"index":588,"year":2014,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":138432.9999999999}
+{"index":589,"year":2014,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":7408.59}
+{"index":590,"year":2014,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":71471.65}
+{"index":591,"year":2014,"party":"PSC","expense_type":"National air, water and land transport","sum":58100.33}
+{"index":592,"year":2014,"party":"PSC","expense_type":"Private Security Services","sum":860.88}
+{"index":593,"year":2014,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":1200.0}
+{"index":594,"year":2014,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":46974.26}
+{"index":595,"year":2014,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":62964.26}
+{"index":596,"year":2014,"party":"PSD","expense_type":"National air, water and land transport","sum":51106.61}
+{"index":597,"year":2014,"party":"PSD","expense_type":"Private Security Services","sum":2250.0}
+{"index":598,"year":2014,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":267440.7}
+{"index":599,"year":2014,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":36661.11}
+{"index":600,"year":2014,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":45830.7}
+{"index":601,"year":2014,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":65680.04}
+{"index":602,"year":2014,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":860015.9700000008}
+{"index":603,"year":2014,"party":"PSDB","expense_type":"National air, water and land transport","sum":701645.6799999974}
+{"index":604,"year":2014,"party":"PSDB","expense_type":"Private Security Services","sum":1938.8}
+{"index":605,"year":2014,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":347558.41}
+{"index":606,"year":2014,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":260283.7900000002}
+{"index":607,"year":2014,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":961384.7800000019}
+{"index":608,"year":2014,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3983.3}
+{"index":609,"year":2014,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":17237.42}
+{"index":610,"year":2014,"party":"PSOL","expense_type":"National air, water and land transport","sum":202611.8300000001}
+{"index":611,"year":2014,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":21100.0}
+{"index":612,"year":2014,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":82491.0}
+{"index":613,"year":2014,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":59958.94}
+{"index":614,"year":2014,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":175679.5399999998}
+{"index":615,"year":2014,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":886411.730000002}
+{"index":616,"year":2014,"party":"PT","expense_type":"National air, water and land transport","sum":1493117.6800000016}
+{"index":617,"year":2014,"party":"PT","expense_type":"Private Security Services","sum":1071.55}
+{"index":618,"year":2014,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":264834.63}
+{"index":619,"year":2014,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":457831.27}
+{"index":620,"year":2014,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":876377.7999999986}
+{"index":621,"year":2014,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":89592.7199999999}
+{"index":622,"year":2014,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":153556.95}
+{"index":623,"year":2014,"party":"PTB","expense_type":"National air, water and land transport","sum":227739.58}
+{"index":624,"year":2014,"party":"PTB","expense_type":"Private Security Services","sum":254921.04}
+{"index":625,"year":2014,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":383806.66}
+{"index":626,"year":2014,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":631521.59}
+{"index":627,"year":2014,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":106802.81}
+{"index":628,"year":2014,"party":"PV","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":12297.46}
+{"index":629,"year":2014,"party":"PV","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":105508.45}
+{"index":630,"year":2014,"party":"PV","expense_type":"National air, water and land transport","sum":54826.77}
+{"index":631,"year":2014,"party":"PV","expense_type":"Publicity of parliamentary activity","sum":5200.0}
+{"index":632,"year":2014,"party":"PV","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":38492.88}
+{"index":633,"year":2015,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":53142.17}
+{"index":634,"year":2015,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":431482.4300000002}
+{"index":635,"year":2015,"party":"DEM","expense_type":"National air, water and land transport","sum":245005.6700000001}
+{"index":636,"year":2015,"party":"DEM","expense_type":"Private Security Services","sum":53421.72}
+{"index":637,"year":2015,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":239184.81}
+{"index":638,"year":2015,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":33661.35}
+{"index":639,"year":2015,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":295378.0199999998}
+{"index":640,"year":2015,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4687.23}
+{"index":641,"year":2015,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":120257.86}
+{"index":642,"year":2015,"party":"PCdoB","expense_type":"National air, water and land transport","sum":129583.69}
+{"index":643,"year":2015,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":199985.42}
+{"index":644,"year":2015,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":5000.0}
+{"index":645,"year":2015,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":63128.18}
+{"index":646,"year":2015,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":2486.44}
+{"index":647,"year":2015,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":368060.1299999998}
+{"index":648,"year":2015,"party":"PDT","expense_type":"National air, water and land transport","sum":136094.72}
+{"index":649,"year":2015,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":99681.59}
+{"index":650,"year":2015,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":40000.0}
+{"index":651,"year":2015,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":121898.21}
+{"index":652,"year":2015,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":192953.9200000003}
+{"index":653,"year":2015,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":947464.0900000021}
+{"index":654,"year":2015,"party":"PMDB","expense_type":"National air, water and land transport","sum":1703315.3400000064}
+{"index":655,"year":2015,"party":"PMDB","expense_type":"Private Security Services","sum":23066.56}
+{"index":656,"year":2015,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":1045899.8800000001}
+{"index":657,"year":2015,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":482029.7899999998}
+{"index":658,"year":2015,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":872431.8600000013}
+{"index":659,"year":2015,"party":"PODE","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":16852.54}
+{"index":660,"year":2015,"party":"PODE","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":8883.09}
+{"index":661,"year":2015,"party":"PODE","expense_type":"National air, water and land transport","sum":195460.8199999999}
+{"index":662,"year":2015,"party":"PODE","expense_type":"Publicity of parliamentary activity","sum":101680.0}
+{"index":663,"year":2015,"party":"PODE","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":51600.0}
+{"index":664,"year":2015,"party":"PODE","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":66852.6}
+{"index":665,"year":2015,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":15969.42}
+{"index":666,"year":2015,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":652260.8300000007}
+{"index":667,"year":2015,"party":"PP","expense_type":"National air, water and land transport","sum":387466.0600000001}
+{"index":668,"year":2015,"party":"PP","expense_type":"Private Security Services","sum":5818.32}
+{"index":669,"year":2015,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":182612.9}
+{"index":670,"year":2015,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":143390.0}
+{"index":671,"year":2015,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":161024.9599999999}
+{"index":672,"year":2015,"party":"PPS","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":10461.68}
+{"index":673,"year":2015,"party":"PPS","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":76969.82}
+{"index":674,"year":2015,"party":"PPS","expense_type":"National air, water and land transport","sum":99400.8399999999}
+{"index":675,"year":2015,"party":"PPS","expense_type":"Publicity of parliamentary activity","sum":85700.0}
+{"index":676,"year":2015,"party":"PPS","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":10188.0}
+{"index":677,"year":2015,"party":"PPS","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":61606.53}
+{"index":678,"year":2015,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":33830.83}
+{"index":679,"year":2015,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":367613.5200000004}
+{"index":680,"year":2015,"party":"PR","expense_type":"National air, water and land transport","sum":316852.4399999996}
+{"index":681,"year":2015,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":247240.51}
+{"index":682,"year":2015,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":26084.86}
+{"index":683,"year":2015,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":231618.5499999999}
+{"index":684,"year":2015,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":291.78}
+{"index":685,"year":2015,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":65040.34}
+{"index":686,"year":2015,"party":"PRB","expense_type":"National air, water and land transport","sum":70411.2}
+{"index":687,"year":2015,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":20000.0}
+{"index":688,"year":2015,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":117862.6}
+{"index":689,"year":2015,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":105891.13}
+{"index":690,"year":2015,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":79736.6}
+{"index":691,"year":2015,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":264583.7599999998}
+{"index":692,"year":2015,"party":"PSB","expense_type":"National air, water and land transport","sum":322270.0900000005}
+{"index":693,"year":2015,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":235980.0}
+{"index":694,"year":2015,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":152573.8299999999}
+{"index":695,"year":2015,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":200031.19}
+{"index":696,"year":2015,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":12906.8}
+{"index":697,"year":2015,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":147224.0599999999}
+{"index":698,"year":2015,"party":"PSC","expense_type":"National air, water and land transport","sum":132037.51}
+{"index":699,"year":2015,"party":"PSC","expense_type":"Private Security Services","sum":2363.04}
+{"index":700,"year":2015,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":6750.0}
+{"index":701,"year":2015,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":1629.9}
+{"index":702,"year":2015,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":55810.69}
+{"index":703,"year":2015,"party":"PSD","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":25123.84}
+{"index":704,"year":2015,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":217835.15}
+{"index":705,"year":2015,"party":"PSD","expense_type":"National air, water and land transport","sum":215966.6100000001}
+{"index":706,"year":2015,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":274900.0}
+{"index":707,"year":2015,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":545542.49}
+{"index":708,"year":2015,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":142809.2600000001}
+{"index":709,"year":2015,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":139570.81}
+{"index":710,"year":2015,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":741957.980000001}
+{"index":711,"year":2015,"party":"PSDB","expense_type":"National air, water and land transport","sum":785618.6500000035}
+{"index":712,"year":2015,"party":"PSDB","expense_type":"Private Security Services","sum":50557.94}
+{"index":713,"year":2015,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":236514.15}
+{"index":714,"year":2015,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":526588.2499999999}
+{"index":715,"year":2015,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":971395.0300000011}
+{"index":716,"year":2015,"party":"PSL","expense_type":"National air, water and land transport","sum":1160.78}
+{"index":717,"year":2015,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":3350.0}
+{"index":718,"year":2015,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":38962.88}
+{"index":719,"year":2015,"party":"PSOL","expense_type":"National air, water and land transport","sum":186708.22}
+{"index":720,"year":2015,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":172756.05}
+{"index":721,"year":2015,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":44103.18}
+{"index":722,"year":2015,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":179849.3299999999}
+{"index":723,"year":2015,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":876975.8900000015}
+{"index":724,"year":2015,"party":"PT","expense_type":"National air, water and land transport","sum":1542295.0199999979}
+{"index":725,"year":2015,"party":"PT","expense_type":"Private Security Services","sum":5571.08}
+{"index":726,"year":2015,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":139070.9}
+{"index":727,"year":2015,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":534105.8999999985}
+{"index":728,"year":2015,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":1029542.5100000016}
+{"index":729,"year":2015,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":20112.09}
+{"index":730,"year":2015,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":132333.47}
+{"index":731,"year":2015,"party":"PTB","expense_type":"National air, water and land transport","sum":214189.1899999999}
+{"index":732,"year":2015,"party":"PTB","expense_type":"Private Security Services","sum":33844.92}
+{"index":733,"year":2015,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":106438.09}
+{"index":734,"year":2015,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":168956.7}
+{"index":735,"year":2015,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":133615.5599999999}
+{"index":736,"year":2015,"party":"PTC","expense_type":"Private Security Services","sum":276821.7999999999}
+{"index":737,"year":2015,"party":"PTC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":120000.0}
+{"index":738,"year":2016,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":109266.19}
+{"index":739,"year":2016,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":436352.1100000007}
+{"index":740,"year":2016,"party":"DEM","expense_type":"National air, water and land transport","sum":147899.1899999999}
+{"index":741,"year":2016,"party":"DEM","expense_type":"Private Security Services","sum":53409.94}
+{"index":742,"year":2016,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":279305.6}
+{"index":743,"year":2016,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":16654.0}
+{"index":744,"year":2016,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":264749.0100000001}
+{"index":745,"year":2016,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":9639.28}
+{"index":746,"year":2016,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":132823.54}
+{"index":747,"year":2016,"party":"PCdoB","expense_type":"National air, water and land transport","sum":106910.5100000001}
+{"index":748,"year":2016,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":139916.16}
+{"index":749,"year":2016,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":24950.0}
+{"index":750,"year":2016,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":62840.27}
+{"index":751,"year":2016,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4352.74}
+{"index":752,"year":2016,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":188014.63}
+{"index":753,"year":2016,"party":"PDT","expense_type":"National air, water and land transport","sum":120515.6400000001}
+{"index":754,"year":2016,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":60879.0}
+{"index":755,"year":2016,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":231140.0}
+{"index":756,"year":2016,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":127102.6699999999}
+{"index":757,"year":2016,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":175081.51}
+{"index":758,"year":2016,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":984136.1300000011}
+{"index":759,"year":2016,"party":"PMDB","expense_type":"National air, water and land transport","sum":1499393.8700000015}
+{"index":760,"year":2016,"party":"PMDB","expense_type":"Private Security Services","sum":4080.92}
+{"index":761,"year":2016,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":1149205.0}
+{"index":762,"year":2016,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":436243.4100000001}
+{"index":763,"year":2016,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":1042755.0999999993}
+{"index":764,"year":2016,"party":"PODE","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":38075.74}
+{"index":765,"year":2016,"party":"PODE","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":8139.3}
+{"index":766,"year":2016,"party":"PODE","expense_type":"National air, water and land transport","sum":233495.2500000002}
+{"index":767,"year":2016,"party":"PODE","expense_type":"Publicity of parliamentary activity","sum":88618.0}
+{"index":768,"year":2016,"party":"PODE","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":43000.0}
+{"index":769,"year":2016,"party":"PODE","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":62988.6}
+{"index":770,"year":2016,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":25546.35}
+{"index":771,"year":2016,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":778264.8900000009}
+{"index":772,"year":2016,"party":"PP","expense_type":"National air, water and land transport","sum":434059.9899999997}
+{"index":773,"year":2016,"party":"PP","expense_type":"Private Security Services","sum":7722.14}
+{"index":774,"year":2016,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":275722.75}
+{"index":775,"year":2016,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":110611.5}
+{"index":776,"year":2016,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":212091.8999999998}
+{"index":777,"year":2016,"party":"PPS","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":4814.89}
+{"index":778,"year":2016,"party":"PPS","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":112971.35}
+{"index":779,"year":2016,"party":"PPS","expense_type":"National air, water and land transport","sum":113954.8600000001}
+{"index":780,"year":2016,"party":"PPS","expense_type":"Publicity of parliamentary activity","sum":122778.0}
+{"index":781,"year":2016,"party":"PPS","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":2749.98}
+{"index":782,"year":2016,"party":"PPS","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":60888.52}
+{"index":783,"year":2016,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":102243.48}
+{"index":784,"year":2016,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":422761.5500000001}
+{"index":785,"year":2016,"party":"PR","expense_type":"National air, water and land transport","sum":316530.2299999999}
+{"index":786,"year":2016,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":193960.0}
+{"index":787,"year":2016,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":101188.15}
+{"index":788,"year":2016,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":297995.29}
+{"index":789,"year":2016,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":489.67}
+{"index":790,"year":2016,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":75321.6599999999}
+{"index":791,"year":2016,"party":"PRB","expense_type":"National air, water and land transport","sum":58414.28}
+{"index":792,"year":2016,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":33600.0}
+{"index":793,"year":2016,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":34022.0}
+{"index":794,"year":2016,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":89434.15}
+{"index":795,"year":2016,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":91322.85}
+{"index":796,"year":2016,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":305389.8200000005}
+{"index":797,"year":2016,"party":"PSB","expense_type":"National air, water and land transport","sum":215554.4399999997}
+{"index":798,"year":2016,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":161340.0}
+{"index":799,"year":2016,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":55630.0}
+{"index":800,"year":2016,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":201422.07}
+{"index":801,"year":2016,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":20635.6}
+{"index":802,"year":2016,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":112574.32}
+{"index":803,"year":2016,"party":"PSC","expense_type":"National air, water and land transport","sum":105757.98}
+{"index":804,"year":2016,"party":"PSC","expense_type":"Private Security Services","sum":2120.98}
+{"index":805,"year":2016,"party":"PSC","expense_type":"Publicity of parliamentary activity","sum":3200.0}
+{"index":806,"year":2016,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":6200.0}
+{"index":807,"year":2016,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":55769.26}
+{"index":808,"year":2016,"party":"PSD","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":34271.36}
+{"index":809,"year":2016,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":292470.55}
+{"index":810,"year":2016,"party":"PSD","expense_type":"National air, water and land transport","sum":222678.7899999999}
+{"index":811,"year":2016,"party":"PSD","expense_type":"Private Security Services","sum":750.0}
+{"index":812,"year":2016,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":317140.07}
+{"index":813,"year":2016,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":426076.54}
+{"index":814,"year":2016,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":241823.78}
+{"index":815,"year":2016,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":155185.7299999999}
+{"index":816,"year":2016,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":687050.410000002}
+{"index":817,"year":2016,"party":"PSDB","expense_type":"National air, water and land transport","sum":649979.9499999994}
+{"index":818,"year":2016,"party":"PSDB","expense_type":"Private Security Services","sum":99524.89}
+{"index":819,"year":2016,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":356368.9}
+{"index":820,"year":2016,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":421374.54}
+{"index":821,"year":2016,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":879750.6099999995}
+{"index":822,"year":2016,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":5522.1}
+{"index":823,"year":2016,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":34103.95}
+{"index":824,"year":2016,"party":"PSOL","expense_type":"National air, water and land transport","sum":211411.9099999999}
+{"index":825,"year":2016,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":7435.0}
+{"index":826,"year":2016,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":154190.01}
+{"index":827,"year":2016,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":59184.87}
+{"index":828,"year":2016,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":196771.23}
+{"index":829,"year":2016,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1033898.2200000028}
+{"index":830,"year":2016,"party":"PT","expense_type":"National air, water and land transport","sum":1273424.2999999966}
+{"index":831,"year":2016,"party":"PT","expense_type":"Private Security Services","sum":6240.0}
+{"index":832,"year":2016,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":233117.81}
+{"index":833,"year":2016,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":577738.5999999995}
+{"index":834,"year":2016,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":925827.3000000019}
+{"index":835,"year":2016,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":13805.29}
+{"index":836,"year":2016,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":131412.4299999999}
+{"index":837,"year":2016,"party":"PTB","expense_type":"National air, water and land transport","sum":192349.5400000001}
+{"index":838,"year":2016,"party":"PTB","expense_type":"Private Security Services","sum":1800.0}
+{"index":839,"year":2016,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":47673.5}
+{"index":840,"year":2016,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":216526.29}
+{"index":841,"year":2016,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":115820.9199999998}
+{"index":842,"year":2016,"party":"PTC","expense_type":"Private Security Services","sum":314471.01}
+{"index":843,"year":2016,"party":"PTC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":106000.0}
+{"index":844,"year":2017,"party":"DEM","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":53101.42}
+{"index":845,"year":2017,"party":"DEM","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":322916.46}
+{"index":846,"year":2017,"party":"DEM","expense_type":"National air, water and land transport","sum":113993.64}
+{"index":847,"year":2017,"party":"DEM","expense_type":"Private Security Services","sum":42880.3}
+{"index":848,"year":2017,"party":"DEM","expense_type":"Publicity of parliamentary activity","sum":32257.07}
+{"index":849,"year":2017,"party":"DEM","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":4372.0}
+{"index":850,"year":2017,"party":"DEM","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":260223.3699999998}
+{"index":851,"year":2017,"party":"PCdoB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1799.76}
+{"index":852,"year":2017,"party":"PCdoB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":50637.12}
+{"index":853,"year":2017,"party":"PCdoB","expense_type":"National air, water and land transport","sum":89074.56}
+{"index":854,"year":2017,"party":"PCdoB","expense_type":"Publicity of parliamentary activity","sum":83576.44}
+{"index":855,"year":2017,"party":"PCdoB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":21214.4}
+{"index":856,"year":2017,"party":"PCdoB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":45611.19}
+{"index":857,"year":2017,"party":"PDT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":647.0}
+{"index":858,"year":2017,"party":"PDT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":243745.47}
+{"index":859,"year":2017,"party":"PDT","expense_type":"National air, water and land transport","sum":148866.19}
+{"index":860,"year":2017,"party":"PDT","expense_type":"Publicity of parliamentary activity","sum":22201.0}
+{"index":861,"year":2017,"party":"PDT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":120739.02}
+{"index":862,"year":2017,"party":"PDT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":110579.63}
+{"index":863,"year":2017,"party":"PMDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":97041.3999999999}
+{"index":864,"year":2017,"party":"PMDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":661449.4100000013}
+{"index":865,"year":2017,"party":"PMDB","expense_type":"National air, water and land transport","sum":1157979.7399999995}
+{"index":866,"year":2017,"party":"PMDB","expense_type":"Private Security Services","sum":3869.8}
+{"index":867,"year":2017,"party":"PMDB","expense_type":"Publicity of parliamentary activity","sum":821369.27}
+{"index":868,"year":2017,"party":"PMDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":678425.3499999999}
+{"index":869,"year":2017,"party":"PMDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":920652.3499999999}
+{"index":870,"year":2017,"party":"PODE","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":30541.46}
+{"index":871,"year":2017,"party":"PODE","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":1481.8}
+{"index":872,"year":2017,"party":"PODE","expense_type":"National air, water and land transport","sum":204390.2}
+{"index":873,"year":2017,"party":"PODE","expense_type":"Publicity of parliamentary activity","sum":50006.5}
+{"index":874,"year":2017,"party":"PODE","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":36000.0}
+{"index":875,"year":2017,"party":"PODE","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":51975.06}
+{"index":876,"year":2017,"party":"PP","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":28918.16}
+{"index":877,"year":2017,"party":"PP","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":609694.6699999999}
+{"index":878,"year":2017,"party":"PP","expense_type":"National air, water and land transport","sum":357532.3999999994}
+{"index":879,"year":2017,"party":"PP","expense_type":"Private Security Services","sum":5907.98}
+{"index":880,"year":2017,"party":"PP","expense_type":"Publicity of parliamentary activity","sum":193434.53}
+{"index":881,"year":2017,"party":"PP","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":47149.59}
+{"index":882,"year":2017,"party":"PP","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":186929.0200000001}
+{"index":883,"year":2017,"party":"PPS","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":1991.9}
+{"index":884,"year":2017,"party":"PPS","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":69720.9}
+{"index":885,"year":2017,"party":"PPS","expense_type":"National air, water and land transport","sum":76055.53}
+{"index":886,"year":2017,"party":"PPS","expense_type":"Publicity of parliamentary activity","sum":101170.0}
+{"index":887,"year":2017,"party":"PPS","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":74840.0}
+{"index":888,"year":2017,"party":"PPS","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":25408.55}
+{"index":889,"year":2017,"party":"PR","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":23596.55}
+{"index":890,"year":2017,"party":"PR","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":236316.06}
+{"index":891,"year":2017,"party":"PR","expense_type":"National air, water and land transport","sum":256249.1}
+{"index":892,"year":2017,"party":"PR","expense_type":"Publicity of parliamentary activity","sum":234200.0}
+{"index":893,"year":2017,"party":"PR","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":44950.62}
+{"index":894,"year":2017,"party":"PR","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":215360.22}
+{"index":895,"year":2017,"party":"PRB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":9325.1}
+{"index":896,"year":2017,"party":"PRB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":78743.6599999999}
+{"index":897,"year":2017,"party":"PRB","expense_type":"National air, water and land transport","sum":57640.57}
+{"index":898,"year":2017,"party":"PRB","expense_type":"Publicity of parliamentary activity","sum":34320.0}
+{"index":899,"year":2017,"party":"PRB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":6492.89}
+{"index":900,"year":2017,"party":"PRB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":46544.31}
+{"index":901,"year":2017,"party":"PSB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":58647.4}
+{"index":902,"year":2017,"party":"PSB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":211457.3900000001}
+{"index":903,"year":2017,"party":"PSB","expense_type":"National air, water and land transport","sum":190982.95}
+{"index":904,"year":2017,"party":"PSB","expense_type":"Publicity of parliamentary activity","sum":130500.0}
+{"index":905,"year":2017,"party":"PSB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":54325.55}
+{"index":906,"year":2017,"party":"PSB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":162743.49}
+{"index":907,"year":2017,"party":"PSC","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":11649.05}
+{"index":908,"year":2017,"party":"PSC","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":99488.68}
+{"index":909,"year":2017,"party":"PSC","expense_type":"National air, water and land transport","sum":71692.88}
+{"index":910,"year":2017,"party":"PSC","expense_type":"Private Security Services","sum":1089.52}
+{"index":911,"year":2017,"party":"PSC","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":11601.24}
+{"index":912,"year":2017,"party":"PSC","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":38413.24}
+{"index":913,"year":2017,"party":"PSD","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":25047.23}
+{"index":914,"year":2017,"party":"PSD","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":193021.01}
+{"index":915,"year":2017,"party":"PSD","expense_type":"National air, water and land transport","sum":194224.4999999997}
+{"index":916,"year":2017,"party":"PSD","expense_type":"Publicity of parliamentary activity","sum":56778.18}
+{"index":917,"year":2017,"party":"PSD","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":367242.1}
+{"index":918,"year":2017,"party":"PSD","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":186515.6500000001}
+{"index":919,"year":2017,"party":"PSDB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":82245.53}
+{"index":920,"year":2017,"party":"PSDB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":499763.1300000005}
+{"index":921,"year":2017,"party":"PSDB","expense_type":"National air, water and land transport","sum":626931.360000002}
+{"index":922,"year":2017,"party":"PSDB","expense_type":"Private Security Services","sum":119507.22}
+{"index":923,"year":2017,"party":"PSDB","expense_type":"Publicity of parliamentary activity","sum":208875.8}
+{"index":924,"year":2017,"party":"PSDB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":414220.02}
+{"index":925,"year":2017,"party":"PSDB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":575037.7999999999}
+{"index":926,"year":2017,"party":"PSOL","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":2113.4}
+{"index":927,"year":2017,"party":"PSOL","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":28227.01}
+{"index":928,"year":2017,"party":"PSOL","expense_type":"National air, water and land transport","sum":213560.3699999999}
+{"index":929,"year":2017,"party":"PSOL","expense_type":"Publicity of parliamentary activity","sum":6000.0}
+{"index":930,"year":2017,"party":"PSOL","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":83500.0}
+{"index":931,"year":2017,"party":"PSOL","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":48986.12}
+{"index":932,"year":2017,"party":"PT","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":125621.8199999999}
+{"index":933,"year":2017,"party":"PT","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":822744.2000000037}
+{"index":934,"year":2017,"party":"PT","expense_type":"National air, water and land transport","sum":1076335.55}
+{"index":935,"year":2017,"party":"PT","expense_type":"Private Security Services","sum":3113.52}
+{"index":936,"year":2017,"party":"PT","expense_type":"Publicity of parliamentary activity","sum":163917.12}
+{"index":937,"year":2017,"party":"PT","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":226708.8600000001}
+{"index":938,"year":2017,"party":"PT","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":687480.5600000015}
+{"index":939,"year":2017,"party":"PTB","expense_type":"Acquisition of consumables for use in the political office, including acquisition or leasing of software, postal expenses, acquisition of publications, rental of furniture and equipment","sum":9187.73}
+{"index":940,"year":2017,"party":"PTB","expense_type":"Locomotion, lodging, food, fuels and lubricants","sum":100466.3}
+{"index":941,"year":2017,"party":"PTB","expense_type":"National air, water and land transport","sum":136439.28}
+{"index":942,"year":2017,"party":"PTB","expense_type":"Private Security Services","sum":720.0}
+{"index":943,"year":2017,"party":"PTB","expense_type":"Publicity of parliamentary activity","sum":153426.58}
+{"index":944,"year":2017,"party":"PTB","expense_type":"Recruitment of consultancies, advisory services, research, technical work and other services in support of the exercise of the parliamentary mandate","sum":70136.04}
+{"index":945,"year":2017,"party":"PTB","expense_type":"Rent of real estate for political office, comprising expenses concerning them","sum":72638.63}
+{"index":946,"year":2017,"party":"PTC","expense_type":"Private Security Services","sum":264624.12}
+{"index":947,"year":2017,"party":"PTC","expense_type":"Publicity of parliamentary activity","sum":16000.0}]
