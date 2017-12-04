@@ -33,7 +33,7 @@ function senateGen(tag){
             +  '<div id="sankey">'
             +  '</div>'
          + '</div>'
-         + '<div id="card-senate-1" class="card">'
+         + '<div id="card-senate-1" class="card -large">'
           +  '<div class="header -extyp">'
           +  '</div>'
           +  '<div class="footer">'
