@@ -38,10 +38,11 @@ function lineGraphLoad(data){
 
     var dim = cs_lf.dimension(function(d){domain.push(d.year.toString()); return [d.year,getVal(d.year)]});
 
-    // var aux = domain.pop()
-    // domain.reverse()
-    // domain.push(aux)
-    // domain.reverse()
+    function orderBydate(a,b){
+      return a - b
+    }
+
+    domain.sort(orderBydate)
 
     var grouped = dim.group().reduceSum(function(d){return +d.content.sum_mean_max_year[0].sum/1000000;});
 
@@ -191,4 +192,3 @@ function loadSankeyDiagram(dataset){
   })
     //
 };
-
