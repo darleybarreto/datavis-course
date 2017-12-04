@@ -23,28 +23,22 @@ function changeContent(cont ,callback ,element){
 }
 
 function senateGen(tag){
-  //console.log("Introduzir html do senado");
   var html = ""
-
   html +='<div id="senado">'
          + '<div id="card-senate-0" class="card">'
             +  '<div class="header -extyp">'
             +  '</div>'
+            +  '<div class="footer">'
+            + '</div>'
             +  '<div id="sankey">'
             +  '</div>'
-            +  '<div class="footer">'
-            +     '<div>'
-            +     '</div>'
-          + '</div>'
          + '</div>'
          + '<div id="card-senate-1" class="card">'
           +  '<div class="header -extyp">'
           +  '</div>'
-          +  '<div id="radar">'
-          +  '</div>'
           +  '<div class="footer">'
-          +     '<div>'
-          +     '</div>'
+          +  '</div>'
+          +  '<div id="radar">'
           +  '</div>'
          + '</div>'
        + '</div>'
@@ -61,26 +55,22 @@ function updateYearView(event){
 }
 
 function chamberGen(tag){
-  //console.log("Introduzir html da camara")
   var html = ""
-
   html +='<div id="camara">'
          + '<div id="card-1" class="card">'
           +  '<div class="header -extyp">'
           +  '</div>'
+          +  '<div class="footer">'
+          +  '</div>'
           +  '<canvas id="type">'
           +  '</canvas>'
-          +  '<div class="footer">'
-          +     '<div>'
-          +     '</div>'
-          +  '</div>'
          + '</div>'
          + '<div id="card-3" class="card">'
           +  '<div class="header -scatter">'
           +  '</div>'
-          +  '<div id="scatter">'
-          +  '</div>'
           +  '<div class="footer">'
+          +  '</div>'
+          +  '<div id="scatter">'
           +  '</div>'
          + '</div>'
        + '</div>'
@@ -92,6 +82,7 @@ function chamberGen(tag){
 
 function meanmean(data,col){
   document.getElementById("mean").getElementsByClassName("header")[0].textContent = "Mean party net value by year in R$ 1000";
+  document.getElementById("mean").getElementsByClassName("footer")[0].textContent = "Evolution of mean of means by party by year ";
 
   var max_mean_by_year = {},
       min_mean_by_year = {},
@@ -134,7 +125,7 @@ function meanmean(data,col){
       data_min_max_by_year = [];
 
   let l = Object.keys(mean_mean_by_year).map(Number).sort();
-  
+
   for(let i in l){
     let year = l[i];
 

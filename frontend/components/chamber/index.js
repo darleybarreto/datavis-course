@@ -14,7 +14,6 @@ function loadChamberTimes(d){
   if (d == undefined){
     d3.json("json_files/chamber/grouped.json",function(err,data){
       expansiveTypeChamberLoad(data);
-      // partyExpensive(data)
       scatterChart(data);
       meanmean(data,"sum_mean_party_year");
     })
@@ -22,7 +21,6 @@ function loadChamberTimes(d){
   //
   else{
     expansiveTypeChamberLoad(d);
-    // partyExpensive(d)
     scatterChart(d);
     meanmean(d,"sum_mean_party_year");
   }
@@ -40,7 +38,7 @@ function mainGraphLoad(data){
   }
   //Header
   document.getElementById("main").getElementsByClassName("header")[0].textContent = "Net value per milion by year"
-
+  document.getElementById("main").getElementsByClassName("footer")[0].textContent = "Evolution of net valu by the years"
   //Graph tag
   var main_graph = dc.seriesChart("#main")
 
@@ -84,6 +82,7 @@ function expansiveTypeChamberLoad(data){
   var data_to_show;
 
   document.getElementById("card-1").getElementsByClassName("header")[0].textContent = "Net value distribution in "+year
+  document.getElementById("card-1").getElementsByClassName("footer")[0].textContent = "How each kind of expense type contribute for the hole expense"
 
   function sortNumber(a,b) {
     return b.sum - a.sum;
@@ -105,7 +104,6 @@ function expansiveTypeChamberLoad(data){
   var ctx = document.getElementById('type').getContext('2d')
 
   d3.json("json_files/chamber/spents_categories.json",function(d){
-      // console.log(d);
       var chart =  new Chart(ctx, {
           // The type of chart we want to create
           type: 'horizontalBar',
@@ -137,6 +135,7 @@ function expansiveTypeChamberLoad(data){
 
 function scatterChart(dataset){
     document.getElementById("card-3").getElementsByClassName("header")[0].textContent = "Net Value Distribution by Congress Person in "+year
+    document.getElementById("card-3").getElementsByClassName("footer")[0].textContent = "A distribution of expense of each person in "+year
 
     var data_filtered =  dataset.filter(function (d){
         if (d.year.toString() == year){
