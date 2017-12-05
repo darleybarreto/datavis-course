@@ -27,3 +27,8 @@
 	overflow: hidden;
 	width: calc(100% - 30px) !important;
 }
+
+#senado > #card-senate-1 > #radar {
+	margin-left: 18%;
+	width: calc(100% - 18%);
+}
