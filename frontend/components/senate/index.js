@@ -120,20 +120,31 @@ function expansiveTypeSenateLoad(data){
           categories: labels,
           tickmarkPlacement: 'on',
           lineWidth: 1,
-          labels:{
-            enabled: false
+          // tickInterval: 3,
+          labels: {
+              overflow: "justify",
+              style: {
+                  fontSize: '10px',
+                  fontFamily: 'Verdana, sans-serif',
+              }
           }
+                  
+          // labels:{
+          //   enabled: false
+          // }
       },
       //
       yAxis: {
           gridLineInterpolation: 'polygon',
           lineWidth: 0,
-          min: 0
+          min: 0,
       },
       //
       tooltip: {
           shared: true,
-          pointFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>'
+          headerFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>',
+          pointFormat: ""
+          // pointFormat: '<span style="color:{series.color}">{series.name}: <b>R${point.y}</b><br/>'
       },
       //
       legend: {
@@ -146,7 +157,8 @@ function expansiveTypeSenateLoad(data){
       series: [{
           name: 'Reimbursements R$(k)',
           data: dataset,
-          pointPlacement: 'on'
+          pointPlacement: 'on',
+          fillOpacity: 0.2
       }]
 
     });
